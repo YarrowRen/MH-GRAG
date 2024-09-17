@@ -205,6 +205,51 @@ def mutual_info_single_node(
 
 
 
+import pandas as pd
+import os
+
+def calculate_and_store_metrics(partitions, 𝓗, filename="metrics.csv"):
+    """
+    计算所有头的互信息和质量函数值，并将结果追加存储到CSV文件中。
+    
+    参数
+    ----------
+    partitions : List[Partition[T]]
+        多个头的社区划分。
+    𝓗 : QualityFunction[T]
+        质量函数实例，用于计算社区划分的质量。
+    filename : str
+        存储结果的CSV文件名，默认是 'metrics.csv'。
+    """
+    num_heads = len(partitions)
+    results = []
+
+    # 计算每个头的质量函数
+    for i in range(num_heads):
+        quality = 𝓗(partitions[i])  # 直接调用𝓗来计算Modularity
+        result_row = {'head': i, 'quality_function': quality, 'mutual_info': None}
+        results.append(result_row)
+    
+    # 计算头之间的互信息
+    for i in range(num_heads):
+        for j in range(i + 1, num_heads):
+            mi = mutual_info(partitions[i], partitions[j])
+            result_row = {'head': f'{i}-{j}', 'quality_function': None, 'mutual_info': mi}
+            results.append(result_row)
+
+    # 将结果转换为DataFrame
+    df = pd.DataFrame(results)
+
+    # 检查文件是否已经存在，决定是写入新文件还是追加
+    if not os.path.isfile(filename):
+        df.to_csv(filename, index=False)  # 写入新文件
+    else:
+        df.to_csv(filename, mode='a', header=False, index=False)  # 追加写入
+    print(f"Results appended to {filename}")
+
+
+
+
 def multi_head_leiden_with_mutual_info_parallel(
     G: Graph, 𝓗: QualityFunction[T], num_heads: int, λ: float, θ: float = 0.3, γ: float = 0.05, weight: str | None = None
 ) -> List[Partition[T]]:
@@ -246,6 +291,9 @@ def multi_head_leiden_with_mutual_info_parallel(
         # 并行执行所有分区的节点移动
         partitions = move_nodes_fast_parallel(G, partitions, 𝓗, λ)
         
+        # 计算并存储当前头的互信息和质量函数到CSV
+        calculate_and_store_metrics(partitions, 𝓗, "leiden_parallel_log.csv")  # 调用合并后的方法
+
         # 检查所有头是否收敛
         converged = True
         for i in range(num_heads):

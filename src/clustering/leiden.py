@@ -143,19 +143,19 @@ def merge_nodes_subset(G: Graph, 𝓟: Partition[T], 𝓗: QualityFunction[T], �
 
 def mutual_info(partition1: Partition[T], partition2: Partition[T]) -> float:
     """
-    Calculate the mutual information between two partitions using scikit-learn's adjusted_mutual_info_score.
+    使用 scikit-learn 的 adjusted_mutual_info_score 计算两个社区划分之间的互信息。
     
-    Parameters
+    参数
     ----------
     partition1 : Partition[T]
-        The first partition of nodes into communities.
+        第一个节点的社区划分。
     partition2 : Partition[T]
-        The second partition of nodes into communities.
+        第二个节点的社区划分。
     
-    Returns
+    返回
     -------
     float
-        The adjusted mutual information score between the two partitions.
+        两个社区划分之间的调整后互信息得分。
     """
     # 获取每个节点对应的社区标签
     labels1 = []
