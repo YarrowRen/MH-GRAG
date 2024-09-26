@@ -13,6 +13,13 @@ def get_embeddings(model, data, device='cpu'):
         embeddings = model(data.x.to(device), data.edge_index.to(device))
     return embeddings.cpu().numpy()
 
+def get_embeddings_list(model, data, device='cpu'):
+    # 测试模型并获取嵌入
+    model.eval()
+    with torch.no_grad():
+        embeddings_list = model(data.x, data.edge_index)
+    return embeddings_list
+
 def kmeans_clustering(embeddings, n_clusters=7):
     kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(embeddings)
     return kmeans.labels_
