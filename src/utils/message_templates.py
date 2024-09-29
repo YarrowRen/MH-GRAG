@@ -8,27 +8,27 @@ def get_entities_and_relationships_template(text_chunk):
         {"role": "system", "content": "You are an expert in extracting entities and relationships from text. Always respond in English."},
         {"role": "user", "content": f"""
         Extract the named entities from the following text, only using the specified entity types: 
-        Person, Organization, Location, Event, Product, Concept, Work of Art, Miscellaneous. 
+        Person, Organization, Location, Event, Product, Concept, Time. 
 
         Provide the results in a list of tuples where each tuple contains (entity_name, entity_type, description). 
-        Make sure that entity_type and description are in English.
+        Make sure that both entity_type and description are in English, and ensure that the description field is never empty. 
+        If an entity is recognized, provide a meaningful description for it.
 
         Text: "{text_chunk}"
         """},
         {"role": "user", "content": f"""
         After extracting the entities, extract the relationships between these entities, only use the entities' entity_name which you have design before, 
-              only using the specified relationship types: 
+              using the specified relationship types like: 
         Part-of, Located-in, Affiliated-with, Related-to, Works-for, Produced-by, Happened-at, Uses, Ownership, Family-Relation, Colleague-Relation, Friendship, Mentor-Protege, Romantic-Relation, Professional-Relation, Historical-Relation.
 
         For each relationship, provide the result as a tuple with the following structure:
         (source_entity, target_entity, relationship_type, relationship_description).
-
-        - `relationship_type` should be one of the specified relationship types above.
+         
         - `relationship_description` should be a concise description of the relationship.
 
         Examples:
-        - (John Doe, Microsoft, Works-for, "John Doe works for Microsoft.")
-        - (Paris, France, Located-in, "Paris is located in France.")
+        - (John Doe, Microsoft, Works-for, "John Doe worked at Microsoft for many years.")
+        - (Paris, France, Located-in, "Paris is the capital of France and is located in the center of France.")
         - (Steve Jobs, Apple, Produced-by, "Steve Jobs co-founded Apple.")
         """},
         {"role": "user", "content": """

@@ -1,0 +1,1051 @@
+entity_name,entity_type,description,entity_id
+rookie of the year,Concept,The title given to the NBA's best first-year player,0af3ad90-c247-4043-94a1-ac5f1d355e91
+bet,Concept,The act of placing a wager on an event,ce63198f-dd2f-4af0-9c73-0ec2b32534d1
+mg,Concept,A unit of measure for mass,d5c752d6-0916-428d-bc6f-f24c2ea3065c
+m,Concept,A unit of measure for length,f229f093-c470-4014-9692-cb93b09e0907
+deposit,Concept,The act of putting money into a bank account,45002f70-bbd5-454b-be05-fc3e08250a90
+withdrawal,Concept,The act of taking money out of a bank account,d55b8c16-8ebe-48ca-adb1-da2b3820a303
+customer service,Concept,The assistance provided to customers by a company,b7018520-9c01-42ef-bf7b-6e69ad66da82
+caesar ##s sports ##book,Organization,A sportsbook operated by Caesars Entertainment,373554ec-ed77-4b8d-96c0-f7ce1fe906ae
+caesar ##s,Organization,A casino and hospitality company,7a7c27e1-dbde-4cca-a956-bf5289674b2e
+nba rot ##y betting,Event,Bets placed on the NBA Rookie of the Year award,a2a24f17-70ac-4d8e-a385-04b219736f81
+odds,Concept,The probability or likelihood of an event occurring,238bf070-e55a-49d7-a5ba-71238ee674ff
+nba,Concept,"The National Basketball Association, a professional basketball league",56481fab-1a9f-4bfd-bb7c-dc56580b2314
+rot ##y,Concept,A nickname for the NBA Rookie of the Year award,6136ae49-4635-4a4a-82c3-30b6f5ce3f53
+promo ##s,Event,Special offers or promotions provided by a company,ef4d8d5c-96f9-4dc9-8b1c-5873685a713a
+wil ##t chamberlain trophy,award,The Wil ##t Chamberlain Trophy is awarded to the NBA's Most Valuable Player.,adc21622-a110-47e1-a2e1-8610310e97c9
+nba rookie of the year,award,The NBA Rookie of the Year Award is presented to the top first-year NBA player.,917f7dc1-c0ff-47e4-bde0-101aea9a3827
+national basketball association,sports_league,The National Basketball Association (NBA) is a professional basketball league in North America.,23bd9fbe-01d7-4a10-85f5-e34d7096cde2
+orlando magic,nba_team,"The Orlando Magic is a professional basketball team based in Orlando, Florida.",02606439-150d-4eaa-85d9-17cfaf1cf36e
+toronto rap ##tors,nba_team,"The Toronto Rap ##tors is a professional basketball team based in Toronto, Ontario.",ca650775-327f-4554-9974-ec906843929f
+charlotte hornets,nba_team,"The Charlotte Hornets is a professional basketball team based in Charlotte, North Carolina.",a8a247f7-91db-444e-a6e8-21ab645ef10e
+memphis gr ##iz ##z ##lies,nba_team,"The Memphis Gr ##iz ##z ##lies is a professional basketball team based in Memphis, Tennessee.",5fd1c5ba-05bb-4a05-8f68-7e34758f598c
+dallas mavericks,nba_team,"The Dallas Mavericks is a professional basketball team based in Dallas, Texas.",639ea4b7-2ac7-4d2d-b728-342e7268cbc8
+philadelphia 76 ##ers,nba_team,"The Philadelphia 76 ##ers is a professional basketball team based in Philadelphia, Pennsylvania.",21f66727-1210-4270-baaf-78687dec47d6
+minnesota timber ##wo ##lves,nba_team,"The Minnesota Timber ##wo ##lves is a professional basketball team based in Minneapolis, Minnesota.",1743de73-feb7-44a9-b4ca-6b2bddb316d1
+portland trail blazers,nba_team,"The Portland Trail Blazers is a professional basketball team based in Portland, Oregon.",bf859a44-27a8-45a2-a68c-1a8707410e34
+cleveland cavaliers,nba_team,"The Cleveland Cavaliers is a professional basketball team based in Cleveland, Ohio.",ebddee5a-98a4-477e-ad96-712b1ade1388
+los angeles clip ##pers,nba_team,"The Los Angeles Clip ##pers is a professional basketball team based in Los Angeles, California.",7aa8ec56-05a2-4080-a44b-92ad163d7a71
+sacramento kings,nba_team,"The Sacramento Kings is a professional basketball team based in Sacramento, California.",3c0550e0-3a4a-49b8-a2a7-4fc7578f9f0c
+nba,sports_league,The National Basketball Association (NBA) is a professional basketball league in North America.,6d21fb05-7cea-4762-9d92-314831aaeb68
+ky ##rie irving,nba_player,Ky ##rie Irving is a professional basketball player.,da793090-e1eb-4ac1-ab99-ea458260c0a3
+blake griffin,nba_player,Blake Griffin is a professional basketball player.,53046778-4c9f-4f2f-a947-e4601fe5b090
+ty ##ke evans,nba_player,Tyre ##ke Evans is a professional basketball player.,16758a2e-d806-4f47-a9fd-874ceac65e7c
+sacramento kings,nba_team,"The Sacramento Kings is a professional basketball team based in Sacramento, California.",f79bc41a-9cce-464a-87ec-52a8adb38e50
+nba,sports_league,The National Basketball Association (NBA) is a professional basketball league in North America.,2a6905e4-5bc6-4515-a0ea-f6cfeb8e1bd9
+nba rookie of the year,award,The NBA Rookie of the Year Award is presented to the top first-year NBA player.,571d6360-2582-4fdb-845e-51d68bf1c72e
+paolo ban ##cher ##o,nba_player,Paolo Ban ##cher ##o is a professional basketball player.,729c5890-ff8d-485c-91b4-b46cc15988f4
+scott ##ie barnes,nba_player,Scott ##ie Barnes is a professional basketball player.,59925ba2-edf4-4a58-a375-1776b971f622
+lame ##lo ball,nba_player,Lame ##lo Ball is a professional basketball player.,5b3b9109-8922-4b0d-b917-8ca4fa5d1a3a
+ja moran ##t,nba_player,Ja Morant is a professional basketball player.,a4e377bd-621d-45ec-b7a3-e1f57b4a593d
+ben simmons,nba_player,Ben Simmons is a professional basketball player.,b88f6429-82b8-4fe7-913f-7db2e0c57c5d
+malcolm bro ##g ##don,nba_player,Malcolm Bro ##g ##don is a professional basketball player.,352b885d-03fa-461a-96ce-ec549d632a64
+karl - anthony towns,nba_player,Karl - Anthony Towns is a professional basketball player.,d536bb83-297b-4bb5-8c19-7a9879fa4775
+andrew wig ##gins,nba_player,Andrew Wig ##gins is a professional basketball player.,255f9987-d734-4f06-9241-928045b4aeff
+tyre ##ke evans,nba_player,Tyre ##ke Evans is a professional basketball player.,9675e8c1-f5e9-4ad4-be9f-8c3163a0081c
+13 dec 202 ##3 02. 36 gm ##t,Time,The time at which the event occurred,2d336e9c-a6f5-40eb-977e-e604d6984d62
+james wallace,Person,The person who presented the news,765b973a-b189-496b-a69e-211d760904e6
+england,Location,The country where the cricket game took place,0507e266-ab70-46bc-87d4-71f940e3a7e4
+west indies,Location,The team that played against England,b58b60de-c773-429b-a3a2-6f37fdcf7cf7
+grenada,Location,The location where the second cricket match will take place,edf2ae9a-7d0a-47db-91ee-39ac1eefeca3
+andre russell,Person,The cricketer who played an important role in the game,2de556cd-c237-4b5b-b398-660c68583397
+rov ##man powell,Person,The cricketer who played an important role in the game,c58bec23-3610-41a9-b1f0-9c9bd4226c6b
+life,Concept,The state of existence of a person or thing,a0e66ba5-f84e-45da-9398-c529d7f737ef
+West Indies,Location,A group of islands in the Caribbean Sea,eb42f1aa-3ca7-4df2-babb-e3a9870fbf01
+Andre Russell,Person,A cricketer from the West Indies,95563c02-f73a-4a6f-b2d8-d872511ed090
+Sam Curran,Person,A cricketer from England,a962750e-4c3d-40dc-a604-20c2dfeee2db
+Adi ##l Rashid,Person,A cricketer from England,d5a8dba1-ae3e-4962-8d27-7eaf54f21019
+ty ##mal mills,Person,A cricketer from the West Indies,89752b94-88ed-43f4-b49e-093245d368a0
+powell,Person,A cricketer from the West Indies,96cf8489-8d41-4871-807f-276d7f673590
+leg side,Location,The location where the ball was delivered,2e235a19-038f-4345-9b2e-111efda7fbb5
+bowler,Person,The person who bowled the ball,cac93a1e-4da0-42c0-8178-d0102c937c86
+shot,Event,The event that occurred when the ball was hit,a930c317-5765-4178-9814-58cd8c6de8b5
+fence,Location,The location where the ball was hit and went for a boundary,3c329012-2875-4568-b44b-ae20ad124854
+swiss clock timing,Concept,A term used to describe the timing of the shot,bd27f5c9-bc01-4482-88fc-a568b7af5385
+powell,Person,The person who hit the six,66e19993-b123-4f72-9944-d91a8576d4a0
+butt ##ler,Person,The person who was dismissed,1cc13331-15ec-4c4e-a871-ef48acf6f3c8
+15 needed from 18 balls,Concept,The number of runs needed from the remaining balls,e4deec9b-a971-4404-97f0-2234d2a24744
+"13 dec 202 ##3 01. 55 gm ##t 16th over : west indies 141 - 6 ( powell 26, russell 4 )",Event,The event that took place during the 16th over of the innings,ae8c3449-e549-4f83-92c3-fd6884036bcf
+livingstone,Person,The person who continued batting,d9c4f3c2-d376-4738-82c9-23523fdc0f5d
+ro ##v ##man powell,Person,The person who hit the six,106bb788-4901-4a9f-918b-faff4f11428d
+england,Location,The team that is batting,f9cea19c-2306-42b9-9c85-33b63d642d4c
+west indies,Location,The team that is bowling,847a3466-3184-4d74-b71d-99472b009e76
+andre russell,Person,The person who faced the hat ##trick ball,63c16a26-52f2-4d49-833d-82cb057860ac
+ahmed,Person,The person who bowled the hat ##trick ball,12406601-2056-4df0-91c2-44a2291f18ae
+barbados,Location,The location where the cricket match is taking place,1714c0f6-1fa1-4cb8-8659-3556a1e3b48b
+advantage england?,Concept,A term used to describe whether England has an advantage,dc737ea1-ab53-433c-ae97-20d950d96696
+47 needed from 30 balls,Concept,The number of runs needed from the remaining balls,f896c3e0-5ba8-49c8-8ac4-232bf43a4b6e
+shepherd c curran,Person,The person who took the wicket,ea2d09d3-15a3-4152-a9fa-c7fe2f05f99a
+0,Location,West Indies,4a16e1ea-659f-495e-b7d3-3037754d0a55
+13 dec 2023 01.45 gm t wicket,Location,Barbados,89da7a84-002a-4fe9-89e9-5a4ca6ada8fb
+Sha,Person,Shai Hope,5ee17e6c-df4f-4f9c-b090-07659b89d3b5
+Liam Livingstone,Person,Liam Livingstone,e7afbcdc-b2e2-4496-8047-c722f9f8150b
+Rashid,Person,Imran Tahir,37c9fd75-dff1-441f-a671-76653751c1cf
+Rehan,Person,Rehan Ahmed,1241b434-8bd0-4253-ba99-1cc1eb5710b8
+Hope,Person,Nicholas Pooran,3076a5fc-5546-4a6a-bcc9-3d29c2348a20
+Powell,Person,Shai Hope,71c4411a-33f8-4ca3-a942-02f8f8b56969
+t,Time,Local time,efab8cff-4b03-4ade-80fd-8c2868b3ce80
+Dec 2023,Time,Month and year,98e212d6-133b-4e7f-bce0-e1cead01d0b7
+London,Location,City,1937a4a7-a4ca-48d1-bb2e-96ce51555e0a
+West Indies,Location,Tournament team,8cbb0df0-4c8f-40ce-ac21-55008eb93a15
+Hope,Person,Cricketer,f5310598-d33d-4366-bcf8-dbc4acd86c56
+Shai Hope,Person,Cricketer,e3d93dfb-88c4-4c37-83cc-95e45e2bf406
+Barbados,Location,Country,f81e0704-ff7e-409b-b61a-6a1910b6c2b5
+Shaun Marsh,Person,Cricketer,14eb0b09-0995-4f1c-a4f7-f2b776826b37
+Ken,Product,Beer,46fdebc4-7a8a-42e4-99dd-c72d1d458318
+Hetmyer,Person,Cricketer,e364a2ae-587e-4e1b-881d-d8145052b968
+Lewis,Person,Cricketer,25bb2368-e4ef-455f-ba85-a6f2d3569f74
+Powell,Person,Cricketer,ff596f48-6c7f-4ec1-85b8-affd5a1ad18d
+Duckworth–Lewis Stern,Concept,Method of calculating target score in Twenty20 cricket,3154914c-0771-4966-bd95-617068902d62
+Person,ro ##v ##man powell,ies skipper,d3a5c420-3a31-48a9-925f-d8e0af9e98f5
+Person,adi ##l rashid,takes his 100th t ##20 ##i wicket,a2d5ed38-e852-4c11-bdd8-2c494720b7ae
+Person,het ##my ##er c duck ##ett,is sent on his way,b88568a7-96f0-4fe3-b13a-b46a03822eec
+Person,re ##han ahmed,got him,5d60a60f-8299-482b-9417-826d8abbea9e
+Person,shi ##m ##ron het ##yme ##r,tuck ##s a single into the leg side,c11af197-577d-4440-b340-a2d9f2978687
+Person,John Doe,,e8d9eab4-4044-4b24-b434-0a23817f4ec0
+Person,Steve Jobs,,2897ba23-3d8e-4676-862d-d2dd14ec72f2
+Organization,west indies,,b6d14ea1-255a-483e-be7c-131c2a5b4825
+Location,england,,487ade3b-654f-40be-96e0-141db9f7f70a
+Location,france,,6f02775d-1514-41b2-abcb-d58967445381
+Location,paris,,999ac504-3fe3-4a9d-aa7e-17f3d0e654f9
+Location,california,,815f6ec8-d7d8-4e20-8909-a39cf1320a80
+Location,boston,,a11ff2f5-599e-4b98-bcd2-28ade809bc29
+Location,india,,db013aec-f303-442e-86d0-e3ce690cf917
+Location,mumbai,,f124e4e9-2ca2-40a5-804e-7f2d9d5dcfcc
+Location,london,,ad51385d-e2b5-469a-88c0-defb5b899382
+Location,new york,,929b27a2-e504-48d8-abc7-613480ff7aed
+Location,miami,,ff44c005-0d58-4ed3-8157-15ca7aa5aac0
+Location,australia,,a976e57d-36fd-4e3d-811b-7238a198fb38
+Location,sydney,,7ccacb76-00b7-4f74-b2e5-6af269b1ac2a
+Location,melbourne,,340c4bf8-72ad-449e-bd39-e76bae4660fd
+Location,canberra,,013c5114-f8b3-46e7-8126-e474a7a3bd7c
+Location,perth,,45caefd9-ab96-453c-bf2a-11fec2253a14
+Location,adelaide,,4dfa5e9e-3b8c-4964-b5c6-963dd209afbc
+Location,brisbane,,8f1c7b1a-ad61-4d83-841a-8b240630d1bb
+Location,organization,,815a989a-0eb3-478c-976b-e764187efa12
+Location,microsoft,,8bb1ee21-a1b0-4751-981c-4337fe56b66b
+Location,apple,,b3e2a541-333f-47de-82d5-6d551a03c93c
+Event,battle of hastings,,32bee630-087b-469b-a2dd-aa4a0cfaf042
+Event,creation of england,,bb4e687e-9b79-44ec-b1bf-aa2458948625
+Event,reformation of england,,12599073-d607-43bd-8fb4-54460849f475
+Event,glorious revolution,,efe6dc63-f9c6-4f25-b698-6dcd5f6a194f
+Event,english civil war,,df782520-0563-4957-acb6-ef98bc554bcd
+Event,first opium war,,b483c1ce-a329-445a-9858-7b2505f739b9
+Event,second opium war,,cb7b6567-4aa2-4626-a449-155b74ee250d
+Event,sino-japanese war,,2a3cea92-a1c2-4c98-8fd8-8842b7a34ef4
+Event,indian independence movement,,979ad6db-db38-48b1-ba28-22961dcb1414
+Event,partition of india,,143ef614-2ae2-4826-a036-c1995ced7cef
+Event,fall of the berlin wall,,d140361f-6697-4999-af5b-b6b610bda7ee
+Event,european union,,adbbb7a0-38ce-4b79-91d7-99f4109ac952
+Event,start of world war i,,976a8d72-c455-49ed-9faf-8a54721a7f65
+Event,start of world war ii,,ed2d27dc-ba79-4810-a7b7-d565f1fbe931
+Event,end of world war ii,,78dfc7f5-ff83-49da-82e6-d965c1b24113
+Event,vietnam war,,7612d14e-9b0a-4b4a-b7cd-5ce9d8d23d03
+wicket,Location,The place where the wicket is located,d3c7f95a-2d15-494e-a8f8-ad4bdc203fb7
+ahmed,Person,The batsman who was given a confidence boost by wicket,624655e0-3463-4659-8801-5988a7a53834
+hope,Person,The batsman who scored 25 runs,00ec540b-5e17-4128-a6f9-99c6695287a0
+poor ##an,Person,The batsman who scored 13 runs,2e6c7e07-60bb-493d-983a-0b546276be8c
+rashid,Person,The bowler who bowled the first over,ebbe4945-4092-442f-ba1e-4af68e1fafcb
+re ##han,Person,The bowler who replaced ty ##mal mills,00662c91-e598-4d03-9ffa-023ef5f3cb70
+ty ##mal mills,Person,The bowler who bowled the 9th over,42347227-0d34-4638-ab2c-026346a0dbb1
+kyle mayer ##s,Person,The batsman who scored a wicket,930ae033-4e90-43c9-8d84-bac90739881b
+brook,Person,The batsman who was bowled by kyle mayer ##s,82449557-173a-4005-b55a-60d5eeb47036
+rashid,Person,The bowler who bowled the 10th over,bf2359e2-98ff-4653-8d78-4c8227bb4acc
+b rashid,Person,The batsman who was bowled by rashid,b417ad9f-59dc-49fe-93c7-2d899f852d0e
+west indies,Organization,The team that is playing,443896a9-c0d8-4bce-a7f3-5063f600576a
+35 ( west indies 79 - 3 ),Time,The time at which the event occurred,f589c149-6565-483a-86bb-d0a0e5d9e35f
+the sorcerer,Person,The person who followed his apprentice,a2546cd4-b4dc-4647-aa12-9c7badcabff1
+rashid,Person,The person who bagged a wicket,dd00eb8b-eca3-494b-9fd9-666726b1660d
+england,Location,The location where the event occurred,c74a3aa2-ba43-4c6a-8d65-94c1841a62a7
+west indies,Location,The location where the event occurred,1e65535a-06bf-4eda-b472-5fd202623023
+nicholas poor ##an,Person,The person who is the new man,07a52613-bab0-4cdb-82dc-efa2a3ffa622
+kyle mayer ##s,Person,The person who loft ##s a supreme drive down the ground for six more,daa3c8f8-4f18-4028-b409-2842b52924c1
+sha ##i hope,Person,The person who sm ##ears a length ball over mid on for the third six of the over,e84c3b73-39ee-421b-a6df-45eec6e7b908
+re ##han,Person,The person who comes back well,1bc1aab1-c70f-4981-afe4-88c5de7cc6dc
+mayer ##s,Person,The person who holds the pose as he loft ##s a supreme drive down the ground for six more,9507103e-9a83-4fc2-a712-4ee80de39715
+bo ##sh,Person,The person who gets in on the act and sm ##ears a length ball over mid on for the third six of the over,41ac0150-f1cc-4f49-aab7-3a9984a6bd37
+2023,Time,The year in which the event occurred,3eae7de2-ab0e-4104-b8c5-69a865618461
+13 dec 2023 00,Time,"December 13, 2023 at 00:00",c080a95a-1ab5-4cf8-8372-d738d2e31374
+"20 gm t 5th over : west indies 56 - 1 ( mayer ##s 20, hope 12 )",Event,"5th over of the 20-over game between West Indies and England, with West Indies on 56-1 (Mayer 20, Hope 12)",b4b58f6d-ef33-4311-b295-fa0185ab18cf
+"20 gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",59a206a1-5cb0-44ac-a162-85438cf72268
+"gm t 5th over : west indies 56 - 1 ( mayer ##s 20, hope 12 )",Location,"The playing ground for the 5th over of the 20-over game between West Indies and England, with West Indies on 56-1 (Mayer 20, Hope 12)",55865ac2-4ace-4a82-b300-e8fd7fd0ec58
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Location,"The playing ground for the 4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",64dbad8e-2521-48da-aae3-77d369fb32ca
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",d36ce7ba-9cf6-4ed6-9784-cda6c6eba81b
+"gm t 5th over : west indies 56 - 1 ( mayer ##s 20, hope 12 )",Event,"5th over of the 20-over game between West Indies and England, with West Indies on 56-1 (Mayer 20, Hope 12)",c9c4f3a7-77d3-48b7-b0b3-884290e302e5
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",27a64a9f-09e4-4ea1-a082-47017dd0d6e4
+"gm t 5th over : west indies 56 - 1 ( mayer ##s 20, hope 12 )",Event,"5th over of the 20-over game between West Indies and England, with West Indies on 56-1 (Mayer 20, Hope 12)",77d5d747-d257-401b-be88-7f0675fb0c11
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",92d1134a-2154-459c-9732-af119ebe975c
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",94587d97-86b7-459d-9ebd-927a7d762bad
+"gm t 5th over : west indies 56 - 1 ( mayer ##s 20, hope 12 )",Event,"5th over of the 20-over game between West Indies and England, with West Indies on 56-1 (Mayer 20, Hope 12)",9f24ff8a-871c-49c7-bf19-e597ec8929c1
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",eb038ec8-f812-4e3f-8a05-da41dce1a1c0
+"gm t 4th over : west indies 47 - 1 ( mayer ##s 18, hope 5 )",Event,"4th over of the 20-over game between West Indies and England, with West Indies on 47-1 (Mayer 18, Hope 5)",0ab754c3-bb3c-4da6-b135-a52fdfc9a6ec
+"gm t 5th over : west indies 56 - 1 ( mayer ##s 20, hope 12 )",Event,"5th over of the 20-over game between West Indies and England, with West Indies on 56-1 (Mayer 20, Hope 12)",ed51cb9b-d2b7-4483-b227-3b4cd9d087f4
+Ben Duckett,Person,A cricketer,e8121ca0-0348-47a3-8d12-7fe6fb04e55d
+Chris Woakes,Person,A cricketer,45a956ea-2429-42bd-b502-ee04f010c800
+Kyle Mayers,Person,A cricketer,de958270-c9a7-4f70-a622-38280c36b83c
+Stuart Broad,Person,A cricketer,03757d9c-76e7-4038-a2f7-0c3caf88e0ba
+West Indies,Location,A cricket team,c4df13bc-cf74-4975-9469-1f048b902abd
+2023,Time,A year,87f5e8bb-6b19-4505-90b4-b291226fb274
+king,Person,King is a person,6ab07de1-93ef-4484-bf25-0e5c759c51ee
+mayer ##s,Person,Mayer ##s is a person,eefbca28-73de-4f0f-8c72-9d4de1fdc13a
+andre russell,Person,Andre russell is a person,c9540317-5632-4159-893e-dc528ab98093
+rashid b joseph,Person,Rashid b joseph is a person,50e79369-b2b9-4967-85db-ec9a6dec6cf5
+ahmed c powell,Person,Ahmed c powell is a person,17478791-494e-48fe-b2ce-3363690c47a9
+re ##han ahmed,Person,Re ##han ahmed is a person,22e901a4-3335-4948-ab3f-bfafc45e56fc
+sam curran,Person,Sam curran is a person,00341f04-81e0-4134-bca6-267ff1418b16
+wo ##akes,Person,Wo ##akes is a person,69e31e20-6adb-46d1-9932-484bfb1c1d12
+livingstone,Person,Livingstone is a person,1308fb27-8e9a-473a-ab14-9a39c7813806
+england,Location,England is a location,7fcb1f2e-90bd-4f82-b2e8-01ab24810dc3
+west indies,Location,West indies is a location,3f068484-27f0-41b7-a43c-f55a17a9917f
+france,Location,France is a location,75864566-7fe9-4d8f-ade3-d40663f7c7a8
+paris,Location,Paris is a location,51d3fe93-9920-4c75-97d6-f0e21ebc5e33
+microsoft,Organization,Microsoft is an organization,dc294468-693e-41b0-a458-0188900a913e
+apple,Organization,Apple is an organization,a1f7aa26-664f-4ec1-89d5-c3d6dbceb6ab
+6 ##d ago 23. 36 gm ##t,Time,6 ##d ago 23. 36 gm ##t,a5b7e9d0-590a-43a1-955a-e2d59e0b1f38
+23. 16 gm ##t,Time,23. 16 gm ##t,2b77959d-7c8a-4ab7-9318-47da9ac3cf2e
+23. 19 gm ##t,Time,23. 19 gm ##t,4f8ceacc-981a-4362-b10e-e3617af83419
+23. 20 gm ##t,Time,23. 20 gm ##t,a9886744-a76b-4003-b8ba-351e9c27f119
+23. 17 gm ##t,Time,23. 17 gm ##t,6c1f2380-e1ab-49cf-a653-0f897c309f96
+23. 14 gm ##t,Time,23. 14 gm ##t,467fbdd6-1058-4727-ab05-621e7ba8620a
+6 ##d ago 23. 16 gm ##t,Time,6 ##d ago 23. 16 gm ##t,a1a62c3d-2c71-4bc4-8f0a-c796cef92860
+england ’ s miserable white - ball year ends with another series defeat.,Event,england ’ s miserable white - ball year ends with another series defeat.,a7908e2a-a27e-4c41-9229-3c16cbe471b6
+"plenty of good has come from this series, though, most notably the performance of phil salt.",Event,"plenty of good has come from this series, though, most notably the performance of phil salt.",a34061e1-c4a0-41de-9b36-75a5cfe8a5db
+"it ended with a six, the 120 ##th of the series.",Event,"it ended with a six, the 120 ##th of the series.",0233afc9-14aa-474a-9ad9-6617873087cb
+"england fought ad ##mir ##ably to defend a below - par total ; but for hope, they would probably have done it.",Event,"england fought ad ##mir ##ably to defend a below - par total ; but for hope, they would probably have done it.",4fefc1ed-a64e-4974-b597-a574e02754a7
+west indies win the series 3 - 2!,Event,west indies win the series 3 - 2!,ecb6e316-36a3-4dc3-8c7a-4f5e1a3805af
+19. 2,Concept,19. 2,144b7013-248c-483b-9e5f-9d72ca536f5e
+john salt,Person,john salt,2d36581b-c9b1-408f-a90e-ce0bb0246f7d
+phil salt,Person,phil salt,ec4173f3-d496-4421-b61b-a3f9bb0d6c82
+england,Location,england,37cfe8be-1a1d-4d00-976b-08fdd234ee2a
+west indies,Location,west indies,a25af21d-7ccc-4f69-9bec-c5e76b5026a6
+Hope,Person,West Indies cricketer,d472bb86-30ae-4a51-9710-1cb9f2a646de
+Holder,Person,West Indies cricketer,285fa513-4b0a-4c05-99c8-862f821684e2
+West Indies,Location,A cricket team representing the Caribbean,08445ed9-03aa-4516-b920-fe9b5cb690e5
+Sha##i Hope,Person,West Indies cricketer,4449678d-89cb-49aa-b7c7-359737ca1d4f
+Jason Holder,Person,West Indies cricketer,6c3ab444-d213-4e67-a824-632b6c247446
+Ricardo Ma##zal ##an,Person,Cricket photographer,dc35b616-d021-4e11-a3d9-4b6c28e242ae
+Cricket on TNT Sports,Organization,A sports network,ddc2f207-d46f-45a4-b5d6-9befe535d577
+Re##han Ahmed,Person,Cricket player,0b2f327a-c509-4852-8c8d-6fcfd41aeb08
+Chris Wo ##akes,Person,Cricket bowler,a791a00f-33e2-497f-84f1-95d00d8b7663
+Rashid,Person,Cricket bowler,b73083dc-a800-4a44-8a96-9056c8e39ef2
+Russell C Livingstone,Person,Cricket player,5e4e7f6a-e941-48c3-bb77-f95152572205
+Curran,Person,Cricket bowler,b5a745fb-5f71-43be-b076-9472b39c0c9e
+Person,Hope,Hope is a West Indian cricketer.,b2007571-1c20-4579-9e2d-2ce854ebdb36
+Person,Rashid,Rashid is a West Indian cricketer.,e9e29c49-999a-40d6-b1eb-dcf5cb1c909d
+Person,Buttler,Buttler is an English cricketer.,04d69eaf-ec9a-47ee-a290-c135216bd0d1
+Person,Carr,Carr is an English cricketer.,15d817c4-18ec-4e01-8331-3a0d6877f0ba
+Location,England,England is a country.,32197d6a-530f-4747-8400-8ce3b7819274
+Location,West Indies,West Indies is a country.,bf203f9e-b905-4303-bc1c-3e8f411ee82b
+low catch,Event,low catch to his left,80673502-4e71-40ca-bb0b-e35a098a389a
+west indies,Location, Photograph: randy brooks / AFP / Getty Images,36b55a76-33c9-4f6b-8567-69ed5b941523
+reece top ##ley,Person, reece top ##ley ( right ) celebrates the dismissal of ro ##v ##man powell. Photograph: randy brooks / AFP / Getty Images,8b8d0b0f-e70f-4ed8-81df-be8227fc07f2
+ro ##v ##man powell,Person, Photograph: randy brooks / AFP / Getty Images,25dd2f59-0a17-42cd-8bd8-4361fd985ffe
+hope,Person," who is playing an exemplary innings, opens the face to steer re ##han for his first boundary.",5e76ba0b-b297-4c6e-a135-2ceec6b388f3
+rashid,Person, he ’ s had a great series : eight wickets at 15 with an absurd economy rate of 6. 26. but he ’ s going to end on the losing side.,589a3c08-2647-44a1-893d-a91ffac29e07
+rutherford,Person," rutherford smash ##es a drive towards short extra, where curran dive ##s to his left to take a superb catch.",e47a2aec-3459-4edb-a837-94813e4a7f63
+butt ##ler,Person," butt ##ler brings back rashid for his final over, knowing it ’ s now or never for england, and gets an immediate reward.",68361d96-d0c5-4769-b0ce-d7be5089e298
+curran,Person, curran dive ##s to his left to take a superb catch.,f412317a-0582-475a-bb02-7abb808eae8c
+Hope,Person,West Indies cricketer,6bff4d86-ea27-4c42-9783-4936cfff0187
+Rutherford,Person,West Indies cricketer,9a328d84-62a3-42a3-b65c-c4423424562f
+England,Location,England,7262f5b0-39b6-4feb-9bfe-6b701d8f92f3
+West Indies,Location,West Indies,fbcf4805-632a-451f-a950-9c3bc8954740
+Rashid,Person,England cricketer,104322a3-df29-4549-a538-e947887d7925
+Moen Ali,Person,England cricketer,93a72a6d-ef44-47e3-b6fb-1e3affe1a889
+UltraEdge,Concept,A cricket technology,bcee5cee-ce92-46dd-9038-3dadd6f9d50d
+run - chase,Event,The event of a cricket match where players try to score runs by hitting the ball and running between the wickets,d7be0998-dc63-46ea-9b1e-fa4a173d8b00
+Hope,Person,A West Indies cricketer,72d0cf7c-843b-422e-87e9-c442ab4f6296
+Rutherford,Person,A West Indies cricketer,cc73d5fa-a283-47df-8d4f-ebe67a714459
+West Indies,Location,The country that the West Indies cricket team represents,3c77e85a-65ad-4b2e-bb1d-ef2abd415c08
+England,Location,The country that the England cricket team represents,249f7fa3-f681-410d-b430-34b2f8f16319
+Moeen Ali,Person,An England cricketer,773f0203-5695-4fa0-a7d7-658ed652973f
+Adil Rashid,Person,An England cricketer,0b29dfda-a92a-41db-b116-1ada1b7d3f71
+Charles Buttler,Person,A West Indies cricketer,8b26d123-1a10-4b12-a2a5-06bdda06a956
+Rashid,Person,An England cricketer,2a683d35-e282-4cd7-9a58-37bf1ff95e88
+Jo Buttler,Person,A West Indies cricketer,77658322-a095-426d-85d3-f6dfc0724c40
+extra cover,Product,A type of insurance coverage that provides additional protection beyond the standard policy.,1a9a8657-00b9-4619-9029-7c84d768bf67
+adi ##l rashid,Person,A cricket player.,8df6919f-8fc6-4b95-acab-86bc71cde726
+randy brooks,Person,A photographer.,bc51a6e9-58dc-42bd-9a1c-f4cda5dcca9c
+af ##p,Organization,A sports media company.,7142d131-f6a6-4161-b6a7-37a239287b28
+get ##ty images,Organization,A stock photo agency.,a3ff6359-204b-43a1-8a09-896ed3996aa5
+johnson charles,Person,A cricket player.,a0d5f589-3538-4b01-94fa-84cb8fd738c5
+west indies,Location,A cricket team representing the Caribbean islands.,992712d1-c333-4281-8a78-89aa17e95929
+guy horns ##by,Person,A cricket fan.,19df1b0d-d13f-49c3-8eb5-ec61c4b1f24e
+wo ##akes,Person,A cricket player.,f19b96bb-3bb1-475f-a64a-68beca975dbc
+moen ali,Person,A cricket player.,89c1f725-5fac-404f-a79a-ee5c58db8142
+6th over,Time,The current over in the cricket match,592179a7-e300-483b-bb7f-772de0f13402
+22.05 GMT,Time,The current time in the cricket match,b79dfe71-889d-4c56-b912-6f1092733aa4
+4th over,Time,The fourth over in the cricket match,9732a2dd-811f-4709-a751-5c440662f342
+West Indies,Organization,The cricket team representing the West Indies,d70434e4-04f0-4201-97c6-d50f7dd1450d
+England,Organization,The cricket team representing England,d0e53d07-631f-4a29-8566-245a15e9a09c
+Rico Hatton,Person,The cricket player who took the wicket,c2cfe3ec-bd92-41fc-b5d0-e8e464e75c39
+Nicholas Poor,Person,The cricket player who was out,45f5b406-539c-453d-8d82-af3751f63b30
+Ricardo Maçalán,Person,The cricket photographer,22a887fe-d820-451b-86c3-c232892eeaa8
+Kim Thonger,Person,The cricket commentator,024da6f2-1bc2-449f-9f5f-d534b6f39a40
+Steve Jobs,Person,The co-founder of Apple,113ec539-672b-4e78-8d52-b4df90f23ab0
+Apple,Organization,The technology company founded by Steve Jobs,5eb27191-528f-446c-8e67-9cfb34d8d027
+in kung fu ka ##pers,Person,A group of people in the martial arts,d4450f44-9513-44ef-b598-4e8c95f651fd
+bccomedy the good ##ies,Organization,A British comedy television series,52472847-25f5-4692-a149-fb8cb519341c
+‘ ec ##ky thump ’,Concept,A secret martial art,cc371b0b-710e-474c-a437-bf0e8c53b6fa
+black pudding ##s,Product,A type of blood sausage,667c1523-f3b3-4dfd-97f7-1fd91574cf01
+c butt ##ler,Person,A West Indian cricketer,37d4ad2d-ab85-41f7-8978-7ff280ae7db4
+miles,Person,A West Indian cricketer,1b46c428-5acc-4a08-89e7-c8f4278d893b
+randy brooks,Person,A photographer,4495a807-1b3f-4fbd-94b6-10b38957b4fd
+t ##20 world cup,Event,A cricket tournament,968d406d-fbf8-4578-876c-cc147160de34
+wo ##akes,Product,A cricket bat,0e0a6207-c7f6-48d4-a951-e0bf7d702984
+Player,Person,A person who participates in a sport or game.,34359645-6d91-424b-a405-0acec27036af
+Team,Organization,A group of people or animals organized for a specific purpose.,83fc209a-9f03-4217-8626-2a918de80329
+Location,Place,A specific position or area on the Earth's surface.,3cb248bd-2c92-435e-b465-90ecfbcd7cfb
+Event,Activity,An occurrence or happening.,3ca70861-1052-4023-a027-01b95f5727f9
+Product,Good,An item that is produced for sale.,78f43b16-b896-4b6b-9a82-b1d0472da5b0
+Concept,Idea,A general idea or notion.,48741cac-6e0f-440c-b050-f700a7efac51
+Time,Duration,A period of duration.,36c6364a-d6c1-4dd7-a77f-1467bc5c93b4
+Allison Miller,Person,This year marks a decade since serious complications from the flu led to a life - changing loss for the virginia - based communications director.,f178af53-291b-405f-9f95-41b4ba374751
+United States,Location,"for most of the millions of people who get the flu each year in the u. s., the virus brings a few days of fever, body ache ##s and weakness before it goes away.",c0223545-03d8-45de-929f-30c8c3c30cd4
+Virginia,Location,Allison Miller lives in Virginia.,621c3db9-fc35-4681-9570-964b2dfb1bc7
+Flu,Concept,miller was a healthy young woman when she came down with a sore throat and headache.,09135a18-822f-412d-8280-2bc3ae19f2ca
+Sore Throat,Disease,miller was a healthy young woman when she came down with a sore throat and headache.,7f6c6140-22e7-422f-b8d2-36599e8b4c7c
+Headache,Disease,miller was a healthy young woman when she came down with a sore throat and headache.,43668527-9ef0-478c-8a21-62cda288a8e0
+Chest X - Ray,Medical Test,"when her symptoms got worse, she went into urgent care for a chest x - ray, but it showed nothing alarm ##ing.",64e4dabd-79d9-4b6c-80ab-9642832dc68e
+Flu,Disease,"‘ thinking it was the flu or something i could get over, i kept waiting to turn the corner — like, this is the worst of it. it ' ll get better. and clearly that wasn ' t the case, ",71ec8a61-3de5-4086-8df1-f919de3405ec
+Back Pain,Disease,"skeletons from 1918 flu pan ##de ##mic reveal clues about those most likely to die, study finds the next morning",c24f9023-7466-4a6b-818c-3fbd7354fc2c
+Miller,Person,A woman who was experiencing severe back pain and went into a medical coma due to bilateral bacterial pneumonia and sepsis,6c3b4f61-1483-463b-9666-5ddd81a585eb
+Flu,Concept,The influenza that caused bilateral bacterial pneumonia and sepsis,3f9d52c6-a26b-41a7-8355-4360af2f3478
+Bacterial Pneumonia,Disease,The severe form of pneumonia that Miller had,e8ec26f9-4158-4349-bfe0-1b5c9cbb13b5
+Sepsis,Disease,A serious medical condition that can lead to organ failure and death,b19dd247-baf7-4ca8-89e1-eec75c907517
+Life Support,Medical_Treatment,The treatment that Miller received to try and save her life,1931c9e5-346e-4c9c-8fb5-00869028daea
+Amputation,Medical_Treatment,The rare complication that Miller experienced during life support,567e5dc7-6500-482d-89c1-fc412e063da7
+Knee,Body_Part,The part of Miller's body that was amputated above the knee,6cd537c2-ada8-45a7-ab95-5eff5af434c6
+Jennifer,Person,Jennifer is a woman.,ce4431ee-697a-4faf-bfaa-422dd0f342a6
+COVID-19,Virus,COVID-19 is a virus that causes respiratory illness.,61689543-a40d-4bd3-92c5-84572634aafc
+Pneumonia,Disease,Pneumonia is an infection of the lungs.,4813755c-7a66-41e7-be32-0ae8f3c65d9f
+Lung,Organ,The lung is an organ in the chest that takes in oxygen and expels carbon dioxide.,d0686ff3-6627-4ade-949e-6b19214ff44c
+Miami,Location,Miami is a city in the U.S. state of Florida.,8403c521-484b-448c-98fe-2e8e4e112123
+Surgeon General of Florida,Person,The Surgeon General of Florida is the head of the Florida Department of Health.,c0837d46-507c-4c3f-ae6e-1ab776834deb
+Jennifer Miller,Person,Jennifer Miller is a Miami resident who caught the flu in 2013.,a751f77c-34b3-42ec-a5ca-03618d5ede1c
+people,Person,People,9897e0fa-8176-48b3-9b6e-0371173ef55a
+mill ##er,Person,mill ##er,55302464-00b1-456d-994b-9de09a6267b4
+dr. gregg sylvester,Person,dr. gregg sylvester,e63b55fa-c2d8-4dd0-ba1b-0832cbdedb98
+cs ##l se ##qi ##rus,Organization,cs ##l se ##qi ##rus,3866b96a-c480-49e8-91a6-1016d1d1bdb8
+new jersey,Location,new jersey,8d03a1d3-8692-4c49-a62d-5f24ce1719d0
+b ##io ##pha ##rma ##ce ##uti ##cal company,Organization,b ##io ##pha ##rma ##ce ##uti ##cal company,888f378b-0dbb-4101-9acb-ccc5a9ea711c
+flu,Disease,flu,ab0d228d-a6cd-463e-a61d-dde99425554d
+rs ##v,Virus,rs ##v,d3278e28-0e46-42e0-a3c9-e07fe9fe8fdf
+co ##vid - 19,Disease,co ##vid - 19,8819e2b3-cfe0-4cb5-affa-7df9a1f227cc
+vir ##al illness,Disease,vir ##al illness,f3c748ab-95d6-4341-9afd-efe488a64ace
+in ##fluenza,Disease,in ##fluenza,9eb28778-ad4b-464c-b92f-b9ab9a8581d5
+weight loss drugs,Product,weight loss drugs,f9763980-1f6d-4947-a48d-2d0f5252fa81
+we ##go ##vy,Product,weight loss drug,0433a541-61b4-4646-b9b7-2a909555b74f
+oz ##em ##pic,Product,weight loss drug,720be98a-6ab2-48f3-99da-461fb02ddae9
+ry ##bel ##sus,Product,weight loss drug,f2e1f2bf-c933-4aaf-a69f-bb91cf2db39d
+sa ##nda,Product,weight loss drug,7d3ba245-8a55-49e8-bce0-a8d7e4bc3563
+un ##iversity of british columbia ( u ##bc ),Organization,university of british columbia,1823aeb6-3102-4fa5-abd4-685619b41823
+cleveland clinic,Organization,cleveland clinic,f39e0793-ed6f-4d3b-be42-379d7d5016fc
+jam ##a,Publication,journal,2ae5ce23-e292-494c-9f0a-0847946b1d5d
+uti,Person,"Study co - author dr. ma ##hya ##r et ##mina ##n, associate professor in the departments of op ##ht ##hal ##mology & visual sciences and medicine at u ##bc",b54bef1d-2dc2-4a02-8404-9f69faedbf0b
+oz ##em ##pic,Product,"we ##go ##vy and all those crazy, vivid dreams : is there a connection?",9381a63c-8f81-471c-a2a0-600260648667
+u ##bc,Location,associate professor in the departments of op ##ht ##hal ##mology & visual sciences and medicine at u ##bc,1afeb211-5260-4105-b0ad-edf7f48a2e79
+fox news digital,Organization," dr. ma ##hya ##r et ##mina ##n, associate professor in the departments of op ##ht ##hal ##mology & visual sciences and medicine at u ##bc, told fox news digital",7145b611-6c1d-44b8-95b1-d173845155f3
+g ##lp - 1 ago ##nist ##s,Product,"the researchers found them concerning, given that millions of people are using these medications worldwide. the number of people in the u. s. using g ##lp - 1 ago ##nist ##s for either diabetes or obesity reached 40 million in 202 ##2, they noted.",3f9338b7-9d52-4d58-86cd-e720e9003ce5
+ma ##hya ##r et ##mina ##n,Person," Study co - author dr. ma ##hya ##r et ##mina ##n, associate professor in the departments of op ##ht ##hal ##mology & visual sciences and medicine at u ##bc, told fox news digital",5e8be752-245c-4881-90a5-6308add5cee5
+u ##s,Location,"the number of people in the u. s. using g ##lp - 1 ago ##nist ##s for either diabetes or obesity reached 40 million in 202 ##2, they noted.",b3d441dd-d4eb-46e8-812f-7123e55edc4a
+mo ##hit so ##dhi,Person,a graduate of u ##bc ’ s experimental medicine program,6be8e4f8-2fca-481a-8458-e91f441823fc
+u ##bc,Location,University of British Columbia,1630a967-a587-479a-8bd6-b78f182c2fb5
+g ##lp - 1 ago ##nist ##s,Product,a drug,1a511a49-a02e-4363-b1b5-d8e57ae3ffe0
+et ##mina ##n,Person,a researcher,2cabccce-f9aa-459b-a852-0d13d90a1ac1
+so ##dhi,Person,a researcher,7897505a-a1f8-4470-a524-20d391aa0c99
+the researchers,Person,mo ##hit so ##dhi and et ##mina ##n,43ede722-f0ac-41ab-b0d4-200637a99eba
+202 ##2,Time,a year,f9151c90-bdee-4b14-93f2-98d19da71386
+the u. s.,Location,United States,48b0150a-8c01-4b5c-be8f-7d1fef849f86
+patients,Person,people who use g ##lp - 1 ago ##nist ##s,61bbd330-ddd4-41c4-a621-ecf3827be8f7
+et ##mina ##n,Person,et ##mina ##n is a researcher,b3cc2c09-1cd2-438b-b976-f0119dccb66d
+oz ##em ##pic,Product,oz ##em ##pic is a weight loss tablet,2e9ce9fe-6770-48fe-aca6-ce1c183cebdc
+we ##go ##vy,Product,we ##go ##vy is a weight loss tablet,13de44cc-dd3a-47d5-9ca9-10651d7e01c4
+card ##iol ##ogist dr. ernst von schwarz,Person,card ##iol ##ogist dr. ernst von schwarz is a researcher,2bca399b-40f0-46ba-b673-fc78404e6e17
+california - based,Location,california - based is a location,8da612b5-c7dd-438c-b9bd-44c6a183ff19
+fox news digital,Organization,fox news digital is an organization,bd5f10e6-4770-448a-84a7-13ad93bb7885
+u. s. food and,Organization,u. s. food and is an organization,b3e10af5-7393-4416-a919-f55ac696cc00
+drug administration ( fda ),Organization,"The Food and Drug Administration (FDA) is a federal agency of the United States Department of Health and Human Services. It is responsible for protecting and promoting public health through the regulation and supervision of food, drugs, biological products, medical devices, radiation-emitting devices, and cosmetics.",52a7c8c0-ab40-49b7-929c-ad04fa8d234d
+oz ##em ##pic,Product,Ozempic is a prescription drug used to treat type 2 diabetes. It is a form of semaglutide that belongs to a class of drugs called glucagon-like peptide-1 (GLP-1) receptor agonists.,6aa5340d-d7b2-4aba-8206-3938e84e67e8
+ile ##us,Product,"Ileus is a medical condition in which the movement of food and fluids through the digestive system is blocked. It can be caused by a variety of factors, including surgery, injury, infection, and certain medications.",562256c3-cfaf-40f7-90ab-7f5eae0aa2f8
+int ##est ##ine ( bow ##el ),Body-Part,"The intestine is a long, tube-shaped organ in the digestive system. It is responsible for breaking down food, absorbing nutrients, and eliminating waste.",55260b5e-1c71-4778-a1ac-f7049d390854
+mayo clinic,Organization,"Mayo Clinic is a nonprofit medical practice and medical research group based in Rochester, Minnesota. It is one of the largest and most well-known medical institutions in the world.",3c18855a-9717-4c4f-83f0-a2335e08a79a
+louisiana woman,Person,A woman who lives in Louisiana.,e54712ac-5c5c-43dd-bb27-288da0bcbb71
+novo nord ##isk,Organization,Novo Nordisk is a global healthcare company that specializes in the treatment of diabetes and other metabolic diseases. It was founded in 1923 and is headquartered in Denmark.,1aa5c0e3-efe9-4b00-87af-c8a9ef8682fd
+lilly,Organization,"Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana. It was founded in 1876 and is one of the largest pharmaceutical companies in the world.",e968a902-01be-45e8-86fa-ff328646ab1e
+mo ##un ##jar ##o,Product,Mounjaro is a prescription drug used to treat type 2 diabetes. It is a form of semaglutide that belongs to a class of drugs called glucagon-like peptide-1 (GLP-1) receptor agonists.,0c09e289-4093-4ddd-8719-2df23c21412d
+gas ##tro ##intestinal events,Event,A medical event involving the gastrointestinal system.,3e901643-0e0a-4e50-acfa-9049e6125dad
+gas ##tro ##par ##esis,Event,A medical event in which the stomach becomes paralyzed.,c4b2c92b-7166-4584-9ea2-30b89aaf7049
+gas ##tro ##enter ##itis,Event,A medical event involving inflammation of the gastrointestinal tract.,93f23e98-d284-400b-8f1f-a9a7348a7a36
+saxe##nda,Product,A medicine for weight management,37ec84e7-ebe1-4e79-83b6-3ef671c64211
+we##go##vy,Product,A medicine for weight management,cbf8a16b-91a1-4b26-a67a-ae2e7da5d23b
+oz##em##pic,Product,A medicine for the treatment of type 2 diabetes,3b372db9-4853-4f40-b045-fb7ebec88618
+ry##bel##sus,Product,A medicine for the treatment of type 2 diabetes,972d8b6e-4064-4a1d-bcac-b64e15980f85
+vic##to##za,Product,A medicine for the treatment of type 2 diabetes,79c9c58d-718b-49e1-a45a-cc761aa57147
+novonordisk,Organization,The manufacturer of the products,6b07caf2-3973-4e84-b0d6-b4381f4aa606
+u.s. food and drug administration,Organization,The organization that regulates the safety and efficacy of drugs,2a15f407-8500-4daa-88b0-8c432a78c114
+Diane Bazzell,Person,A 64-year-old woman from Minnesota,f306de1d-d7e6-40f5-be47-c725a3f76228
+Diane Bazzell,Person,A woman who got to spend the holiday time with her birth mother after a nearly 40-year search,497e7a53-e489-4b62-9afe-15b0bf628a6e
+Diane Bazzell,Person,The woman who was switched at birth,e7e39dc4-1b89-419d-89b5-4d6525486392
+Diane Bazzell,Person,The woman who got adopted by a couple,e36e08af-637a-4262-816a-553ad0467616
+Diane Bazzell,Person,The woman whose prayers have been answered,581bfed5-a976-467b-92be-c98095bcc710
+Diane Bazzell,Person,The woman whose heart is full,c9dedae3-45a9-43e6-9341-143403581feb
+Diane Bazzell,Person,The woman who has many more Christmas to spend together,fac9a9ee-ee8c-403a-9a8b-39b9555102a6
+Diane Bazzell,Person,The woman who appeared on Fox News Digital,2d33f07c-3d35-4dd6-a3fe-91316e96598d
+Diane Bazzell,Person,The woman who got to spend the holiday time with her birth mother,9646916c-00d7-49e7-acc6-26f0c40c3100
+Diane Bazzell,Person,The woman who is from Minnesota,870c8c64-5fd3-4a85-a402-5064ce89563b
+Diane Bazzell,Person,"The woman who got adopted by a couple who lives in sunnyvale, california",46f5f03a-a28d-4e48-8742-9471b1cf4715
+Diane Bazzell,Person,The woman who got adopted by a couple who has an oldest child,66a3cfbc-0116-4239-80cd-3206ef16cf92
+Diane Bazzell,Person,The woman who has a daughter,fb05edb6-63fe-4c25-9b34-1eb8d7ec5282
+Diane Bazzell,Person,The woman who got to spend the holiday time with her birth mother after a nearly 40-year search,4457bb00-a0f9-4f1a-9cd9-4d7089f43c42
+Diane Bazzell,Person,The woman who got adopted by a couple,7f9b4803-b181-4ca4-9034-9aa7a4baddf3
+Diane Bazzell,Person,The woman who got to spend the holiday time with her birth mother,6d05da42-1383-47ed-aa76-ff1b47fdc887
+Diane Bazzell,Person,The woman who is 64 years old,1891b097-2ae8-4801-91e8-4055386d5ded
+Diane Bazzell,Person,The woman who is from Minnesota,e2a57090-64e4-4fae-b5a3-807c084a1b29
+Diane Bazzell,Person,"The woman who is from sunnyvale, california",9e0f8ea0-4602-4854-aa7f-af8e76366778
+Diane Bazzell,Person,"The woman who got adopted by a couple who lives in sunnyvale, california",e455aa39-c599-4157-936e-b2b6f5cda964
+Diane Bazzell,Person,The woman who has a daughter,abab3eeb-97b1-4b75-8ce6-7bddb45b9d13
+Diane Bazzell,Person,The woman who is 64 years old,47851164-9d69-4f2d-b9ad-a3494c305913
+Diane Bazzell,Person,"The woman who is from sunnyvale, california",dbef9bf0-0ed3-4dfd-a851-2729b0c00140
+Diane Bazzell,Person,"The woman who got adopted by a couple who lives in sunnyvale, california",05ee4a3f-2c77-422e-b911-20ad82a5ae92
+Diane Bazzell,Person,The woman who has a daughter,b3a7d702-768d-42e1-b8a7-044ea387839e
+Diane Bazzell,Person,The woman who is 64 years old,7e4a1e10-1fe0-4396-af07-60e1fbbc4e94
+Diane Bazzell,Person,"The woman who is from sunnyvale, california",fa3d3958-af42-4322-a9e3-4bc330b01acb
+Diane Bazzell,Person,"The woman who got adopted by a couple who lives in sunnyvale, california",850baa9f-6c83-4d1c-979b-229aa4deccce
+Diane Bazzell,Person,The woman who has a daughter,4639a06f-ac24-431d-878e-873f998847bc
+Diane Bazzell,Person,The woman who is 64 years old,1477215e-1ae6-4696-9272-39a75b46ccd8
+Diane Bazzell,Person,"The woman who is from sunnyvale, california",aeeb128c-af01-4595-b06a-345b2d43d7ed
+Diane Bazzell,Person,"The woman who got adopted by a couple who lives in sunnyvale, california",a2c3b6ae-df17-4e20-9b26-f3613dc222ff
+Diane Bazzell,Person,The woman who has a daughter,a404240f-d97d-433a-be58-6be1a905ef8f
+Diane Ba##zell##a,Person,A Holocaust survivor who was reunited with her birth parents after a 39-year search.,839cc0b3-afd6-4d4b-8e25-5c7deb000acd
+Walter Peterson,Person,Diane Ba##zell##a's father and one of the people whose name appeared on her birth certificate.,2bca9b88-1f9a-45e8-b743-c87189be3d8d
+Il##a Peterson,Person,Diane Ba##zell##a's mother and one of the people whose name appeared on her birth certificate.,ce41261c-e64f-40de-a239-01dd07e93f0b
+1983,Time,The year that Ba##zell##a thought her search for her birth parents was over.,1ea85993-4cad-452e-93b0-e88e85561f43
+1980s,Time,The decade in which Ba##zell##a located her birth parents.,667d6d09-19e6-4fd3-9d29-995990c4b04d
+202 ##2 ,Time,The year in which Ba##zell##a met her birth parents in person.,db5fceb9-690e-476c-b87d-f10ef58b26f7
+a child,Person,,b11b5d5f-58b8-4b6f-a73b-b4363c46924a
+ba ##zell ##a,Person,,d9a80484-cfd0-4d5a-90a6-f1d995d17f8e
+booth memorial hospital,Location,,4eca371e-abf0-40e8-9dff-341e3cbb7add
+the booth brown house,Location,,0c404fa2-006c-45d9-a62a-97ec4a559894
+the salvation army central territory,Organization,,3c279c65-24dd-4dfb-8179-a7f9ecaac7c8
+147 ##1 como ave. w.,Location,,e7c35bce-b7f2-48f6-9717-4c2b89bca29d
+kelly jean,Concept,,e1dec35e-bf6b-46e7-85f0-746a91842b35
+Diane Ba##zell ##a,Person,Diane Ba##zell ##a is the person who took a home dna test.,0307f226-85e9-4bdc-9bed-b3127b871fec
+Ba##zell ##a,Person,Ba##zell ##a is the woman who was raising younger children.,afedab3e-c277-4e99-ac5f-73f781a66c8b
+the woman,Person,the woman is the mother of Diane Ba##zell ##a.,65cc2abb-4dda-4e07-92cb-ce22be6f3fed
+2000,Time,2000 is the year the woman died.,2df682c1-ccaa-45c2-bc83-69cb8ba8c4a8
+Diane Ba##zell ##a,Person,Diane Ba##zell ##a is the person who discovered that she had been switched at birth.,bd96bf70-ea6c-43fe-83e8-a30bb227aa74
+Ba##zell ##a,Person,Ba##zell ##a is the person who was switched at birth and is now named Dawn Marie.,d8649c17-cb90-43e3-bb73-fa17592500f4
+Gee ##rts,Person,Gee ##rts is the woman who was originally named Kelly Jean but is now known as She ##rri Nord ##lie.,b9be3f70-c118-4393-801a-072e7ec8fedc
+She ##rri Nord ##lie Gee ##rts,Person,She ##rri Nord ##lie Gee ##rts is the woman who gave birth to Ba##zell ##a and is now known as Dawn Marie.,28df7a08-4225-4cc0-b592-685bfb231745
+Kelly Jean,Person,Kelly Jean is the name that Ba##zell ##a originally thought was her name.,9e49aa95-c409-48f2-b630-965f7bfc4b0b
+Un ##wed Mothers Hospital,Location,The Un ##wed Mothers Hospital is the location where Ba##zell ##a and Gee ##rts were born.,92083222-9375-4af9-9bba-1b59f636d892
+Sept. 29,Time,Sept. 29 is the day that Ba##zell ##a and Gee ##rts were born.,8de46789-6c1f-46ef-9ae5-7f4fd01a5be1
+Ba##zell##a,Person,A woman who met her daughter for the first time after being separated for 215 days due to the pandemic.,49bbe2ef-03b6-47b3-ab9d-5889736f892d
+Gee##rts,Person,The mother of Ba##zell##a who gave her daughter up for adoption when she was 18 years old.,381e4c1e-799c-4345-b67e-5447e5383a27
+2021,Time,The year in which Ba##zell##a and Gee##rts were finally able to meet after being separated for 215 days.,c9a73b50-c846-43ad-9bbc-8b7b260c3f9d
+2022,Time,The year in which Ba##zell##a and Gee##rts have been getting together several times a year.,6677b988-3a00-4bd2-aabc-ec8f16c3b4b5
+California,Location,One of the locations where Ba##zell##a and Gee##rts have been meeting.,1a9aeb1a-7bbf-48c1-8a5d-9d15b8c384df
+Minnesota,Location,One of the locations where Ba##zell##a and Gee##rts have been meeting.,18f8376c-e7ce-4198-9c53-7756d398c8e5
+Fox News Digital,Organization,The organization that Gee##rts spoke to about her experience.,b8feb958-8564-435a-b413-3838a7aa6910
+Ba##zell ##a,Person,,d7c1e3c1-83ca-424d-9e4f-da50b28cd239
+Gee ##rts,Person,,f08b5cbd-1921-4fc7-addb-a87f2e69978c
+Victor Re ##beck,Person,,ae0ea7a9-fddf-4e49-a1f0-19e3372ae145
+Fox News,Organization,,c0954e98-b43d-481c-957c-21d1de0f9f15
+the white company,Organization,the white company is known for its carefully crafted products and an attention to detail that make it one of britain ’ s most cher ##ished lifestyle brands,e2994e9a-1dfb-4b9a-8d1b-ea78708b3ecf
+white company,Organization,the white company is known for its carefully crafted products and an attention to detail that make it one of britain ’ s most cher ##ished lifestyle brands,22af7971-fc88-4449-97c7-de4c0c755dfa
+christmas,Event,the white company is gear ##ing up for christmas with a range of new products that can give an extra co ##sy touch to your home or make affordable gifts to place beneath the tree,d4b113bc-93f6-4995-ad94-b53cce3287a2
+wreath ##s,Product,"from wreath ##s and garland ##s that beck ##on guests through the door, to warming scents that put everyone in the mood for christmas, you will be ready to welcome friends and family throughout the coming months",14e3cd63-cb91-4b83-9ec0-6312c48e77eb
+garland ##s,Product,"from wreath ##s and garland ##s that beck ##on guests through the door, to warming scents that put everyone in the mood for christmas, you will be ready to welcome friends and family throughout the coming months",4416a738-39eb-4043-89c3-4915bdd4aef7
+scents,Product,"from wreath ##s and garland ##s that beck ##on guests through the door, to warming scents that put everyone in the mood for christmas, you will be ready to welcome friends and family throughout the coming months",6a8fa6cf-f717-46c3-9ebb-e59247b614d1
+britain,Location,the white company is known for its carefully crafted products and an attention to detail that make it one of britain ’ s most cher ##ished lifestyle brands,31d391be-2569-41ea-beb1-9efb2623f28e
+lifestyle brands,Concept,the white company is known for its carefully crafted products and an attention to detail that make it one of britain ’ s most cher ##ished lifestyle brands,d9d05982-d8b7-4364-a736-073e2e14ecf9
+"spicy and warming notes of cinnamon, cl ##ove and orange",Concept,"Notes in a choice of candles, diffuse ##rs or oils",a04d402c-4567-4ee0-b2f4-1ff8c3b94f88
+"candles, diffuse ##rs or oils",Product,"Notes in a choice of candles, diffuse ##rs or oils",7a286624-a5c5-487b-9609-a4b0755532a7
+the white company,Organization,A range of home ##ware that makes sure you ’ re always ready for the occasion,a3832ae3-dab5-4b02-a340-75f665ad1aac
+champagne coupe ##s,Product,Hand - twisted stems twin ##kling under the fest ##ive lights,1e029c3c-7464-4f93-ab80-fd75d3760d89
+barton serving tray,Product,"Warm, silver - tone finish has winter ##y good looks, setting off whatever you ’ re serving in style",41f9ccfd-0fae-4873-b522-d672666b21ee
+advent calendar,Concept,Counting down the days with an advent calendar,58e5f170-0208-4243-80eb-5c9538fe3f31
+decorations,Product,decorations,a0b57380-3f94-431b-b1d5-5b2a9097f0a2
+simply,Concept,simply,e7284b5f-18db-4ccd-a6ee-2228f64b7804
+christmas,Event,christmas,731d7eff-552c-4983-9eb0-7f290466ae3a
+penguin,Person,a charming penguin,1ccf4f02-ee24-4ec4-836c-1e67c4ae66d1
+advent calendar,Product,a snowy advent calendar,e61ce9e1-fca3-471e-8d63-c9fc8b39df18
+family,Person,younger members of the family,68ec8f80-773b-46e3-8619-a103fd1db5b0
+ve ##lb ##oa faux fur,Product,super soft ve ##lb ##oa faux fur,89795b34-1411-4422-b5bf-68dbd256a344
+treats,Product,chocolate and other treats,f2230d01-f142-4c1a-a77f-cea6bb9c262b
+ind ##ul ##gent treats,Product,"candles, shower gel ##s, nail cream ##s, and more seasonal scents and wellness good ##ies",e89f1299-2ce3-4184-b1ac-6d64da76583f
+christmas jumper,Product,a sparkle snow ##fl ##ake embroidered jumper,7e305caf-4b7c-4955-8194-336c58fc1b3c
+the white company,Organization,the white company,fb88f714-956d-4bc4-bd3f-1843827651f2
+log fire,Location,in the background,74d00991-2991-4698-9080-d4f9dd8c535e
+motion sensor plug in electronic diffuse ##r,Product,a great little gadget that delivers the ideal amount of relaxing scent,0f749653-5f89-4fe8-8be6-a740e1fe2082
+is a great little ga ##dget,Concept,,d6d15170-2795-434c-bfda-bbbc328db613
+that delivers the ideal amount of relaxing scent,Concept,,71782a72-8921-46ea-b504-1bad5f0c7d9a
+at the touch of a button,Concept,,3608cf95-96a3-4e23-af42-b6409ac4bee3
+simply add your favourite scent oil,Concept,,5574e5a0-207a-4f98-af27-eb367f4a5f6a
+and the motion - activated sensor helps you to control when it ’ s released,Concept,,7f726acb-d26b-4933-b302-a2249ecae843
+providing a tran ##quil atmosphere in whatever room you choose to use it,Concept,,602a11ad-0aa4-4dd9-8f36-865f7128f41d
+when you find time to put your feet up,Concept,,7369a64e-f863-41e5-a8ea-bc6440e25398
+give your toes some extra comfort and warmth with a pair of cash ##mere bed socks,Product,a pair of bed socks,23862901-51ad-4df0-937e-fffc78a07cd4
+they come in a range of colours to suit your style,Product,a pair of bed socks,3231f06c-2d2b-466e-87c1-9f31564fee89
+and are made from pure g ##cs - certified yarn ##s to take the chill off your feet,Product,a pair of bed socks,5e001df3-fc53-44de-babf-3fc1e5ae576f
+and seeing as everyone loves co ##sy socks at christmas,Concept,,0c545833-5e33-47bf-a352-668a1aee287b
+we think they ’ re also a great choice for gift ##ing,Concept,,80fd7865-193f-4e00-be7e-7f2d68429ac7
+for even more co ##sin ##ess,Concept,,260f6198-cb1f-456a-a8ae-d7c7aecd3867
+we think you should consider this faux fur throw,Product,a faux fur throw,547580fd-80ff-4fe1-b810-c2444d06a039
+made from soft and silky recycled fibre ##s,Product,a faux fur throw,84bb709a-40ee-4247-b213-1e57ac809248
+and matching soft fur hot water bottle,Product,a faux fur throw,79fbd2cf-3db8-4634-8926-83fb36b9cffd
+they give so much cu ##ddle comfort on chilly winter evenings,Concept,,e4112b02-78b3-435e-b38b-c39dcba894a3
+that you won ’ t mind how long spring takes to come around,Concept,,c4ce54b9-2a6e-46c1-95d7-d3a2d1317fb8
+mix old traditions with new rituals ( the white company ),Concept,,14272253-ddd4-4273-b77b-a001e478f357
+we all have traditions that are handed down through generations,Concept,,25940868-b6ff-4dfc-9e27-0539f6fad699
+things like opening the sl ##oe gin after the last day of work,Concept,,947cbb21-40c4-4c11-8ac9-81e776157d0d
+or a ceremonial placing of the star on top of the christmas tree,Concept,,9d744aad-2860-4ff1-a0b7-407ec3e9e072
+this year,Concept,,bfe3fa96-741a-4349-950d-a13428a3495c
+why not start a new ritual such as a designated ‘ morning in bed ’,Concept,,6c544496-4907-43de-904f-aae07fe03a55
+or an ‘ afternoon p ##y ##ja ##ma party ’,Concept,,0fe56b9a-c301-44d5-b506-dcc709463826
+to make sure that christmas is done your way,Concept,,2412bec0-a021-4869-994a-80dc7b8205e9
+the white company has a range of night ##wear,Product,nightwear,a6fee8bd-10de-4cbb-b20c-546a01f29fb7
+that,Concept,Something or someone that will add a touch of luxury to any lazy days.,926d92e2-13aa-4521-b1e4-ba61f8862f03
+lazydays,Concept,A period of time when one is lazy or indolent.,4d4243e6-df95-40d0-9e56-3e306c8d3892
+jersey,Product,"A knitted fabric with a soft, napped surface, often used for sweaters and shirts.",2728ebb2-e53d-4511-a06b-17151e022c34
+pipe,Product,A length of hollow cylindrical metal or plastic tubing.,c68bc35a-20a8-49f2-a950-d5745bd987f4
+printed,Product,A fabric that has been printed with a design or pattern.,e11b70cb-84a4-4812-b844-2d4bb36d101b
+classic,Product,A style that is traditional and has been around for a long time.,12f6f5c7-f6e4-43f4-8ac0-6d0d191a063e
+pjyama,Product,A type of nightwear that consists of a loose-fitting top and trousers.,e83ed0ec-d4d2-4d69-a1ff-e613ac454129
+set,Product,A group of items that are sold or used together.,782f06a2-01fc-4eb4-95a7-1d7d82c9f61c
+soft,Product,Describing a fabric that is smooth and gentle to the touch.,1eefb5d0-700d-409f-87a0-303c20b01674
+jersey-blend,Product,A fabric that is made from a blend of jersey and another fabric.,7dcc662e-88c9-406a-be90-e32243a9e679
+inviting,Product,Describing a fabric that is pleasant to the touch and makes you want to wear it.,e970aefb-77c0-4085-84e9-51857a037f29
+curl-up,Product,To lie or sit in a curled-up position.,15051a9d-f89c-43da-b567-e76d43483c3b
+bed,Location,A piece of furniture that is used for sleeping.,b9b98f59-ff83-46dc-b1a0-468a639f2d43
+sofa,Location,"A piece of furniture that is long and low, and that you can sit or lie on.",28c1f4f5-9aa0-43b9-8f80-f52577ee579a
+both,Location,Describing something that is located on both sides.,cc30a6ee-6048-44de-bb8e-61e79cb4068a
+collared,Location,Describing a shirt that has a collar.,fcb28c3b-f8a4-4672-930b-d44b219762fc
+pjyama-shirt,Location,A type of nightwear that consists of a loose-fitting top and trousers.,cbd57916-26ad-4651-b09d-c1c558bedd6c
+trousers,Location,A type of clothing that covers the legs and is worn from the waist to the ankle.,2837738e-e6f9-432f-846b-76817920af03
+printed,Location,A fabric that has been printed with a design or pattern.,34ae2e26-692a-4bb3-a0ac-3d6a86ded5b1
+tiny,Location,Describing something that is very small.,bcab04d1-be36-4c29-9d85-206a32a698e1
+stars,Location,A symbol that represents a constellation.,6f79bfdc-ae2b-4e7f-8853-d14390b173fe
+subtle,Location,Describing something that is not very obvious or noticeable.,e6fe0988-b7b8-4a33-9bee-1357dbe25211
+sparkle,Location,"To shine with a bright, flickering light.",64292574-4534-44d7-a01b-9a3952307529
+festive,Location,Describing something that is related to a festival or celebration.,3cb3207b-8a00-4654-b109-4c38c8dd1737
+snooze,Location,To sleep for a short period of time.,71ae3617-99c5-4001-bd65-317cb2841912
+white-company,Location,A company that sells products related to home and lifestyle.,139720b7-34bc-49a1-8fe6-28ef64ddebc8
+has-got,Location,To have or own something.,72c4f601-2a22-4baf-b729-96423d2ad560
+spectacular,Location,Describing something that is very impressive or remarkable.,1e674af2-30a4-4f3f-92dc-a444fc4b36cb
+pre-lit,Location,Describing a tree that has lights already installed on it.,66dd19a1-3546-4c25-b4f1-9dae6b955739
+grand-spruce,Location,A type of tree that is often used as a Christmas tree.,3b011d69-93c4-4cab-ba3c-49fe01018220
+christmas-tree,Location,A tree that is decorated with ornaments and lights and is placed in the home during the Christmas season.,a90b3f7f-b650-4d22-b3fe-766096210840
+7.5-ft,Location,Describing something that is 7.5 feet tall.,208344b4-f5aa-4c5a-a35a-87b1308dae4f
+high-quality,Location,Describing something that is of good quality.,03381bc0-0656-4df7-90d6-35bdd51423d5
+faux-foliage,Location,Describing leaves that are made to look like real leaves but are not.,fec61141-3574-4cea-96bd-d61cdd99b845
+The White Company,Organization,"A British luxury lifestyle brand that sells clothing, homeware, and beauty products.",7f3f4bfc-538e-4101-a9ca-dde4fe12f36b
+John Doe,Person,A fictional person.,2bc64f76-cca6-4d31-83e2-7ada8286949c
+Myrrrh,Concept,A resin obtained from a number of plants in the genus Commiphora.,6908adec-12cc-4bc5-8fe2-eb29a42407d4
+Fir Tree,Concept,"A tree of the genus Abies, in the pine family.",b5bb47a5-ff92-4ca2-8733-ec31fac48568
+Nordic Wood,Concept,A type of wood.,86dcd7cf-e747-475e-84af-2aca06f4d5fb
+Champagne,Product,A sparkling wine.,a3d82975-ecde-4f60-8dd5-51aa1313ef43
+Oversized Puffer Coat,Product,A type of winter coat.,6be7f37d-4ecd-4e16-a8db-5e0af25b3dab
+Down-filled Quilted Puffer,Product,A type of winter coat.,91889719-904c-4b4b-8ffd-6b2eac955934
+Champagne Trug,Product,A type of serving vessel.,298c78a1-765e-484a-aa15-5a4300da10e4
+mariah carey,Person,A famous American singer and songwriter.,63420bc8-a943-41e4-a9a3-ed6913fc7eb3
+pepper min t mocha s,Product,A type of chocolate drink.,2d1ebb12-c98f-4724-bbbb-e3fa1d914b48
+gov ee,Organization,A company that manufactures electronic products.,2a26fa65-4489-40b3-92f7-ad7d8b867efa
+amazon,Organization,A large online retail company.,36a7e024-dbbc-4d55-9f59-a664f8990dd8
+halloween,Event,An annual holiday celebrated on October 31st.,249087a9-d6ed-48ac-8588-f74ffa56b22d
+october,Month,The tenth month of the year.,87dc9e91-37d1-496f-8d2c-2b885e4f5323
+2023 holiday season,Event,The holiday season that takes place in the year 2023.,1d98b5c6-3967-49b5-a7a8-030f7ba41ec5
+m1 led strip light,Product,A type of light strip.,cd6f4865-6f9c-4c88-85b2-c0772e348690
+google,Organization,Google is a multinational technology company,5d0535af-c83e-463d-b728-199e73de26b6
+amazon,Organization,Amazon is an American multinational technology company,b6f3a80c-2444-4a35-afec-0932d1011898
+gov,Organization,The government is an organization responsible for governing a country or a community,d189ace0-03a2-4c51-b9bb-bb7b66d0b4ba
+pixel buds pro,Product,Pixel buds pro is a type of earbuds,23bcd390-b8ed-4e21-a66c-f582dbe5cff9
+wellbots,Organization,Wellbots is an online store,273b6d85-e094-4900-8017-d508dc92d4fb
+verge,Organization,Verge is a technology news website,576ed44f-bfc8-4c59-baf6-3ddd3d1e68ae
+google pixel watch,Product,Google pixel watch is a type of smartwatch,fda26b06-e0bb-449d-bc24-ab84d2b46357
+google pixel watch,Product,google pixel watch,0ba1df37-424b-49b5-8c8a-96f96e391386
+google,Organization,google,980399f8-8a0d-4346-ac13-f6fc80b831cb
+fit ##bit,Concept,fit ##bit,384f647b-6bd3-4630-93ff-ced70a6bfad7
+verge,Organization,verge,2d788619-8928-43c8-9562-d14616ef483a
+youtube music,Product,youtube music,d67c0c1a-678d-4624-b728-175b4298d52e
+well ##bots,Organization,well ##bots,06cc3c7f-e9d9-4eb5-a556-c017f2e11718
+microsoft,Organization,microsoft,eb09489e-01b0-4b3d-815b-7eeadc893247
+steve jobs,Person,steve jobs,eb6d05d1-3cd0-41cd-a8dc-f3a66c054adf
+apple,Organization,apple,632b68a1-b2b9-4dee-a191-ba134867af95
+france,Location,france,6b0061e8-2643-484c-b8d9-0804475554c9
+paris,Location,paris,108e583f-8545-4d98-8445-4149662af311
+Blink Video Doorbell,Product,"A video doorbell that offers motion-activated recording and alert notifications, night vision, two-way audio, and up to two years of battery life.",830ecb24-ad50-4586-9cd5-81a75b825fd5
+Blink Outdoor Security Camera,Product,"A security camera that is battery-powered, has a wider field of view, and supports person detection.",3821cd9e-61a9-4a51-822a-01c2bc970555
+Amazon,Organization,An online retail company that offers a wide range of products and services.,b1ac481b-05fe-4c54-94a8-6d2cb21cc175
+"stay ahead of the trend in fashion and beyond with our free weekly lifestyle edit newsletter stay ahead of the trend in fashion and beyond with our free weekly lifestyle edit newsletter please enter a valid email address please enter a valid email address sign up i would like to be email ##ed about offers, events and updates from the independent. read our privacy notice thanks for signing up to the lifestyle edit email { { # verify ##er ##ror ##s } } { { message } } { { / verify ##er ##ror ##s } } { { ^ verify ##er ##ror ##s } } something went wrong. please try again later { { / verify ##er ##ror ##s } } if you ’ re in the midst of a new relationship this holiday season, you may be faced with the opportunity to introduce your significant other to your family. however, it ’ s likely you ’ ve found yourself mu ##lling over an array of reasons why the holidays may not be the right time for such an introduction. the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",Product,stay ahead of the trend in fashion and beyond with our free weekly lifestyle edit newsletter,b30f9467-6998-442d-ad3f-d04fab183fe6
+email,Concept,"email ##ed about offers, events and updates from the independent. read our privacy notice",16676009-d9b4-41ac-8893-f2116b463696
+lifestyle edit email,Product,stay ahead of the trend in fashion and beyond with our free weekly lifestyle edit newsletter,b98d4597-e684-4fc5-a721-eff8a1998077
+"offers, events and updates from the independent. read our privacy notice",Product,"email ##ed about offers, events and updates from the independent. read our privacy notice",8c896666-e024-4900-bf71-685d16917b2d
+holiday season,Time,"the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",268e9653-fd7f-4dbd-bef1-296377779b96
+new relationship,Time,"the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",183c39fe-1b89-4c6a-859e-e0ee6fb90df1
+christmas,Time,"the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",64106049-0813-4f01-95c7-be50c877fffd
+han ##uk ##ka ##h,Time,"the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",539fc7b6-7c46-4752-a0cc-2c1d3557e460
+new years,Time,"the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",7d34079a-7b6f-41e9-97d2-c55ee63a208e
+family drama at the dinner table,Time,"the holiday season is often perceived as the most wonderful time of year, but that ’ s not necessarily the case for everyone. in a recent poll from the american psychological association, 41 per cent of us adults said their stress levels increased from november to january when compared to other months of the year. nearly 50 per cent of americans also described their stress level during the season as “ moderate ”. everyone has different concerns leading up to christmas, han ##uk ##ka ##h, or new years - from family drama at the dinner table to a small spat ##s with your mother about",8156bbbd-8d3f-4d04-b980-cf979f1c22d4
+Independent,Organization,Independent,16e27f93-4ca2-49ad-ba48-9da1974e19a9
+Raquel Za ##r,Person,Licensed Marriage and Family Therapist at Spark Chicago Therapy,78a6f99a-788d-4b39-9ad1-10dc75869ac6
+Take Root There ##ap ##y,Organization,Licensed Marriage and Family Therapist at Take Root There ##ap ##y in California,81907455-9622-4776-8691-1d778d2d1393
+California,Location,Location,bd34c49f-7410-4055-8b15-28b959846def
+Holidays,Event,"An event that occurs during a specific period of time, often associated with celebrations or festivities.",a83289ae-5374-43f5-81be-efda2afd6eed
+get ##ty images,Product,A type of image that is often used to convey a specific emotion or feeling.,422118e1-a525-489b-9604-1197df9e6a4a
+Communication,Event,The act of exchanging information between two or more people.,5c4585a8-0100-42a0-ad4e-4a5518aa2d05
+Family,Group,"A group of people who are related to one another by blood, marriage, or adoption.",30eea8cb-b85b-4b3f-b86e-e0f92090c902
+significant other,Person,A person with whom one has a romantic or intimate relationship.,429a2e2c-a818-4007-9786-8325b32f0b1c
+Partners,Group,A group of people who are working together towards a common goal.,ff2807a2-97cb-4ebc-9b2f-39a38d837345
+Relatives,Group,"A group of people who are related to one another by blood, marriage, or adoption.",85946e1b-5625-4810-b304-8cb967767778
+Parent,Person,A person who has given birth to or adopted a child.,9d1dda70-0a4d-45a4-beb1-e2386fc30261
+Microsoft,Organization,"A multinational technology company that develops, manufactures, licenses, and supports a wide range of software products and services.",857fae23-e689-4e03-83d7-a49d32bbf9de
+Apple,Organization,"A multinational technology company that designs, manufactures, and markets consumer electronics, computer software, and online services.",9bea26c4-fbaa-4ba4-be47-811ecda16ea8
+stress,Concept,Stress is a feeling of emotional or physical tension.,c424713d-a596-447d-93b1-e8f125053db2
+lu ##rie,Person,Lurie is a relationship expert.,a9b2f1ac-7b8e-4cce-bd45-68874a985c9f
+family,Concept,Family is a group of people related by blood or marriage.,611c47d9-be44-46bc-88b6-f651d0e2b105
+family,Family-Relation,The people who are related to you by blood or marriage.,1a3dd42d-6a97-456a-9078-786a68838a7e
+parents,Family-Relation,The father and mother of a person.,5603d332-5f58-4aaa-96a0-fbd855f42be5
+siblings,Family-Relation,The brother and sister of a person.,84c10494-04be-44e7-bc7d-527e7882e4ba
+extended family,Family-Relation,The relatives of a person who are not part of their immediate family.,eb9ab8ac-a917-40c2-9fda-c1f285278387
+partner,Romantic-Relation,A person's significant other in a romantic relationship.,aa4d559a-0393-41fe-b6c6-cee414301a1e
+holidays,Concept,A period of time set aside for celebration or recreation.,8e17f180-1c89-48a2-8cb3-586bb7a285fa
+intro ##sp ##ect ##ive,Concept,The act of looking at something in a detailed way in order to understand it better.,ac8698f0-43ab-406e-a0c8-d76ed36139b2
+navigate ##d,Concept,The act of successfully passing through or around something difficult.,72476f6b-4bb3-44c2-88ba-9e2410ec1878
+origin,Concept,The place or situation from which something comes or is derived.,618893ed-dc5d-4683-a6b6-9571cc4c40e4
+relationship expectations,Concept,The standards and behaviors that two people in a relationship have for each other.,75c4692c-6a0a-4fed-be00-038bc30a034d
+significant other,Romantic-Relation,A person's romantic partner.,85055585-aca4-4cb5-bc23-eea9164b3f0b
+kentucky sports betting,Event,The launch of retail and online sports betting in september 2023,28034007-68de-44c6-8b56-b3d75f88393a
+governor,Person,"The person who announced that roughly one month since the launch, upwards of $ 250 million has been wage ##red and that roughly 500, 000 mobile accounts have been created for online sports ##books",425d82fb-fdb8-458d-b40b-efa46ea16bef
+fan due l,Organization,"FanDuel is a major player in sports betting with a wide variety of markets, sports, and leagues.",ee7696c0-f7c9-4d0f-821f-ee16a3cf4e72
+draft king s,Organization,"DraftKings has emerged to be another popular sportsbook that gives you more ways to ""have skin in the game"" and get closer to the games you love.",6120d6a8-65ad-4284-bf54-152a2e82ca7e
+bet mgm,Organization,"BetMGM offers a mobile sportsbook app for all your favorite sports betting games, including all major and professional sports.",577dc446-24dc-4cec-a6f5-4529201beb6e
+john doe,Person,John Doe is a well-known figure in the sports betting industry.,53b9796d-8d28-40ed-bb3a-44992f133b4c
+microsoft,Organization,Microsoft is a technology company.,1a92c07d-165a-493a-9701-660079a1e60d
+france,Location,France is the capital of France and is located in the center of France.,da155b75-1582-423e-8a87-9b4b36fd4f5c
+apple,Organization,Apple is a technology company.,176fc082-6f0d-4af7-8c28-46681a420f4f
+betmgm,Organization,The online sports betting platform,293fdee2-e6d7-4d21-962c-1b7a23312120
+caesars,Organization,A well-known brick-and-mortar casino brand,06a02b33-4b44-4d35-b37b-b3fed5cda831
+uk,Location,The United Kingdom,f8e6c0ff-b865-4140-8cc2-26fc9f12101d
+us,Location,The United States of America,5ecb7bbc-670e-482c-bc4f-05c4384bd6ad
+bet365,Organization,A well-known sports betting company,15ab4502-76ba-4a7e-8850-755cb0db16a1
+kentucky,Location,A U.S. state,2d90f608-9400-4bb5-8c5e-31620ef7957a
+microsoft,Organization,A technology company,6989202d-218b-4f6e-89d6-a4dbc8b478b7
+paris,Location,The capital city of France,030748cc-c648-471d-9d0d-31db00afbc4d
+apple,Organization,A technology company,a759241a-11de-4586-85a3-b43560a31c93
+steve jobs,Person,The co-founder of Apple,e389fdb3-084a-4af1-bdb1-4e5344d06c9d
+books,Product,Books are physical or digital objects that contain written or printed information.,8ed670bd-1299-44a2-a730-096208073ebb
+customers,Person,Customers are individuals or organizations who purchase goods or services.,5c1ad272-ac5b-400c-ab87-6f6c038a95dc
+kentucky,Location,Kentucky is a state in the United States.,faa02fb1-112e-43d1-8a2e-0e65118c95d0
+sports ##books,Product,Sports ##books are online platforms that allow users to place bets on various sports events.,a15a9f16-7e9a-4dd9-9e77-944565d0b75f
+fan ##atics,Organization,Fan ##atics is a sports ##book and online retailer.,285c1dcf-9865-4022-9bc0-d4ee234d3272
+sports ##book,Product,A website or app that offers sports betting and related services.,15102af3-04fb-4469-925b-9ce738c299be
+mar ##que ##e games,Product,A type of sports betting game.,5f1fc085-cb7b-4135-a3e1-1e07f4b8bbda
+trend ##ing bets,Product,Bets that are popular or gaining in popularity.,87a68702-7b4c-40a2-954b-2c52c7f0f113
+promo ##s,Product,Special offers or promotions.,64b4516d-b708-4c64-96eb-123b4dd10ebe
+rewards,Product,Incentives or benefits offered by a sports ##book.,ffe4fbc3-ba90-4208-bffb-5d03b5cdf046
+draft ##king ##s sports ##book,Product,A sports ##book offered by draft ##king ##s.,f76698e1-d40e-4ae0-bf96-ae82aed644cb
+variety of betting markets,Product,Different types of sports betting markets offered by draft ##king ##s.,90209db3-20a5-473c-a08b-f741387cfd02
+its rewards program,Product,A program offered by draft ##king ##s that rewards customers for their betting activity.,4bcf1aa3-b06f-4948-981b-86accbfff7d2
+earn points,Product,A way for customers to earn rewards points by betting on sports at draft ##king ##s.,9caff90c-b716-441c-a07e-a74a1e3e6576
+redeem points,Product,"A way for customers to redeem their rewards points for free bets, merchandise, or d ##fs entries at draft ##king ##s.",4b4bf3cc-8b2a-443d-a336-7a37d250ed5f
+new customers,Group,Customers who are new to draft ##king ##s.,2f6277d3-1777-40c3-9065-5519fce61f76
+bet $ 5,Action,The action of placing a $ 5 bet with draft ##king ##s.,0978e7de-7ff3-4da5-9e6c-7d8032f8e843
+receive $ 200 in free bets,Action,The action of receiving $ 200 in free bets from draft ##king ##s as part of their promotion.,fddb08a3-221b-4c4b-97f7-17791aa0bf26
+the sports ##book,Product,A website or app that offers sports betting and related services.,1a735e6d-d8e4-49b6-b0a4-28b97b401628
+fan ##due ##l sports ##book,Product,A sports ##book offered by fan ##due ##l.,a577699a-d3dc-4b4a-96e9-e5ddaf3bc9c0
+chief competitor,Group,The group of companies that are draft ##king ##s' chief competitors.,50fdac5f-cfb6-4bb9-9468-853e01b64a38
+live betting markets,Product,A type of sports betting market where customers can bet on events that are already in progress.,a031dfb4-4170-420d-a71c-5f413049a1d2
+sg ##ps,Product,A type of sports bet that is based on a statistical performance or outcome of a player or team.,d479d804-209d-4dae-9e14-101dfa207216
+bet ##mg ##m sports ##book,Product,A sports ##book offered by bet ##mg ##m.,42e0fc14-35de-4dcb-8906-929f3f87e9ad
+sign ##up offer,Product,A special promotion or offer that is available to new customers when they sign up for a sports ##book.,0560f86a-1c17-4349-9d4e-269258c1f939
+cater ##s more to larger players,Product,The sign ##up offer at bet ##mg ##m is designed to attract and retain high rollers or customers who are likely to bet large amounts of money.,4005caa3-c576-492b-8bf1-3badb507be9b
+a $ 1500 risk free offer,Product,The sign ##up offer at bet ##mg ##m that will credit a customer with bonus bets in the event their first real money wage ##r loses.,a34ebf37-81de-4ac0-b4fb-2228ff0fb7f4
+boost ##s,Product,A special promotion or offer that increases the odds or payout of a bet.,9bdb2cfb-4a97-45d7-9293-d0daddd6d058
+smaller players,Group,The group of customers who are likely to bet smaller amounts of money.,3ad4c3f0-bfd1-4115-bdd9-6c0fe467e94e
+token ##s,Product,A type of bet or wager that is offered by a sports ##book.,2328398e-9026-4eec-8d8c-177166d51a09
+the other sites,Websites,List of online sportsbooks,75ce2753-5742-4a15-910d-c5ff3eb5c8dc
+mgm resort,Resorts,MGM Resorts International,3a5992a4-4b94-45e8-87a7-2109e2ac7fc9
+caesar s sportsbook,Sportsbooks,Caesars Entertainment,4142dbfd-bb38-4a94-9687-ad9cf4960a5d
+bet 365 sportsbook,Sportsbooks,Bet365,6d800543-113a-4f84-9ae0-4c01d67efaba
+kentucky,U.S. States,Kentucky,b20ae3d3-b4c8-4604-ac26-6a08047d1af2
+Kentucky,Location,The Bluegrass State,ece29bd2-8ef5-446c-90e3-33d08f77a0be
+Kentucky Wildcats,Sports Team,One of the most iconic college basketball programs in the nation,ead995f9-669f-4b7e-aa50-239d77805867
+John Calipari,Person,Legendary college basketball coach,f936f942-7125-4021-a5af-b722eabec164
+a national title in 2012,Event,Kentucky won a national title in 2012,acb9cb71-74dc-4494-b9f3-ed0aaf333f1a
+"the program ' s 2, 02 ##1 - 63 ##7 all - time record",Concept,The program's 2021-63 all-time record,e718d8ad-24f0-4891-8edf-8b991f152d1f
+"kentucky has also found more success on the grid ##iro ##n in recent years in the sec, including a dozen bowl appearances since 2006",Event,"Kentucky has found more success on the gridiron in recent years in the SEC, including a dozen bowl appearances since 2006",154fc9e0-2b26-4f55-bbf1-ffb671dc2c26
+louisville cardinals,Organization,The Louisville Cardinals,364868df-c5ef-47c5-8be4-d70cd864cf4f
+"the wildcats have the historic edge, but louisville basketball won the more recent national title, cutting down the nets in 2013",Event,"The Wildcats have the historic edge, but Louisville basketball won the more recent national title in 2013",a471d5db-3e68-451b-8f6b-c752347473a3
+louisville has also become a bigger name in the college football world in the past couple decades,Event,Louisville has become a bigger name in the college football world in the past couple decades,a3f4c729-81de-4d65-aa15-76a7208e554b
+lamar jackson,Person, Lamar Jackson,81aae9b5-a931-4876-b4b5-bf93c03caa24
+western kentucky hilltop ##pers,Organization,The Western Kentucky Hilltoppers,d4dfb508-206f-4f4e-9a49-d89becf27cee
+uk or louisville,Organization,Kentucky or Louisville,cf1905e7-ebc3-4dbf-b3f3-a05832265f5c
+nine winning seasons since that point,Event,Nine winning seasons since 2009,35ca0ce1-4027-4a8b-8be8-3f414aa0b4bd
+cincinnati bengals,Organization,The Cincinnati Bengals,0c663c44-e254-4622-8a15-bfbb530e575a
+big four,Professional Sports Team,"The 'big four' professional sports teams in the United States are the four major professional sports leagues in the country: the National Football League (NFL), the National Basketball Association (NBA), the Major League Baseball (MLB), and the National Hockey League (NHL).",3a0fb0eb-617e-49d5-a4ab-b5da5c4f58b8
+kentucky residents,Person,"Kentucky residents are individuals who live in the state of Kentucky, USA.",36e28a22-0f39-462c-ba1b-5b3a7647abe1
+cincinnati bengals,Professional Sports Team,"The Cincinnati Bengals are a professional American football team based in Cincinnati, Ohio.",6a089e75-79e3-4240-b0e4-409f849b3c23
+marvin lewis,Person,Marvin Lewis is a former American football player and coach. He is currently the offensive line coach for the New England Patriots.,7d7fc023-bf05-4ab4-97f3-9336c3a3a7cc
+joe burr ##ow,Person,Joe Burrow is an American football quarterback for the Cincinnati Bengals of the National Football League (NFL).,1352e5cc-b502-41dc-b502-d49357c6fdf8
+ja ' mar ##r chase,Person,Ja ' Marr Chase is an American football wide receiver for the Cincinnati Bengals of the National Football League (NFL).,f2990ab9-1c67-4b66-8819-d201d215620a
+indianapolis colts,Professional Sports Team,"The Indianapolis Colts are a professional American football team based in Indianapolis, Indiana.",25fbfc68-c6b0-43ad-87c8-e7da7fb2db6c
+tennessee titans,Professional Sports Team,"The Tennessee Titans are a professional American football team based in Nashville, Tennessee.",b0a4b949-5e1e-464c-823b-f4bbbdd64484
+cincinnati reds,Professional Sports Team,"The Cincinnati Reds are a professional baseball team based in Cincinnati, Ohio.",ceb1b695-f1ba-400a-951f-e868cb69b08b
+st. louis cardinals,Professional Sports Team,"The St. Louis Cardinals are a professional baseball team based in St. Louis, Missouri.",a86cc6ab-dd3a-451a-85f8-2644a7094cb9
+mlb allegiance ##s,Concept,MLB allegiance ##s refer to the teams in Major League Baseball that fans of a particular region or country tend to support.,6741fbfb-a344-443d-910f-1876714eb5b3
+kentucky residents,Person,"Kentucky residents are individuals who live in the state of Kentucky, USA.",a1d3aa74-35a8-4e8d-81fd-e3b1201ccae7
+cincinnati reds,Professional Sports Team,"The Cincinnati Reds are a professional baseball team based in Cincinnati, Ohio.",e8b542c4-e703-4a70-ba20-f6a6702370c5
+st. louis cardinals,Professional Sports Team,"The St. Louis Cardinals are a professional baseball team based in St. Louis, Missouri.",601bad23-b23a-4be7-8038-7c5a156260db
+mlb allegiance ##s,Concept,MLB allegiance ##s refer to the teams in Major League Baseball that fans of a particular region or country tend to support.,c4fd9f3b-2a71-4991-9dd7-3ceffca0acad
+cardinals,Professional Sports Team,"The St. Louis Cardinals are a professional baseball team based in St. Louis, Missouri.",63f67efe-595d-40c7-b7c5-ba50b6fb9e9d
+reds,Professional Sports Team,"The Cincinnati Reds are a professional baseball team based in Cincinnati, Ohio.",7054b543-7abf-4b4d-b372-d7f8e31d833e
+cardinals,Professional Sports Team,"The St. Louis Cardinals are a professional baseball team based in St. Louis, Missouri.",04652816-0ff0-4e56-b47b-37eca47742f4
+reds,Professional Sports Team,"The Cincinnati Reds are a professional baseball team based in Cincinnati, Ohio.",7e72f3e4-2a17-48bb-92fb-f22c0d0359e9
+cincinnati cardinals,Professional Sports Team,"The Cincinnati Cardinals are a professional baseball team based in Cincinnati, Ohio.",6a1709fb-d6f2-44e1-9179-bc59a7ed78c8
+cincinnati reds,Professional Sports Team,"The Cincinnati Reds are a professional baseball team based in Cincinnati, Ohio.",c6582ce8-aa53-4878-a4a1-9449a86f5767
+mlb,Professional Sports League,"MLB, or Major League Baseball, is the highest level of professional baseball in the United States and Canada.",40ba1816-1877-418d-b72f-96363b43736f
+mlb,Professional Sports League,"MLB, or Major League Baseball, is the highest level of professional baseball in the United States and Canada.",5b5a2933-3679-4425-b0cb-08379709197c
+cincinnati reds,Professional Sports Team,"The Cincinnati Reds are a professional baseball team based in Cincinnati, Ohio.",bd42d408-bc0c-4f50-8dd6-a244d3522dba
+st. louis cardinals,Professional Sports Team,"The St. Louis Cardinals are a professional baseball team based in St. Louis, Missouri.",01f8910a-fc9d-4145-8975-cc342079666e
+mlb,Professional Sports League,"MLB, or Major League Baseball, is the highest level of professional baseball in the United States and Canada.",3715e9f1-0079-4840-ac8a-e23ca83de71a
+mlb,Professional Sports League,"MLB, or Major League Baseball, is the highest level of professional baseball in the United States and Canada.",05dc5c6d-6ef4-4e65-a331-3c3a1aa15308
+Kentucky,Location,Kentucky is a state located in the eastern region of the United States.,01c8b5a6-690f-4904-aab4-ff386a741b9d
+Louisville,Location,Louisville is the largest city in the Commonwealth of Kentucky and the 29th most-populous city in the United States.,328c3f69-50c8-4b6e-9e9f-d4cf4156c52e
+Florida,Location,Florida is a state located in the southeastern region of the United States.,ef720df6-d721-4e4d-99a4-c63eaeecc36b
+Kentucky Wildcats,Sports Team,Kentucky Wildcats is the name of the intercollegiate athletics programs representing the University of Kentucky.,83739600-dedc-4bed-a268-202287e9a6be
+Louisville Cardinals,Sports Team,Louisville Cardinals is the name of the intercollegiate athletics programs representing the University of Louisville.,4259ed33-f410-40a7-accc-a75270c8f952
+Kentucky Derby,Event,"Kentucky Derby is an annual thoroughbred horse race held in Louisville, Kentucky, United States, on the first Saturday in May.",a44e3da5-fd07-41d2-9ed6-9d752fc561ff
+March Madness,Event,March Madness is the nickname for the NCAA Division I Men's Basketball Tournament.,4608dc74-5bdd-4719-9bf5-d3542215350b
+National Collegiate Athletic Association,Organization,National Collegiate Athletic Association is an organization that regulates college athletics in the United States.,555706d1-70f1-4767-8059-a8a3fc529759
+stat,Concept,A statistical measurement or indicator,ccee497b-cd88-46eb-8eb0-deae08fb5fb0
+game,Concept,A competitive activity or contest played according to rules,cac643f6-ed74-4bea-a2bf-bfdecb09a92f
+player,Person,A person who participates in a sport or game,60be0abc-71fe-49bc-99bc-50a00832b5a5
+quarterback,Person,A player on a football team who throws the ball,9f51b69a-b0b4-43dc-af76-bbc069c6baa6
+three - point shot,Concept,A shot in basketball worth three points,1648e1d6-f4cd-4339-bd6e-909327f736ec
+under ##dog,Concept,A team or individual that is expected to lose,b21f8372-2c95-4bfc-a0e1-5bd6ceca35c8
+favorite,Concept,A team or individual that is expected to win,0ec6a35e-5600-4201-9fc8-b195f596d55a
+odds,Concept,The probabilities or chances of something happening,781cf00e-d7ef-4193-8460-dfdb5bdd4239
+sports ##book,Organization,A business that takes wagers on sports events,b30b4ccd-9536-4d6b-aa21-cd98cd71bc60
+futures,Concept,A bet or wager on an event or outcome in the future,9ededdad-9091-4f9d-ab0a-5cbef501bd0b
+total regular - season wins,Concept,The number of wins a team has during the regular season,c1f616c0-e62b-49e0-8d8b-35a6b26ca1a8
+championship odds,Concept,The probability or likelihood of a team winning a championship,8c03467f-b572-4a25-aa7f-97d6e78b813c
+mvp odds,Concept,The probability or likelihood of a player being named the Most Valuable Player,15237664-cfba-4f7e-ad17-886b72c7955e
+par ##lay,Concept,A bet where multiple wagers are combined into a single wager,8e2e7dfe-9ced-40bb-8979-3558b2f028e1
+three - leg par ##lay,Concept,A par ##lay with three legs,9779ecf2-4055-42a5-b92e-06406ab8f06a
+juice,Concept,The amount of money a sports ##book charges to handle a wager,a7172621-272d-4fc9-96d9-7063682a5284
+push,Concept,A situation where neither the bettor nor the sports ##book wins,528326d7-c50a-41f1-a0b5-c1b51bc576b2
+in - game betting,Concept,The practice of placing wagers on sports events while they are in progress,49c0536a-224b-45f8-aa70-dbf36105f54d
+the best sports betting sites in the country,Location,the best sports betting sites in the country are focused on vermont,4a566830-4eac-46b4-9064-966c97c99daf
+##atics sports,Product,A sports betting platform,f9398649-dd3e-4b39-980f-12bcef68c02f
+tb,Concept,A measurement unit,6e7f9f9c-456d-42d1-93f2-ce706011dd8a
+"espn bet sports ##book tb ##d tb ##d tb ##d best vermont sports ##book promo codes vermont ' s new online sports betting law author ##izes up to six sites to launch in the state. five operators applied for licenses, and as of today fan ##due ##l, draft ##king ##s and fan ##atics are already scheduled to launch on jan. 11, 202 ##4. bet ##mg ##m and espn bet are also among the applicants, making them possible candidates to launch in vermont in the new year as well. here are details regarding those five online sports ##books and their welcome offers. fan ##due ##l vermont promo code vermont already knows fan ##due ##l thanks to its daily fantasy sports site. fan ##due ##l sports ##book is one of the most popular across the us, and fan ##due ##l has already applied for a license to launch in vermont. fan ##due ##l has a great welcome offer inviting new sign - ups simply to make an initial $ 5 wage ##r and get back $ 200 in bonus bets. meanwhile, for vermont bet ##tors fan ##due ##l is running an early sign up special that gets you an extra $ 100 in bonus bets for signing up early between now and jan. 10, 202 ##4. that means you can receive a total of $ 300 in bonus bets to get you started at fan ##due ##l sports ##book vermont. you can read more about fan ##due ##l sports ##book vermont ' s pre ##li ##ve offer here. you can bet on around two dozen different sports at fan ##due ##l. the site",Location,Vermont,8a1c760c-4e2b-4dc8-b7b4-8800bbb3a241
+fan ##due ##l,Organization,A sports betting company,3fe29edf-a6ea-4080-95bf-2df7a1f24282
+fan ##atics,Organization,A sports betting company,ab084cc0-3669-4066-9767-103402bd4278
+draft ##king ##s,Organization,A sports betting company,b306808e-4a44-40d7-a143-f6e1ead0d0b5
+bet ##mg ##m,Organization,A sports betting company,08b959de-afa0-4cf5-bf5b-a6245071c403
+espn bet,Organization,A sports betting company,c1cea701-7227-4442-9f50-4ce8a0ae4916
+fan ##due ##l sports ##book,Product,A sports betting platform,10b79d6d-07cb-4d02-aa81-6cd037cfa2b5
+fan ##due ##l sports ##book vermont,Product,A sports betting platform,bc0e2acd-5c61-4b70-8a34-2ae941038add
+fan ##due ##l pre ##li ##ve offer,Product,A sports betting promotion,b65225c6-3df7-45ab-beb1-727b7b700b9e
+"jan. 11, 202 ##4",Time,A specific date,be441a34-6224-47bb-8f58-b53b4f7d3a74
+"jan. 10, 202 ##4",Time,A specific date,4e7d6d09-632c-4b2f-95d9-027e8a2fb70a
+FanDuel Sportsbook,Sportsbook,A sportsbook where users can bet on various sports events,1d60062e-235d-44d6-a035-75e8db4788ba
+jan. 11,Date,The date when the FanDuel Sportsbook will go live,60385458-8c35-43be-be07-666161642e67
+FanDuel,Company,The company that operates the FanDuel Sportsbook,2d2d5fc9-ac7d-4786-8e72-476d100349cc
+et,Time Zone,The Eastern Time Zone,d0ba432e-4d77-4231-b6be-0ea8bd30e11b
+2024,Date,The year when the FanDuel Sportsbook welcome offer is available,795beb89-4b21-4d41-8dc8-96a1e3bdf0ed
+"January 10, 2024",Date,The deadline by which users must register for the FanDuel Sportsbook welcome offer,370f46be-7f56-49ae-b78f-2ad362009bb2
+United States,Location,The country where the FanDuel Sportsbook is available,67e5df7e-664d-4265-8d6c-45cc58f5c83d
+FanDuel Sportsbook,Sportsbook,A sports betting platform.,24a6b5d8-65c6-454e-b7a3-b1bc9c0999c0
+Vermont,State,One of the 50 states in the United States.,55ed6edb-e9ae-442e-aea5-65cf21db9209
+NBA League Pass,Sports League Subscription Service,A subscription service that provides access to live games and other content from various professional basketball leagues.,741ab2de-8446-4e4d-ad4b-e2da1f2fad04
+offer,Product,a promotion that provides something for free or at a reduced price,02588a40-d452-4681-ac74-6d51934a0ada
+bonus bets,Product,a bet that is placed with money that is given by the bookmaker,70e50358-8181-4980-8179-77289bf829ed
+FanDuel Sportsbook,Organization,a sportsbook,c9222e32-4496-4b87-90cb-b1e7586f8a38
+jan. 10,Time,a specific date,90d14fa3-a84d-4632-84ba-b2c44731e390
+Vermont,Location,a state in the northeastern United States,c759353f-9926-4778-8226-4ceefff223eb
+d ##fs,Concept,a sports betting platform,52113935-4fc3-403f-a328-2949a8970ac2
+draftkings,Organization,a company,ef6214ed-b489-4def-b28c-84fc762da39b
+DraftKings Sportsbook,Organization,DraftKings Sportsbook is a sports betting platform.,826625c7-3044-46ee-91a0-ced7aae4f819
+John Doe,Person,John Doe is a user of the DraftKings Sportsbook.,146dc1ba-6a43-4c19-87fa-aaf9f9252896
+Steve Jobs,Person,Steve Jobs is a co-founder of Apple.,a0bb9d6e-0273-4c81-9545-ca38ce89e15a
+Apple,Organization,Apple is a technology company.,d844a00c-5033-42e7-9439-3611a6f7c06d
+DraftKings Sportsbook,Organization,A legal online sportsbook and daily fantasy sports provider.,e3fa9fd6-b256-49eb-8e1d-1b490a7438b2
+Vermont,Location,A state in the northeastern United States.,dfdc802f-0850-4515-86e5-52cb49b7591b
+Multi-part Welcome Offer,Concept,A promotion that offers multiple bonuses or rewards.,347635aa-65cc-45c2-af9c-54f79aa6462c
+Bonus Bet,Product,A promotional bet that can be used to place wagers but does not result in real money winnings.,9bc62532-9f87-4e9f-9111-5cfca5a00402
+Wage,Concept,The amount of money bet on a sports event or other wager.,85bd3253-a6e6-4072-8b53-d2e8197ad4da
+Deposit Match Bonus,Product,A bonus that matches a percentage of the player's deposit.,7d7be0be-d82c-42cb-8d5d-afd4ab9415e3
+DraftKings Sportsbook,Sportsbook,A sportsbook that offers betting on various sports and events,f379769a-7151-46c3-a561-acfdaabb1b9e
+BetMGM Sportbook,Sportsbook,A sportsbook that offers betting on various sports and events,2eac1290-f775-4cd8-b25a-71b3147d3ea6
+Vermont,Location,A state in the northeastern United States,f7615530-7fbd-45ad-acc2-4c9cac058ded
+United States,Location,A country in North America,fd5c9bb4-8497-4716-930a-45e5bd13d48b
+betmgm sportsbook,Product,A sports betting platform,ae7becab-9c73-4927-8411-d706ebada35e
+betmgm,Organization,The parent company of betmgm sportsbook,f7e59170-f0e5-4cec-bf7a-f1aceff98834
+free pools,Product,A feature offered by betmgm sportsbook,6d3b13f5-29e5-49f7-bc1f-e4944cb6a81d
+ongoing refer-a-friend bonuses,Product,A promotion offered by betmgm sportsbook,d0d85ee9-42b9-489e-b2d7-e51532c61074
+more,Product,A feature offered by betmgm sportsbook,58b1f8b0-881e-47fa-a9ec-ece6af815536
+betmgm rewards program,Product,A loyalty program offered by betmgm,4fed3211-c191-49f6-84d1-ef46653dbdec
+the welcome offer,Event,A promotion offered by betmgm sportsbook,812d5faa-8cb0-48e3-8a53-19eeeeaa3dff
+the bonus code sports pic k,Concept,A code used to claim a promotion,e9e95134-5ed0-4052-849d-55d34e7c58ee
+betmgm sportsbook account,Product,A betting account with betmgm sportsbook,806f030a-269a-41d8-a714-e096574d2eae
+deposit,Event,The act of adding funds to a betting account,86fa1e48-b09e-4b73-b6f0-dfc7fba15d2f
+first bet,Event,The first bet placed in a betting account,315e6226-4c2c-44f7-b910-4549970b2b64
+bet being settled,Event,The event that occurs when a bet is resolved,9b56cc99-f8e2-45ad-a18f-cf4eeaf802b1
+losing bets,Event,Bets that are not won,850f20f8-b358-4b6e-97dc-fc7b62a62def
+bonus bet,Product,A free bet offered by a betting site,581ff995-9d91-401e-b2ad-dd0085374fc4
+single bet,Product,A bet that is settled as a single outcome,da0f332a-7c35-454a-b290-2fc49559e39e
+ref ##und,Product,The amount of money returned to a bettor in the event of a losing bet,f33b818c-729f-4cd5-81d0-b21362716c56
+bonus bet ( s ),Product,A free bet offered by a betting site,82be32fe-2e2f-4356-9b6b-3f8d30128201
+wage ##r,Product,The amount of money bet on a sporting event,5ae1ddee-dc6f-42de-8a31-00c34441418f
+500 in bonus bets,Product,A bonus bet offer from betmgm sportsbook,d084b31f-e749-44ed-8e13-42c0e4cdadfa
+betmgm sportsbook,Organization,The sportsbook awarding the bonus bet offer,fa7f8d4d-2dc7-435b-a23d-282ccc5b4e2a
+Vermont,Location,The state where betmgm sportsbook is launching,9352fa43-57f4-4d56-bbb6-1c95dc6c4612
+fanatics vermont promo code,Product,A possible promotion for the launch of fanatics sportsbook in vermont,311bbd95-b26d-4935-b4ca-8e9c2477c9a3
+fanatics sportsbook,Organization,The sportsbook that is already scheduled to launch in vermont,5840ab7b-b051-4fe6-8958-de0fe7cba80a
+FanDuel Sportsbook,Organization,FanDuel Sportsbook is an online sports betting company.,8e9abf92-212e-43ef-ad34-8caa4ea93d90
+Vermont,Location,Vermont is a state in the northeastern United States.,ee54d0dd-c195-4903-a4be-f8f51d0467cc
+ESPN Bet,Organization,ESPN Bet is an online sports betting brand.,12b48fba-2161-48ef-bf5c-640ba9ce133c
+Bars & Tool Sportsbook,Organization,Bars & Tool Sportsbook is an online sports betting company.,1d4529f6-64ff-43c3-838e-5d7bbf02af2a
+espn bet,Product,an online sports betting site,dd30f1d0-2579-439e-b019-5e2f8ae0ae88
+virginia,Location,a state in the US,97e03658-30e7-4ff9-965e-de71420664c9
+vermont,Location,a state in the US,2754ea33-248c-4542-a1a6-edd4120dcccd
+caesar ##s,Product,an online sports betting site,da8f1b0c-4e8a-4f3f-bcab-83656684cba3
+united states,Location,a country,62a9c079-9437-418e-aa6e-a8586020c0dd
+site bonuses,Other,Bonuses offered by the site,c5697323-b61d-4cfb-9131-b38eb926f646
+Caesar's Sports Book,Sportsbook,A sportsbook operated by Caesars Entertainment,acc6e815-1a08-451e-9778-d63115898679
+news #100 #0,Bonus Code,A bonus code offered by Caesars Sports Book,7a4f300b-b78f-4c9e-a12d-ae3203aecc66
+Vermont,Location,A U.S. state,bdb0c866-2a98-446a-be99-6806004708d6
+BetRiver Vermont,Sportsbook,A sportsbook that may launch in Vermont,81fda523-b532-484c-b201-e059013b62ae
+BetRiver Sportsbook,Sportsbook,A sportsbook operated by BetRivers,b713be8a-2fe2-4688-ba98-b32aa8d543b3
+Second Chance Welcome Offer,Promotion,A promotion offered by BetRiver Sportsbook that refunds losing wagers,dc3f1e2b-7d1f-426a-a0b2-24ef50ebc7cd
+First bet,Bet,The initial bet placed by a new customer,6bf0bc4a-c110-4edb-a0f2-cf3710c3715f
+Free bet refund,Promotion,A refund offered as a promotion by BetRiver Sportsbook,18f31ece-3242-40e7-b8d5-9394e74b69e7
+Wage #r,Bet,A bet placed with real money,3c56414f-aa19-4464-844d-e3bddcefdf54
+Bet Rivers,Sportsbook,A sportsbook operated by BetRivers,218a9c1b-1ffe-416f-999f-40fbfa49bb1e
+Caesars Entertainment,Company,"A company that operates several casinos and hotels, including Caesars Palace",002c5fda-4a4d-4c45-bfe1-f7ca536784d0
+well-liked loyalty program,Concept,A loyalty program that is well-regarded by customers.,b1939250-bd97-43b5-85cc-bd9bd35a2d21
+irush rewards,Concept,A rewards program offered by a loyalty program.,8cc9e5a8-e02a-4404-b431-b9b2f64d0df9
+betrivers sportsbook,Product,A sports betting platform offered by a gambling company.,371532d6-a200-42e6-82d2-937cc21c8e9a
+bonus code sports riv,Concept,A code that can be used to claim a bonus when signing up for a sports betting platform.,27330bdc-2461-4ffe-af45-0c02d0e3591c
+vermont,Location,A U.S. state.,5cf7c26d-aa32-4bd8-bb05-ba90172633af
+john doe,Person,A person.,4d76b0bb-60f5-4d15-8c77-f7c56203541d
+microsoft,Organization,A company.,06edaa91-34b2-4900-a915-526a03667bf6
+new online betting sites in vermont,Location,new online betting sites in vermont,49e106b6-1464-4360-b76e-383b9244cb09
+deposit match bonuses,Bonus,get up to 100 % of your first deposit matched in bonus funds,32af5a4f-8459-4d53-bffc-c371a0b8d2b5
+sports ##books,Bonus,limit the bonus size you can claim and attach wage ##ring requirements,7e93220e-ae56-481b-9394-58d053a31971
+refer ##ral bonuses,Bonus,"you share a personal refer ##ral code with friends and family, and if they use it to sign up, deposit, and bet, you both get a bonus",55d4933f-dae4-482c-ad96-a01eb3dd6064
+first - bet offers,Bonus,you get a ref ##und if you lose your first bet,a24dd822-50c5-4442-9695-5310bd31bcfa
+odds boost ##s,Bonus,you ’ ll receive better than the usual odds on specific bets,1c141af5-f684-4bf3-87fc-43c4bdb21fe6
+bet insurance,Bonus,get a ref ##und if you lose a specific bet or your par ##lay comes up one leg short,a45f3d9b-1af6-46f4-939b-ef18fc7f4f9a
+bet & get bonuses,Bonus,"here, you ’ ll get a bonus when you place a specific bet",008e284c-797e-4da4-8399-8c0e61ed23a3
+wage_ring_requirements,Concept,Wage ring requirements are a set of rules and regulations that determine the amount of money an employee must earn in order to receive a certain wage or salary.,e0b8e75a-060b-4b8a-bcb7-d58ba2bd2702
+pay_outs,Concept,Pay outs refer to the amount of money that an employee receives as a result of their work or employment.,5b125b30-7c14-4a4d-821b-36d00a5a596b
+bonus_bets,Concept,Bonus bets are a type of bet that is offered by bookmakers as an incentive to customers.,31fe2545-1324-44d7-9289-7bc06ff932b4
+vermont_sports_book,Location,Vermont sports book is a sports betting establishment located in the state of Vermont.,69f47b50-8822-473a-b977-7896362ec2ef
+world_series_odds,Concept,World series odds refer to the odds or probabilities of a particular team winning the World Series.,b1c0b537-b3d1-4fda-88db-ba7739a1fa60
+super_bowl_betting_lines,Concept,Super bowl betting lines refer to the odds or probabilities of a particular team winning the Super Bowl.,3910c919-c02d-42d1-9a64-18e4824b7a5c
+march_madness,Concept,March madness refers to the NCAA men's basketball tournament that takes place in March.,b8efec93-06c9-4285-bd53-1efe80cc3d87
+vermont_online_sports_betting_sites,Location,Vermont online sports betting sites are websites that allow customers to place bets on sports events from the comfort of their own home.,b853a18d-d0aa-4698-8bbe-c27465d24d86
+vermont_sports_book_bonus_and_promo_conditions,Location,Vermont sports book bonus and promo conditions are the rules and regulations that govern the use of bonuses and promotions at Vermont online sports betting sites.,75aee01d-e608-43c3-a888-07e5951c7909
+banking_options,Concept,Banking options refer to the methods by which customers can deposit and withdraw funds from their accounts.,a44c55b9-adeb-4b98-b1aa-ef7ed2cda9cd
+wage_ring_requirements,Concept,Wage ring requirements are a set of rules and regulations that determine the amount of money an employee must earn in order to receive a certain wage or salary.,d83db336-5e64-4deb-914c-0b4132f9858c
+betting_limitations,Concept,Betting limitations refer to the restrictions or limitations that are placed on the types of bets that customers can make.,e8991fdc-d670-404d-8f31-74008b7c82fe
+time_limits,Concept,Time limits refer to the restrictions or limitations that are placed on the amount of time that customers have to use bonuses or promotions.,2c17a96f-517f-46c8-ad5a-cb025e31a5e5
+vermont_sport - specific_betting_promo_s,Location,Vermont sport - specific betting promo s are promotions or bonuses that are specific to sports betting in the state of Vermont.,bd2c7c56-ddb6-46a3-b44d-583f7f9bbe22
+Vermont,Location,Vermont is a state in the northeastern United States.,722290b5-a758-4b1b-93a5-7f7c889ed67e
+Boston Red Sox,SportsTeam,"The Boston Red Sox is a professional baseball team based in Boston, Massachusetts.",1c8adf6e-2786-4941-8a13-639fefe22ebe
+New England Patriots,SportsTeam,"The New England Patriots is a professional football team based in Foxborough, Massachusetts.",8b22d3d5-6738-47ca-a7e6-1f07db920689
+NBA,SportsLeague,"NBA is the National Basketball Association, a professional basketball league in the United States.",f4e67f34-cbe1-4917-9864-90963a5f1765
+NHL,SportsLeague,"NHL is the National Hockey League, a professional hockey league in North America.",86539fbe-d9e0-468b-a7fd-1fe4f5284ed9
+MLB,SportsLeague,"MLB is the Major League Baseball, a professional baseball league in the United States.",31966d5c-8467-4ef1-9365-e1e582697c44
+Vermont Online Sportsbooks,Business,Vermont Online Sportsbooks is an online sports betting company.,beade95f-a70a-4606-a6b8-0f38a61c6b01
+Rani Zim,Person,Rani Zim is an Israeli businessman.,ced348ed-d7d0-4bd7-8e9a-0b9308771c43
+Psagot Investment House,Organization,Psagot Investment House is an Israeli investment company.,4bcc83fc-0556-43b3-9aa5-4916cd632ac1
+Kimat Hinam Supermarket Chain,Organization,Kimat Hinam Supermarket Chain is a supermarket chain.,80ab8f2e-13b4-4e26-8dd6-1671b1cf2172
+Group Psagot for Finance and Investments (TASE: GPSG),Organization,Group Psagot for Finance and Investments (TASE: GPSG) is an Israeli investment company.,b6f90c0e-4195-4fb1-bcbd-814f4ad08434
+Mizrahi Tefahot Bank,Organization,Mizrahi Tefahot Bank is an Israeli bank.,bda6f3f1-2e16-4e82-a0aa-fc3e8e44ca43
+Group Psagot,Organization,Group Psagot is an Israeli financial services company.,b3e521f4-5753-4e34-a1fb-79c604b143e4
+Psagot Investment House,Organization,Psagot Investment House is a subsidiary of Group Psagot.,994f1c97-4e5c-40dc-a05a-6c520e7eae2a
+Mizrahi-Tefahot Bank,Organization,Mizrahi-Tefahot Bank is an Israeli bank.,69e3c97d-6936-4eaa-9e60-9a7d9b46c104
+Series C Bonds,Product,Series C Bonds are marketable bonds.,822c7c62-96e2-4d05-81f3-9298eb4c89b1
+##cle the debt,Concept,To eliminate or pay off a debt.,c026fa86-32e8-4b99-b30a-af90edf0b1de
+bonds,Product,"A debt security, typically issued by a corporation or government, that pays the holder a fixed rate of interest and returns the face value of the bond at maturity.",eabae1f0-8f7c-432f-a8a8-3a043e4d32aa
+group ps ##ago ##t,Organization,A financial services company.,466ee44d-ad97-43a2-9620-32a3c55fda3c
+ps ##ago ##t,Organization,Formerly known as Value Capital.,455dde66-5fab-48f9-8c7c-4168f4e11bbd
+z ##im,Person,The individual who invested in group ps ##ago ##t.,f1c30635-47c5-494f-aaa6-beaf1acb75af
+ni ##s,Number,"A unit of measurement for money, equal to one thousand million.",ae908292-01d7-441c-9f16-e992e022657a
+globe ##s,Media,A global news and media company.,f51d4798-2c0f-4d84-8ebe-d7e50e259bb7
+ps##ago##t,Organization,ps##ago##t is a company,6455bc9c-bd38-42eb-a5ae-bc3819e3c8ff
+yan##iv bender,Person,yan##iv bender is a person,a13f7e52-a1c6-488e-a9b8-ab928b917aac
+group ps##ago##t ceo,Person,group ps##ago##t ceo is a person,359ead78-eaee-4f10-b743-63be8a8026da
+ke##sse##m,Organization,ke##sse##m is a company,e5306ad8-b4c2-4620-9ca8-541a835389bf
+phoenix holdings group,Organization,phoenix holdings group is a company,ae4e5fe1-878e-4e8d-9861-2f94e2127c7a
+ni##s,Number,ni##s is a number,62b3d0bb-df9d-4537-bf78-d144a883d5d5
+Person,Rani Zim,Rani Zim is the chairperson of Group PSAGOT.,d3f4a9b9-e424-4233-b783-b584ef49922f
+Person,Zim,Zim is the founder of PSAGOT.,21201494-b978-4bb0-89b9-617fb2e6e9e3
+Person,Menny Guy,Menny Guy is the founder of Applicheck and the current owner of a 20% stake in PSAGOT.,38cb7e64-bdcc-4004-aa47-aa68f2b7eddc
+Group,PSAGOT,PSAGOT is a privately held company.,4c066b7b-a86c-4db5-87ce-6b092ecbdfe7
+Company,Applicheck,Applicheck is a privately held company.,a3f60495-b9ff-4f4a-9eb8-6acb392b9c8a
+Location,Israel,Israel is the country in which PSAGOT is located.,37f9c725-0dfa-4bae-9d33-2f77d1de875b
+Event,PSAGOT sold control of its main holding in Applicheck to its founder,PSAGOT sold control of its main holding in Applicheck to its founder.,53a2fb14-37bc-4009-8c6f-d339ddf8af34
+Time,October 2023,October 2023 is the month in which PSAGOT took in $1.4 billion.,7d3a9657-995d-4783-981c-57ec6f09e767
+Time,October 2023,October 2023 is the month in which PSAGOT took in $7 billion.,a79f74d3-0e2e-401f-9afd-33f00076254b
+Time,2023,2023 is the year in which PSAGOT took in $7 billion.,60e2f41a-63bb-44c6-bade-4d0b90740c17
+Time,November 2023,November 2023 is the month in which PSAGOT announced that Rani Zim stepped down as chairperson.,06b8b1ab-6f56-4ebd-855b-b7612dec99c4
+la ##gga ##rds,Location,Location of the event,599efd41-05bc-49b0-9515-e4b177ffd08e
+harvey norman,Organization,A retail company,a6457883-1e4b-4870-8e03-96e0a0e75c76
+wes ##far ##mers,Organization,A farming company,d466d26c-cb09-41d8-8959-b7c6d019e2ab
+lottery corporation,Organization,A lottery organization,55a11792-cbd2-43e2-8b1d-e4c42eaf5727
+evolution,Company,A gold mining company,8213ee17-e04d-4f74-bcc4-d3d6757d9cef
+northern star,Company,A gold mining company,581a2ac1-e86c-4cbc-8395-def9aee3786b
+next ##dc,Company,A retail company,4dee39db-5605-477e-ba66-45fc2e9130c6
+re ##a group,Company,A retail company,b23eb680-1bf5-4fc6-975f-a41627a3a4b7
+res ##med,Company,A healthcare company,5100c929-120e-43cf-93e1-f66ee1c6252e
+l ##ion ##town resources,Company,A mining company,a9a9ef18-a1ed-4bd7-9209-37ee11049e3f
+rb ##c,Company,A financial company,b110815a-41d0-4383-a818-d5dc6344f95b
+new ##crest,Company,A gold mining company,b4163013-4140-4d68-9cc4-c46a1705c6d3
+us gold mining giant new ##mont,Company,A gold mining company,43c7a86d-7a2c-455c-a452-fb4abde4dd10
+us stocks,Stock,Stock of a company,30171c7a-4f0f-47d2-9f2e-aeca08f731e1
+the s &,Stock,Stock of a company,16f2c22e-5a05-46bf-b4e3-14926de957d1
+p 500,Stock Index,"The Standard & Poor's 500 Index, or the S&P 500, is a stock market index that measures the performance of 500 large companies listed on stock exchanges in the United States.",3803dd2a-fe1f-4b92-8d6c-e9975028ae96
+30 - year treasury bonds,Bond,A 30 - year treasury bond is a debt security issued by the United States government with a maturity of 30 years and pays a fixed coupon rate.,815e139f-1ae2-4664-80bf-24eac80fea57
+fed,Central Bank,"The Federal Reserve, commonly known as the Fed, is the central bank of the United States. It is responsible for monetary policy, supervising and regulating financial institutions, and maintaining the stability of the financial system.",dddd738b-25df-4f08-ab04-5ab2bd119466
+inflation report,Report,An inflation report is a document that contains information and analysis on the rate of inflation in an economy.,81955e35-6f02-4b69-9ffc-994b9c73880f
+us workers,Person,Employees in the United States,35d5c62e-6d03-4128-af86-c7d272784012
+unemployment benefits,Product,A government program that provides financial assistance to unemployed workers,0ea9769f-6ab8-4071-9119-0d435f7e77bc
+job market,Location,The market for employment,7fe08ac3-ecb2-4cbd-9ab5-c8a8ac92d9b9
+overall economy,Location,The economy as a whole,711bf78e-7beb-4084-997b-6a55b09043ac
+fed,Organization,The US Federal Reserve,d9a085fc-0128-4799-96a3-dbd299a96566
+10 - year treasury yield,Product,A government bond with a maturity of 10 years,c8a36a8e-8188-4f20-a05e-c10beb58ec53
+two - year treasury yield,Product,A government bond with a maturity of 2 years,03435987-654e-4e15-9974-1389f1abfed6
+mortgage rates,Product,The interest rate on a mortgage loan,f3381c19-f6fc-425f-be0d-33e3fb7927a4
+inflation report,Event,A report on economic inflation,f027cf8a-6f21-40bd-9c9f-5654ce42111e
+Person,John Doe,John Doe is a person.,5762fc91-9b49-4dfc-a8f7-fcc1907e02d3
+Person,Mike Cannon-Brookes,Mike Cannon-Brookes is a person.,c2cbb3d0-1765-47cb-b772-3b652d24b222
+Person,Steve Jobs,Steve Jobs is a person.,66df81a5-b328-4980-bb72-7bf4c52ef538
+Organization,Delta Air Lines,Delta Air Lines is an organization.,30217f9d-a05f-464f-802c-da0f0b809713
+Organization,Ford Motors,Ford Motors is an organization.,2b16adb9-9f81-4380-9001-49e7decb2d78
+Organization,United Auto Workers Union,United Auto Workers Union is an organization.,20e76d05-316e-4fc7-b2a1-238e1b5b87e2
+Organization,JP Morgan Chase,JP Morgan Chase is an organization.,e31d0ac6-2292-406f-a94c-0b35d69cefee
+Organization,Wells Fargo,Wells Fargo is an organization.,fae02638-373f-406d-ab1f-cf0ee86658ec
+Organization,Citigroup,Citigroup is an organization.,f064ce67-64b0-41ae-9cf3-f315a7f95b79
+Organization,UAW,UAW is an organization.,f8f24950-f3c1-45b7-bca2-5b090918ec2a
+Location,"Louisville, Kentucky","Louisville, Kentucky is a location.",8c2b523b-d0e4-4ac0-a78c-f1aa8d50c97a
+Location,"Detroit, Michigan","Detroit, Michigan is a location.",8393e67e-54b7-4aff-8fd9-64abf98c759c
+Location,"Paris, France","Paris, France is a location.",560b78ed-3121-47e0-ab2e-861f6b4013eb
+Location,Asia,Asia is a location.,898c04e8-0f97-4695-be92-3b6e54872abc
+Location,Europe,Europe is a location.,bfce7f28-129c-401e-bbd2-d76c8ed1e66a
+Event,Fighting in Gaza,Fighting in Gaza is an event.,55a1c013-2851-45a8-823b-8f78a1b81632
+Event,Reporting Season for S&P 500 Companies,Reporting Season for S&P 500 Companies is an event.,3257a890-6e2c-47aa-82b7-8eed5b9867bf
+Event,Acquisition of Loom by Atlasian,Acquisition of Loom by Atlasian is an event.,060d5bd5-d844-43e3-ac2d-f8bcad9410f6
+Concept,Distributed Work,Distributed Work is a concept.,26aa76ec-4184-4930-8567-9edd67ed1701
+Concept,Enterprise Video Chat,Enterprise Video Chat is a concept.,c2858cf2-d209-4d86-9ba1-5a4857881643
+Concept,Screen Recording,Screen Recording is a concept.,72ef8ffb-161a-4549-8938-c84f2d59d445
+Concept,Loom,Loom is a concept.,f526f4c7-6e69-464d-949a-c86821970b88
+Time,Summer,Summer is a time.,b766ee0f-07c5-4e01-9a06-6f76c9bab093
+Time,July,July is a time.,b33c485e-48ac-490f-baa2-61f41ab4f755
+Time,August,August is a time.,756c53d3-2841-4f28-a91f-1bb647f7172a
+Time,September,September is a time.,235e23ea-d453-4a5f-a99a-bd39002b3260
+Time,October,October is a time.,f7ac6080-0d03-4253-bfbf-e50af9efb506
+Time,November,November is a time.,edd5fc29-22a0-4a78-b02d-cf9bce9b3c54
+Time,December,December is a time.,897dbbb2-d36d-4419-bc4b-0f14e47b6053
+Time,2023,2023 is a time.,d8ea91b2-3eff-47ee-a8da-ae671e204321
+welcome back to the interchange,Event,The interchange is a program or event,93d8a3aa-6163-4605-bad1-5ee55e953544
+the interchange,Event,The interchange is a program or event,fb366912-978e-4d62-92d5-dad4dfccc9cd
+hot fin ##tech news,Event,The interchange is a program or event,a40e4993-bd99-4a50-a45f-10abca6657a3
+week,Time,A time period of seven days,0cc830b8-f4be-4bee-a837-d8e7548b8d8f
+sign up,Event,The interchange is a program or event,80a73867-84f7-4f9d-9fbb-9d1282c0e1a8
+rainforest,Organization,An Atlanta - based startup,a5821153-ec72-497d-970d-b52739822000
+atlanta,Location,The city where rainforest is located,0a386bd9-0158-4245-968e-1f815a58b27b
+fis ##er ##v,Organization,An incumbent ##,05cba325-dfde-48b8-9e24-2adecf3cc322
+fis,Organization,An incumbent ##,05ff4133-8fef-457a-9062-c4ca05370bc0
+stripe,Organization,A fin ##tech ##,365e88c0-598c-468d-85ed-bbf70fde7ae9
+joshua silver,Person,The CEO and co - founder of rainforest,dd078dcb-6578-4db7-80a0-6c07146517e5
+angela strange,Person,A1 ##6 ##z general partner,cef5c4cd-f368-4f98-8dad-6ff2f3537353
+acc ##el,Organization,The company that led the company,79b6580b-05fb-4079-a28e-118791d52ef4
+’ s $ 8. 5 million seed round ,Event,’ s $ 8.5 million seed round,1a5f717f-eb83-4958-841e-d891cf828aaa
+infinity ventures ,Organization,infinity ventures,50d0d629-02fe-42b5-956e-90e18ddeb590
+box ##group ,Organization,box ##group,0f68fddc-0850-483b-93c9-34b4ec00c7e9
+the fin ##tech fund ,Organization,the fin ##tech fund,0525df50-4867-4e31-a363-a886998aabae
+tech square ventures ,Organization,tech square ventures,8e746954-8cc5-45ec-a97e-bbba39bad8fc
+ardent venture partners ,Organization,ardent venture partners,af1667ab-0942-44a7-a997-e401b081c1d0
+rainforest ,Organization,rainforest,020d9005-065b-44ce-aed6-11b574d7d774
+silver ,Person,silver,7a7c36fe-9033-4f1d-be46-c6936378adf2
+202 ##2 ,Time,2022,9b450f09-61bb-4525-a9f1-7f50ee29b61b
+client commitments ,Product,client commitments,1bb58b51-4d8f-4e1d-9c9c-69828f913231
+more than $ 500 million in processing ,Product,more than $ 500 million in processing,462738e1-487a-4d60-81ab-2a9721c713de
+software companies ,Product,software companies,ae59fb0a-8e26-4005-8c7c-de3c7aa5374e
+merchants ,Product,merchants,16bec509-3b33-472b-89e8-518504e301c7
+legacy processors ,Product,legacy processors,a426b64b-00b7-41e2-b674-ff5614878b6e
+fis ##er ##v ,Product,fis ##er ##v,0cd49482-612a-45b6-a3d2-20dc1966f772
+fis ,Product,fis,08efd52f-5579-4609-9f6d-280bdbd4d54b
+stripe ( and its connect product ) ,Product,stripe ( and its connect product ),c1857d2a-bc5b-488e-9392-3d958eba3c01
+nik milano ##vic ,Person,nik milano ##vic,2d492a9f-4aed-458f-9b41-3da2041cf47c
+the fin ##tech fund ,Organization,the fin ##tech fund,0fd1241c-c21f-4232-bdb5-1dcad6a09083
+x ,Location,x,3c9bdae4-b6de-462c-abbc-5b2cea662f4b
+infinity ventures ’ jeremy,Person,infinity ventures ’ jeremy,47121ddf-a6b1-4489-9b59-259f506590af
+jon ker,Person,Former PayPal executive,7d23ccb6-85e5-4ff6-a339-7503cf5459a0
+joshua,Person,Software platform founder and payments consultant,ba3e44cf-f091-4ba7-8260-cfa40cf18d97
+alex wilhelm,Person,TC+ editor,5a6899fb-58ac-4f97-9924-4a38065c27ab
+mary ann,Person,PayPal,bcb08a28-76d4-4080-a9f2-100bfc1e2cfa
+hagen sberman,Organization,Law firm,d626d0a7-5241-482a-ab9d-4d77a208b5c2
+stripe,Organization,Payment platform,028bfab8-6892-40b4-a6c9-507bb6096906
+shopify,Organization,Payment platform,1ab8979c-2e12-464e-946c-4ca4f68cda0f
+microsoft,Organization,Tech company,0b70a2cf-99a7-42b6-affe-5992dc161742
+france,Location,Country,02bcc73c-2f8d-49d8-928b-dab00beb2c8d
+apple,Organization,Tech company,6bf8fead-04dd-417a-9709-a19021a30e8e
+attorneys,Person,Lawyers who filed the lawsuit.,0e050856-e6e9-4e3b-bcb4-6869365f23e1
+pay ##pal,Organization,A digital payment company.,f2433df7-f166-4002-a392-a7c5b3e22198
+visa,Organization,A credit card company.,c729c12e-3608-4985-9dc0-30100e3339a1
+master ##card,Organization,A credit card company.,5350f541-cbb5-4a3d-a5ae-e2853a42f9ef
+patrick mc ##ga ##han,Person,A partner at scott + scott who focuses on anti ##trust litigation.,268c91f9-670e-49bb-aaab-c3ddcf4c6dd5
+scott + scott,Organization,A law firm.,fc446a10-31af-44da-820f-45bd01657d3a
+dominant card schemes,Organization,"Visa, Mastercard, and American Express are dominant card schemes.",b42996b4-fe81-472a-b4ca-f1713156d8b7
+paypal,Organization,The company is a payment processor.,81018f55-4e4c-4a83-8d16-63a5a550cd3e
+sec,Organization,The United States Securities and Exchange Commission is a federal regulatory agency.,65c3826c-9de9-4c5e-a303-af6a0a22dc91
+bolt financial,Organization,The company provides checkout technology to merchants.,cab4d6e3-8919-407c-8ff0-82928f77d018
+ryan breslow,Person,Ryan Breslow is a co-founder of bolt financial.,62d170de-3ad4-4e94-b282-19cfe4f73a92
+mary ann bolt,Person,Mary Ann Bolt is the CEO of bolt financial.,ef2c931a-4112-441f-a87d-72a303a41814
+maj ku ##ru ##vill ##a,Person,Maj Ku ##ru ##vill ##a is the CEO of bolt financial.,4fe060bf-969f-4b07-adbc-3977b319d936
+france,Location,The capital of France is Paris.,f6913f1d-396f-4122-b324-3e2dc6570d42
+united states,Location,The United States is where the sec is located.,2901d248-3dd8-4f8f-a84c-ca73dc9c98d0
+August 23,Time,,feb46779-851c-4d3e-a5c1-3ab3ed6882c5
+Sec,Organization,,5403bcaf-c0db-4506-ad62-d32296f0a8a3
+Tech ##cr ##un ##ch,Organization,,9f94ab7d-4773-4863-bf3c-f605d671a84d
+financial startup,Organization,A company or organization that provides financial services or products.,16e76973-b283-4f0f-b0cd-236b7bae58d9
+s and ty ##co ##ons,Person,An individual or group of individuals who are involved in the management and operation of a business or organization.,1a0fb7b6-763e-4b37-860d-0b8b055861d7
+slice,Organization,A company or organization that provides a specific product or service.,4e3418de-71df-4e78-8171-130a606891bd
+gu ##wa ##hat ##i - headquartered bank,Organization,A bank or financial institution that is headquartered in a specific location.,5641627e-e353-4e08-be8a-0ce26f291b50
+cr ##ed,Organization,A company or organization that provides a specific product or service.,452a0453-b83c-45d0-8b33-e3f1ba311e35
+bengal ##uru - headquartered startup,Organization,A company or organization that is headquartered in a specific location.,508dfc0a-118f-4dcc-bfdb-50aa95034e8a
+mani ##sh singh,Person,An individual or group of individuals who are involved in the management and operation of a business or organization.,494e0324-e92f-4f03-ab29-96178d607ea7
+henri ##que dub ##ug ##ras,Person,An individual or group of individuals who are involved in the management and operation of a business or organization.,2ecf1054-15e4-4731-8bec-e22fcc3371cc
+laura fi ##uz ##a,Person,An individual or group of individuals who are involved in the management and operation of a business or organization.,7b48fd6b-0abf-4977-9eb1-8dd942044847
+g ##lo ##bo,Organization,A company or organization that provides a specific product or service.,52a28e16-f186-41ad-a059-61d91eea999f
+forte dos re ##med ##ios,Location,A specific location or place.,541867e6-4e3a-41db-9be7-790796a99b87
+para ##ben ##s,Person,An individual or group of individuals who are involved in the management and operation of a business or organization.,da4bb150-7f6f-432b-95ea-61951ada3e28
+henri ##que and laura!,Person,An individual or group of individuals who are involved in the management and operation of a business or organization.,2bd02ab8-db3c-424a-9913-4329367ed75b
+several fin ##tech startup ##s,Organization,A company or organization that provides a specific product or service.,2caa8058-62e6-403b-b8e5-adffa73f271a
+linked ##in ’ s top,Concept,"An idea, concept, or theory.",3b01e41b-fc30-4612-aff0-28e8b5c4f942
+startup ##s of 202 ##3 list,Concept,A list of startups from 2023,aaf12301-d680-4120-93cf-634926b625ff
+ramp,Concept,A process of increasing the speed or intensity of something,2cb99d46-e709-41a3-bf48-777b8d3a0e0d
+no. 1,Concept,A number indicating the first item in a sequence,f3d58268-5ecc-44ef-b9ce-4f6998f4f324
+sync ##tera,Concept,A unit of data storage equal to one trillion bytes,00490c18-8de0-43d9-98e7-b00a0ffca9b7
+es ##us ##u,Concept,A company that provides software and services to help businesses manage their customer relationships,d49da732-77c6-49e5-9ea4-cef4c371f5f2
+sar ##dine,Concept,A type of seaweed,5f0a6314-fcc3-49eb-b209-4c5d5ec71863
+tap ##che ##ck,Concept,A type of credit card,bd516301-052a-4ab1-938c-4b71eed779ae
+cb insights,Organization,A company that provides data and analytics on the private markets,9d0cfb12-98b3-4626-85f2-5289f455ed32
+fin ##tech 100 list,Concept,A list of the 100 most promising fintech startups,0516f980-4dbb-482d-9d3d-61e2fe7bc20d
+great ze ##lle pool sc ##am,Concept,A fraudulent investment scheme,ca38ce77-6ba4-4cad-83c2-16fe08fa2cf5
+public platform,Concept,A platform that is accessible to the general public,947ee635-f6da-4759-86d3-9f73c76fcac1
+everyday investors,Concept,People who invest in the stock market on a regular basis,1d4296d0-470c-44d7-a038-741afdd29dfe
+sh ##rek ,Concept,A popular children's movie,635b591d-6fd1-43b4-8d91-15a26fe003f1
+stock ##pile,Concept,A company that allows people to invest in a diversified portfolio of stocks,7b573fd4-6263-479d-a1c6-dc2264bbb292
+green dot partner,Organization,A company that provides prepaid debit cards,7e221013-3a10-4971-b60c-d494dcab0d72
+au ##dra fog ##lie ##tta,Person,The chief financial officer of Monzo,ba442ebf-1708-4635-9731-d793ed06ae16
+us ceo,Concept,The chief executive officer of a company in the United States,28127bd5-051a-4c48-8c97-9d2dbaa839b4
+f ##ols ##om - based ev life launches electric car loan to lower monthly payments,Event,The launch of an electric car loan,449273f8-51f7-42f1-930d-57bb9ade7d34
+clear launches re ##usa ##ble ky ##c solution funding and m & a as seen in tech ##cr ##un ##ch,Event,The launch of a reusable KYC solution and funding and M&A activity,6e2876e9-eff7-41d8-b7b2-cb0138547d46
+"open banking led to a fin ##tech boom — as brit ##e raises $ 60 ##m, account - to - account payment grows rec ##ap ##ital ##ization, $ 60 ##m series d support growth of e - commerce fin ##an ##cier clear ##co stitch raises $ 25 ##m series a extension led by rib ##bit capital, increasing the round ’ s total to $ 46 ##m res ##y and eater co - founder raises $ 24 ##m for black ##bird, a restaurant loyalty platform spa ##r ##x wants to do for enterprise what true ##bill did for consumer recurring bills ten key labs wants to sim ##plify managing equity for startup ##s seen elsewhere logistics company loop raises $ 35 ##m to modern ##ize the supply chain ( also, check out tech ##cr ##un ##ch ’ s previous story on loop. ) shift ##4 acquire ##s spot ##on unit for $ 100 ##m ( tech ##cr ##un ##ch previously covered spot ##on here. ) res ##er ##v raises $ 20 ##m for ai - driven ins ##urt ##ech software v ##y ##zer raises $ 6. 3 ##m seed round for ai - powered wealth management platform ka ##fen ##e adds another $ 12. 6 ##m to its series b round ( tech ##cr ##un ##ch previously covered ka ##fen ##e here. ) fin ##tech firm rev ##io boost ##s community bank growth with $ 2. 5 ##m funding sky ##watch acquire ##s drone ##ins ##urance. com ap automation fin ##tech stamp ##li announces $ 61 ##m round led by blacks ##tone",Event,A series of events in the fintech industry,783ade14-ad73-4e0b-b407-45b8205aad3c
