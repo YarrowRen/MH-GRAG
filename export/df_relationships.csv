@@ -1,6 +1,0 @@
-source_entity,target_entity,relationship_type,relationship_description,source_entity_id,target_entity_id,summary
-醇贤亲王,醇王府,Located-in,醇贤亲王的王府位于醇王府,8cadf343-b64f-4eff-9b75-15d7b963031f,f01a5b35-bfdb-4720-b714-ca92e8e6de18,醇贤亲王的王府就是醇王府。
-慈禧太后,光绪皇帝,Family-Relation,慈禧太后是光绪皇帝的姨母,94eaa95b-fc59-418a-bca5-ddbf953bf9af,b806f3ab-849b-489c-a022-bfd23ed0a5c7,慈禧太后是光绪皇帝的姨母兼伯母。
-光绪皇帝,宣统皇帝,Family-Relation,光绪皇帝是宣统皇帝的堂兄弟,b806f3ab-849b-489c-a022-bfd23ed0a5c7,4715b786-8a65-4f72-9135-fb41124c2922,光绪皇帝是宣统皇帝的叔叔。
-慈禧太后,宣统皇帝,Affiliated-with,慈禧太后是宣统皇帝的养母,94eaa95b-fc59-418a-bca5-ddbf953bf9af,4715b786-8a65-4f72-9135-fb41124c2922,慈禧太后是宣统皇帝的养母。
-宣统皇帝,醇王府,Located-in,宣统皇帝的王府位于醇王府,4715b786-8a65-4f72-9135-fb41124c2922,f01a5b35-bfdb-4720-b714-ca92e8e6de18,宣统皇帝溥仪的王府位于醇王府。
