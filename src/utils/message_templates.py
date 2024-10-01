@@ -13,18 +13,24 @@ def get_entities_and_relationships_template(text_chunk):
         Provide the results in a list of tuples where each tuple contains (entity_name, entity_type, description). 
         Make sure that both entity_type and description are in English, and ensure that the description field is never empty. 
         If an entity is recognized, provide a meaningful description for it.
+         
+        Examples:
+        - (John Doe, Person, John Doe is a Microsoft employee, 35 years old this year)
+        - (Microsoft, Company, Microsoft is the most famous Internet company)
 
         Text: "{text_chunk}"
         """},
         {"role": "user", "content": f"""
         After extracting the entities, extract the relationships between these entities, only use the entities' entity_name which you have design before, 
-              using the specified relationship types like: 
-        Part-of, Located-in, Affiliated-with, Related-to, Works-for, Produced-by, Happened-at, Uses, Ownership, Family-Relation, Colleague-Relation, Friendship, Mentor-Protege, Romantic-Relation, Professional-Relation, Historical-Relation.
 
         For each relationship, provide the result as a tuple with the following structure:
         (source_entity, target_entity, relationship_type, relationship_description).
          
         - `relationship_description` should be a concise description of the relationship.
+        - `source_entity` and `target_entity` only use the entities' entity_name which you have design before
+        
+        relationship_type using the specified relationship types like: 
+        Part-of, Located-in, Affiliated-with, Related-to, Works-for, Produced-by, Happened-at, Uses, Ownership, Family-Relation, Colleague-Relation, Friendship, Mentor-Protege, Romantic-Relation, Professional-Relation, Historical-Relation.
 
         Examples:
         - (John Doe, Microsoft, Works-for, "John Doe worked at Microsoft for many years.")
