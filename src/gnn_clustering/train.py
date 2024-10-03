@@ -1,5 +1,5 @@
 import torch
-from loss_functions import modularity_loss_multi_head
+from .loss_functions import modularity_loss_multi_head
 
 def train_model(model, data, adj, loss_fn, optimizer, epochs=1000, print_every=50):
     model.train()

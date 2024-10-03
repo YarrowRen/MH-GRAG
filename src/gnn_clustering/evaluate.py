@@ -6,6 +6,7 @@ import igraph as ig
 import leidenalg
 import random
 from torch_geometric.utils import to_networkx
+# from src.utils.config import RANDOM_PARAM
 
 def get_embeddings(model, data, device='cpu'):
     model.eval()
