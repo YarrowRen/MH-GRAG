@@ -56,3 +56,35 @@ def load_custom_data(entities_df, relationships_df):
     data = Data(x=x, edge_index=edge_index, edge_attr=edge_attr)
 
     return data
+
+import torch
+import numpy as np
+from torch_geometric.data import Data
+
+def load_random_data(num_nodes, num_edges):
+    # Step 1: 生成随机节点特征
+    # 使用 one-hot 编码生成 num_nodes 个节点，每个节点的特征是一个长度为 num_nodes 的向量
+    embeddings = np.eye(num_nodes)
+
+    # 转换为 torch 张量
+    x = torch.tensor(embeddings, dtype=torch.float)
+
+    # Step 2: 生成随机边
+    # 随机生成 num_edges 对 (source_node, target_node)
+    source_indices = np.random.randint(0, num_nodes, size=num_edges)
+    target_indices = np.random.randint(0, num_nodes, size=num_edges)
+
+    # 创建边索引张量 (2, num_edges)，并将其转换为 torch long 类型
+    edge_index = torch.tensor([source_indices, target_indices], dtype=torch.long)
+
+    # 如果关系是无向的，可以添加反向边
+    edge_index = torch.cat([edge_index, edge_index.flip(0)], dim=1)
+
+    # Step 3: 生成随机边特征（如果需要）
+    # 例如生成每条边的随机嵌入特征，假设每条边的特征是长度为 3 的向量
+    edge_attr = torch.rand(size=(2 * num_edges, 3), dtype=torch.float)
+
+    # Step 4: 创建 Data 对象
+    data = Data(x=x, edge_index=edge_index, edge_attr=edge_attr)
+
+    return data
