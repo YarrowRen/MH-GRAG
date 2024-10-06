@@ -2,3 +2,4 @@
 .env
 # 排除所有的 __pycache__ 文件夹
 **/__pycache__/
+**/*.pyc
