@@ -1,10 +1,13 @@
 # src/extractors/relationship_extractor.py
+import pandas as pd
+from typing import Tuple
+
 from src.utils.llm_helpers import call_llm_api
 from src.utils.message_templates import get_entities_and_relationships_template
 from src.utils.parser import parse_entities, parse_relationships
 import pandas as pd
 
-def extract_entities_and_relationships(chunk):
+def extract_entities_and_relationships(chunk) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     使用 LLM 从 Chunk 对象中提取实体和关系。
     
@@ -31,7 +34,7 @@ def extract_entities_and_relationships(chunk):
 
 import pandas as pd
 
-def extract_entities_and_relationships_from_df(df, text_column):
+def extract_entities_and_relationships_from_df(df: pd.DataFrame, text_column: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     使用 LLM 从 DataFrame 中的每一行文本提取实体和关系。
     

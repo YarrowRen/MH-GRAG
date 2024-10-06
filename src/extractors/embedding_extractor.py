@@ -1,9 +1,12 @@
 import os
+from typing import Tuple
+import pandas as pd
+
 from src.utils.embedding_generator import EmbeddingGenerator
 from src.utils.embedding_utils import save_df_with_embedding_as_csv, load_df_from_csv_with_embedding
 from src.utils.utils import generate_random_string
 
-def generate_and_save_embeddings(df_entities, df_relationships, output_path):
+def generate_and_save_embeddings(df_entities: pd.DataFrame, df_relationships: pd.DataFrame, output_path: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     接收 df_entities 和 df_relationships，并生成 embedding，保存为 CSV 文件。
     
@@ -54,7 +57,7 @@ def generate_and_save_embeddings(df_entities, df_relationships, output_path):
     return loaded_entities_df, loaded_relationships_df
 
 
-def generate_community_report_embeddings(community_reports_df, output_path):
+def generate_community_report_embeddings(community_reports_df: pd.DataFrame, output_path: str) -> pd.DataFrame:
     """
     接收 community_reports_df，并生成 embedding，保存为 CSV 文件。
     

@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 from node2vec import Node2Vec
 import os
-
+from typing import Tuple, Dict
 
 class GraphExtractor:
-    def __init__(self, embedding_size=1024):
+    def __init__(self, embedding_size: int = 1024):
         """
         初始化 GraphExtractor 类。
         
@@ -21,7 +21,7 @@ class GraphExtractor:
         self.embedding_size = embedding_size
         self.G = nx.Graph()
 
-    def build_graph(self, df_entities, df_relationships):
+    def build_graph(self, df_entities: pd.DataFrame, df_relationships: pd.DataFrame) -> nx.Graph:
         """
         根据实体和关系构建图。
 
@@ -38,11 +38,12 @@ class GraphExtractor:
 
         # 添加边
         for _, row in tqdm(df_relationships.iterrows(), total=df_relationships.shape[0], desc="Adding edges"):
-            self.G.add_edge(row['source_entity_id'], row['target_entity_id'], relationship_type=row['relationship_type'])
+            if row['source_entity_id'] in self.G.nodes() and row['target_entity_id'] in self.G.nodes():
+                self.G.add_edge(row['source_entity_id'], row['target_entity_id'], relationship_type=row['relationship_type'])
         
         return self.G
 
-    def perform_community_detection(self):
+    def perform_community_detection(self) -> Tuple[Dict[str, int], Dict[str, int]]:
         """
         执行社区检测，并将社区 ID 添加到图的节点中。
         
@@ -68,7 +69,7 @@ class GraphExtractor:
         return {node: self.G.nodes[node]['community_id'] for node in self.G.nodes()}, \
                {node: self.G.nodes[node]['sub_community_id'] for node in self.G.nodes()}
 
-    def perform_sub_community_detection(self, community_ids):
+    def perform_sub_community_detection(self, community_ids: list):
         """
         对每个社区内部执行基于图结构的子社区划分。
         
@@ -98,7 +99,7 @@ class GraphExtractor:
             for idx, node in enumerate(subgraph_node_list):
                 self.G.nodes[node]['sub_community_id'] = sub_community_ids[idx]
 
-    def visualize_communities(self, title="Community Visualization", sub_community=False):
+    def visualize_communities(self, title: str = "Community Visualization", sub_community: bool = False):
         """
         可视化社区检测结果。
         
@@ -115,7 +116,7 @@ class GraphExtractor:
         plt.title(title)
         plt.show()
 
-    def generate_node2vec_embeddings(self, dimensions=128):
+    def generate_node2vec_embeddings(self, dimensions: int = 128) -> Dict[str, np.ndarray]:
         """
         生成 Node2Vec 嵌入，并将其添加到图的节点中。
         
@@ -130,7 +131,7 @@ class GraphExtractor:
         entity_embeddings = {str(node): model.wv[str(node)] for node in self.G.nodes()}
         return entity_embeddings
 
-    def add_embeddings_to_dataframe(self, df_entities, community_mapping, sub_community_mapping, node2vec_embeddings):
+    def add_embeddings_to_dataframe(self, df_entities: pd.DataFrame, community_mapping: Dict[str, int], sub_community_mapping: Dict[str, int], node2vec_embeddings: Dict[str, np.ndarray]) -> pd.DataFrame:
         """
         将社区 ID、子社区 ID 和 Node2Vec 嵌入添加到 DataFrame。
         
@@ -148,7 +149,7 @@ class GraphExtractor:
         df_entities['node2vec_embedding'] = df_entities['entity_id'].map(node2vec_embeddings)
         return df_entities
 
-    def save_dataframe(self, df, output_path, filename):
+    def save_dataframe(self, df: pd.DataFrame, output_path: str, filename: str):
         """
         将 DataFrame 保存为 CSV 文件。
         

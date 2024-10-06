@@ -1,4 +1,6 @@
 from neo4j import GraphDatabase
+import pandas as pd
+from typing import Optional
 from src.utils.config import NEO4J_PWD, NEO4J_URI, NEO4J_USERNAME
 
 class GraphToNeo4j:
@@ -32,7 +34,7 @@ class GraphToNeo4j:
     def _clear_database(tx):
         tx.run("MATCH (n) DETACH DELETE n")
 
-    def insert_entities(self, entities_df):
+    def insert_entities(self, entities_df: pd.DataFrame):
         """
         插入实体到 Neo4j
         参数:
@@ -67,7 +69,7 @@ class GraphToNeo4j:
         )
         tx.run(query, entity_id=entity_id, entity_name=entity_name, description=description, embedding=embedding, node2vec_embedding=node2vec_embedding, summary=summary, community_id=community_id, sub_community_id=sub_community_id)
 
-    def insert_relationships(self, relationships_df):
+    def insert_relationships(self, relationships_df: pd.DataFrame):
         """
         插入关系到 Neo4j
         参数:
@@ -99,7 +101,7 @@ class GraphToNeo4j:
         tx.run(query, relationship_id=relationship_id, source_entity_id=source_entity_id, target_entity_id=target_entity_id, relationship_description=relationship_description, embedding=embedding, summary=summary)
 
     # 插入社区的函数
-    def insert_communities(self, communities_df):
+    def insert_communities(self, communities_df: pd.DataFrame):
         """
         插入社区节点到 Neo4j
         参数:
@@ -124,7 +126,7 @@ class GraphToNeo4j:
         tx.run(query, community_id=community_id, community_report=community_report, community_report_embedding=community_report_embedding)
 
     # 插入子社区的函数
-    def insert_sub_communities(self, sub_communities_df):
+    def insert_sub_communities(self, sub_communities_df: pd.DataFrame):
         """
         插入子社区节点并与社区节点关联到 Neo4j
         参数:

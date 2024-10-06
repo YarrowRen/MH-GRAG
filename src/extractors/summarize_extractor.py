@@ -1,10 +1,11 @@
 # src/extractors/summarize_element_instances.py
 import pandas as pd
+from typing import Tuple
 from tqdm import tqdm
 from src.utils.llm_helpers import call_llm_api
 from src.utils.message_templates import get_entity_summary_template, get_relationship_summary_template
 
-def summarize_element_instances(entities_df, relationships_df):
+def summarize_element_instances(entities_df: pd.DataFrame, relationships_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     使用 LLM 为每个实体和关系生成简短的扩写，并存储在新的列中。
     
