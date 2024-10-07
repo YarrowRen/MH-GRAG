@@ -20,7 +20,15 @@ def load_custom_data(entities_df, relationships_df):
     # Step 2: 处理节点特征（如果有嵌入则使用嵌入，否则可以使用其他特征）
     if 'entity_embedding' in entities_df.columns:
         # 假设 entity_embedding 列中存储的是列表或 numpy 数组
-        embeddings = np.vstack(entities_df['entity_embedding'].values)
+        # embeddings = np.vstack(entities_df['entity_embedding'].values)
+        # 找出最大嵌入向量的维度
+        max_dim = max([len(embed) for embed in entities_df['entity_embedding'] if isinstance(embed, (list, np.ndarray)) and embed is not None])
+        
+        # 对嵌入向量进行填充，确保所有向量长度一致，对于None的嵌入，填充零向量
+        embeddings = np.vstack([
+            np.pad(embed, (0, max_dim - len(embed))) if isinstance(embed, (list, np.ndarray)) and embed is not None else np.zeros(max_dim)
+            for embed in entities_df['entity_embedding'].values
+        ])
     else:
         # 如果没有嵌入，可以使用 one-hot 编码或其他方法
         embeddings = np.eye(num_nodes)
@@ -33,9 +41,16 @@ def load_custom_data(entities_df, relationships_df):
     source_ids = relationships_df['source_id'].tolist()
     target_ids = relationships_df['target_id'].tolist()
 
-    # 将 entity_id 转换为节点索引
-    source_indices = [id_to_index[sid] for sid in source_ids]
-    target_indices = [id_to_index[tid] for tid in target_ids]
+    # 同时过滤掉 source_id 和 target_id 中不存在于 entities_df 中的 ID
+    valid_source_target_pairs = [(sid, tid) for sid, tid in zip(source_ids, target_ids) if sid in id_to_index and tid in id_to_index]
+
+    # 分别提取过滤后的 source_ids 和 target_ids
+    valid_source_ids = [pair[0] for pair in valid_source_target_pairs]
+    valid_target_ids = [pair[1] for pair in valid_source_target_pairs]
+
+    # 将过滤后的 source_ids 和 target_ids 转换为节点索引
+    source_indices = [id_to_index[sid] for sid in valid_source_ids]
+    target_indices = [id_to_index[tid] for tid in valid_target_ids]
 
     # 创建边索引张量
     edge_index = torch.tensor([source_indices, target_indices], dtype=torch.long)

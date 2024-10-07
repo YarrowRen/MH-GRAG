@@ -20,7 +20,7 @@ def train_model_multi_head(model, data, adj, optimizer, num_heads, epochs=200, p
         model.train()
         optimizer.zero_grad()
         embeddings_list = model(data.x, data.edge_index)
-        loss = modularity_loss_multi_head(embeddings_list, adj, num_heads, orth_lambda=1e-8)
+        loss = modularity_loss_multi_head(embeddings_list, adj, num_heads, orth_lambda=1e-3)
         loss.backward()
         optimizer.step()
         if (epoch+1) % print_every == 0 or epoch == 0:

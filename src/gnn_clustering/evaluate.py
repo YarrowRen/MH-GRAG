@@ -6,6 +6,10 @@ import igraph as ig
 import leidenalg
 import random
 from torch_geometric.utils import to_networkx
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.neighbors import NearestNeighbors
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 # from src.utils.config import RANDOM_PARAM
 
 def get_embeddings(model, data, device='cpu'):
@@ -51,3 +55,49 @@ def format_communities(labels, n_clusters):
     for idx, label in enumerate(labels):
         communities[label].append(idx)
     return communities
+
+# 封装的leiden_embeddings_clustering方法
+def leiden_embeddings_clustering(embeddings, K=3):
+    """
+    进行基于嵌入的Leiden聚类，返回社区划分结果和模块度。
+
+    参数：
+    embeddings (np.ndarray): 节点的嵌入向量。
+    K (int): K近邻的数量，默认为3。
+
+    返回：
+    communities (leidenalg.VertexPartition): 社区划分结果。
+    modularity (float): Leiden算法的模块度。
+    """
+
+    # 计算相似度矩阵
+    similarity_matrix = cosine_similarity(embeddings)
+    
+    # 使用K近邻找到邻居节点
+    nbrs = NearestNeighbors(n_neighbors=K, metric='cosine').fit(embeddings)
+    distances, indices = nbrs.kneighbors(embeddings)
+    
+    # 构建边和权重
+    edges = []
+    weights = []
+    num_nodes = embeddings.shape[0]
+    for i in range(num_nodes):
+        for j_idx in range(1, K):  # 从 1 开始，避免自环
+            j = indices[i][j_idx]
+            if i != j:
+                edges.append((i, j))
+                weights.append(similarity_matrix[i][j])
+    
+    # 使用 NetworkX 构建图
+    G = nx.Graph()
+    for edge, weight in zip(edges, weights):
+        G.add_edge(edge[0], edge[1], weight=weight)
+    
+    # 将 NetworkX 图转换为 igraph 图
+    G_ig = ig.Graph.TupleList(G.edges(data=True), weights=True, directed=False)
+    
+    # 使用Leiden算法进行社区划分
+    partition = leidenalg.find_partition(G_ig, leidenalg.ModularityVertexPartition)
+
+    # 返回社区划分结果和模块度
+    return partition, partition.modularity

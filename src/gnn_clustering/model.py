@@ -36,5 +36,5 @@ def get_model(data, hidden_channels=16, out_channels=16, device='cpu'):
 
 
 def get_multi_head_model(data, hidden_channels=16, out_channels=16, device='cpu', num_heads=3):
-    model = MultiHeadGNN(data.num_features, hidden_channels, out_channels, num_heads=3).to(device)
+    model = MultiHeadGNN(data.num_features, hidden_channels, out_channels, num_heads=num_heads).to(device)
     return model
