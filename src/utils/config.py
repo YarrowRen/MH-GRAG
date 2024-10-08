@@ -8,7 +8,8 @@ load_dotenv()
 # OpenAI API 配置
 API_KEY = os.getenv('API_KEY')
 API_BASE = os.getenv('BASE_URL')
-DEFAULT_MODEL = 'ep-20240824204846-vl99t'  # 默认模型名称
+# DEFAULT_MODEL = 'ep-20240824204846-vl99t'  # 默认模型名称
+DEFAULT_MODEL = 'gpt-4o-mini'
 
 # Embedding 模型配置
 EMBEDDING_MODEL = 'intfloat/multilingual-e5-large'

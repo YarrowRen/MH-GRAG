@@ -70,6 +70,10 @@ def leiden_embeddings_clustering(embeddings, K=3):
     modularity (float): Leiden算法的模块度。
     """
 
+    # 判断 embeddings 是否为张量
+    if isinstance(embeddings, torch.Tensor):
+        embeddings = embeddings.cpu().numpy()
+
     # 计算相似度矩阵
     similarity_matrix = cosine_similarity(embeddings)
     
