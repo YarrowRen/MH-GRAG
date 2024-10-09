@@ -167,3 +167,118 @@ def get_community_report_template(entity_names, descriptions):
         messages.append({"role": "user", "content": f"实体: {name}\n描述: {desc}\n"})
     
     return messages
+
+
+def generate_community_report_template(core_entity_id, df_entities, related_relationships):
+    """
+    Generates a community report message based on the given parameters.
+    
+    Parameters:
+    core_entity_id (int): The ID of the core entity.
+    df_entities (DataFrame): DataFrame containing all entities.
+    related_relationships (DataFrame): DataFrame containing relationships related to the core entity.
+    
+    Returns:
+    str: A message formatted for generating a community report.
+    """
+    # Extract core entity information
+    core_entity = df_entities[df_entities['entity_id'] == core_entity_id].iloc[0]
+    core_entity_text = f"Core_Entity\n\nid,entity,description\n{core_entity['entity_id']},{core_entity['entity_name']},{core_entity['description']}\n"
+    
+    # Extract related entities information
+    related_entity_ids = set(related_relationships['source_entity_id']).union(set(related_relationships['target_entity_id']))
+    related_entity_ids.discard(core_entity_id)
+    related_entities = df_entities[df_entities['entity_id'].isin(related_entity_ids)]
+    related_entities_text = "Related_Entities\n\nid,entity,description\n" + "\n".join(
+        f"{row['entity_id']},{row['entity_name']},{row['description']}" for _, row in related_entities.iterrows()
+    )
+    
+    # Extract relationships information
+    relationships_text = "Relationships\n\nid,source,target,description\n" + "\n".join(
+        f"{idx},{row['source_entity']},{row['target_entity']},{row['relationship_description']}"
+        for idx, row in related_relationships.iterrows()
+    )
+    
+    # Combine all parts to form input_text
+    input_text = f"{core_entity_text}\n{related_entities_text}\n\n{relationships_text}"
+    
+    return f"""
+    You are a community analyst.
+
+    # Goal
+    Write a comprehensive assessment report of a community as a community analyst. The content of this report includes an overview of the community's key entities and relationships.
+
+    # Report Structure
+    The report should include the following sections:
+    - TITLE: community's name that represents its key entities - title should be short but specific. When possible, include representative named entities in the title.
+    - SUMMARY: An executive summary of the community's overall structure, how its entities are related to each other, and significant points associated with its entities.
+    - DETAILED FINDINGS: A list of 5-10 key insights about the community. Each insight should have a short summary followed by multiple paragraphs of explanatory text grounded according to the grounding rules below. Be comprehensive.
+
+    Return output as a well-formed JSON-formatted string with the following format. Don't use any unnecessary escape sequences. The output should be a single JSON object that can be parsed by json.loads.
+        {{
+            "title": "<report_title>",
+            "summary": "<executive_summary>",
+            "findings": [{{"summary":"<insight_1_summary>", "explanation": "<insight_1_explanation>"}}, {{"summary":"<insight_2_summary>", "explanation": "<insight_2_explanation>"}}]
+        }}
+
+    # Grounding Rules
+    After each paragraph, add data record reference if the content of the paragraph was derived from one or more data records. Reference is in the format of [records: <record_source> (<record_id_list>, ...<record_source> (<record_id_list>)]. If there are more than 10 data records, show the top 10 most relevant records.
+    Each paragraph should contain multiple sentences of explanation and concrete examples with specific named entities. All paragraphs must have these references at the start and end. Use "NONE" if there are no related roles or records. Everything should be in English.
+
+    Example paragraph with references added:
+    This is a paragraph of the output text [records: Entities (1, 2, 3), Claims (2, 5), Relationships (10, 12)]
+
+    # Example Input
+    -----------
+    Text:
+
+    Entities
+
+    id,entity,description
+    5,ABILA CITY PARK,Abila City Park is the location of the POK rally
+
+    Related_Entities
+
+    id,entity,description
+    6,POK,POK is an organization holding a rally in Abila City Park
+    7,CENTRAL BULLETIN,Central Bulletin is a media outlet covering the POK rally
+
+    Relationships
+
+    id,source,target,description
+    37,ABILA CITY PARK,POK RALLY,Abila City Park is the location of the POK rally
+    38,ABILA CITY PARK,POK,POK is holding a rally in Abila City Park
+    39,ABILA CITY PARK,POKRALLY,The POKRally is taking place at Abila City Park
+    40,ABILA CITY PARK,CENTRAL BULLETIN,Central Bulletin is reporting on the POK rally taking place in Abila City Park
+
+    Output:
+    {{
+        "title": "Abila City Park and POK Rally",
+        "summary": "The community revolves around the Abila City Park, which is the location of the POK rally. The park has relationships with POK, POKRALLY, and Central Bulletin, all of which are associated with the rally event.",
+        "findings": [
+            {{
+                "summary": "Abila City Park as the central location",
+                "explanation": "Abila City Park is the central entity in this community, serving as the location for the POK rally. This park is the common link between all other entities, suggesting its significance in the community. The park's association with the rally could potentially lead to issues such as public disorder or conflict, depending on the nature of the rally and the reactions it provokes. [records: Entities (id: 5), Relationships (id: 37, 38, 39, 40)]"
+            }},
+            {{
+                "summary": "POK's role in the community",
+                "explanation": "POK is another key entity in this community, being the organizer of the rally at Abila City Park. The nature of POK and its rally could be a potential source of threat, depending on their objectives and the reactions they provoke. The relationship between POK and the park is crucial in understanding the dynamics of this community. [records: Relationships (id: 38)]"
+            }},
+            {{
+                "summary": "POKRALLY as a significant event",
+                "explanation": "The POKRALLY is a significant event taking place at Abila City Park. This event is a key factor in the community's dynamics and could be a potential source of threat, depending on the nature of the rally and the reactions it provokes. The relationship between the rally and the park is crucial in understanding the dynamics of this community. [records: Relationships (id: 39)]"
+            }},
+            {{
+                "summary": "Role of Central Bulletin",
+                "explanation": "Central Bulletin is reporting on the POK rally taking place in Abila City Park. This suggests that the event has attracted media attention, which could amplify its impact on the community. The role of Central Bulletin could be significant in shaping public perception of the event and the entities involved. [records: Relationships (id: 40)]"
+            }}
+        ]
+    }}
+
+    # Real Data
+
+    Use the following text for your answer. Do not make anything up in your answer.
+
+    {input_text}
+
+    Output:"""
