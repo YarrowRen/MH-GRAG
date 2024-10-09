@@ -12,3 +12,10 @@ def generate_random_string(length=8):
     """
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
+
+def communities_to_labels(communities, num_nodes):
+    labels = [-1] * num_nodes
+    for label, community in enumerate(communities):
+        for node in community:
+            labels[node] = label
+    return labels

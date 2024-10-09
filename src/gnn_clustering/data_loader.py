@@ -13,7 +13,7 @@ import numpy as np
 
 def load_custom_data(entities_df, relationships_df):
     # Step 1: 创建节点映射（从 entity_id 到节点索引）
-    entity_ids = entities_df['id'].tolist()
+    entity_ids = entities_df['entity_id'].tolist()
     id_to_index = {entity_id: idx for idx, entity_id in enumerate(entity_ids)}
     num_nodes = len(entity_ids)
 
@@ -38,8 +38,8 @@ def load_custom_data(entities_df, relationships_df):
 
     # Step 3: 创建边索引
     # 使用 source_entity_id 和 target_entity_id 列
-    source_ids = relationships_df['source_id'].tolist()
-    target_ids = relationships_df['target_id'].tolist()
+    source_ids = relationships_df['source_entity_id'].tolist()
+    target_ids = relationships_df['target_entity_id'].tolist()
 
     # 同时过滤掉 source_id 和 target_id 中不存在于 entities_df 中的 ID
     valid_source_target_pairs = [(sid, tid) for sid, tid in zip(source_ids, target_ids) if sid in id_to_index and tid in id_to_index]
