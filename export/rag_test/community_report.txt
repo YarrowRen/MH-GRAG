@@ -1,0 +1,113 @@
+
+    You are a community analyst.
+
+    # Goal
+    Write a comprehensive assessment report of a community as a community analyst. The content of this report includes an overview of the community's key entities and relationships.
+
+    # Report Structure
+    The report should include the following sections:
+    - TITLE: community's name that represents its key entities - title should be short but specific. When possible, include representative named entities in the title.
+    - SUMMARY: An executive summary of the community's overall structure, how its entities are related to each other, and significant points associated with its entities.
+    - DETAILED FINDINGS: A list of 5-10 key insights about the community. Each insight should have a short summary followed by multiple paragraphs of explanatory text grounded according to the grounding rules below. Be comprehensive.
+
+    Return output as a well-formed JSON-formatted string with the following format. Don't use any unnecessary escape sequences. The output should be a single JSON object that can be parsed by json.loads.
+        {
+            "title": "<report_title>",
+            "summary": "<executive_summary>",
+            "findings": [{"summary":"<insight_1_summary>", "explanation": "<insight_1_explanation>"}, {"summary":"<insight_2_summary>", "explanation": "<insight_2_explanation>"}]
+        }
+
+    # Grounding Rules
+    After each paragraph, add data record reference if the content of the paragraph was derived from one or more data records. Reference is in the format of [records: <record_source> (<record_id_list>, ...<record_source> (<record_id_list>)]. If there are more than 10 data records, show the top 10 most relevant records.
+    Each paragraph should contain multiple sentences of explanation and concrete examples with specific named entities. All paragraphs must have these references at the start and end. Use "NONE" if there are no related roles or records. Everything should be in English.
+
+    Example paragraph with references added:
+    This is a paragraph of the output text [records: Entities (1, 2, 3), Claims (2, 5), Relationships (10, 12)]
+
+    # Example Input
+    -----------
+    Text:
+
+    Entities
+
+    id,entity,description
+    5,ABILA CITY PARK,Abila City Park is the location of the POK rally
+
+    Related_Entities
+
+    id,entity,description
+    6,POK,POK is an organization holding a rally in Abila City Park
+    7,CENTRAL BULLETIN,Central Bulletin is a media outlet covering the POK rally
+
+    Relationships
+
+    id,source,target,description
+    37,ABILA CITY PARK,POK RALLY,Abila City Park is the location of the POK rally
+    38,ABILA CITY PARK,POK,POK is holding a rally in Abila City Park
+    39,ABILA CITY PARK,POKRALLY,The POKRally is taking place at Abila City Park
+    40,ABILA CITY PARK,CENTRAL BULLETIN,Central Bulletin is reporting on the POK rally taking place in Abila City Park
+
+    Output:
+    {
+        "title": "Abila City Park and POK Rally",
+        "summary": "The community revolves around the Abila City Park, which is the location of the POK rally. The park has relationships with POK, POKRALLY, and Central Bulletin, all of which are associated with the rally event.",
+        "findings": [
+            {
+                "summary": "Abila City Park as the central location",
+                "explanation": "Abila City Park is the central entity in this community, serving as the location for the POK rally. This park is the common link between all other entities, suggesting its significance in the community. The park's association with the rally could potentially lead to issues such as public disorder or conflict, depending on the nature of the rally and the reactions it provokes. [records: Entities (id: 5), Relationships (id: 37, 38, 39, 40)]"
+            },
+            {
+                "summary": "POK's role in the community",
+                "explanation": "POK is another key entity in this community, being the organizer of the rally at Abila City Park. The nature of POK and its rally could be a potential source of threat, depending on their objectives and the reactions they provoke. The relationship between POK and the park is crucial in understanding the dynamics of this community. [records: Relationships (id: 38)]"
+            },
+            {
+                "summary": "POKRALLY as a significant event",
+                "explanation": "The POKRALLY is a significant event taking place at Abila City Park. This event is a key factor in the community's dynamics and could be a potential source of threat, depending on the nature of the rally and the reactions it provokes. The relationship between the rally and the park is crucial in understanding the dynamics of this community. [records: Relationships (id: 39)]"
+            },
+            {
+                "summary": "Role of Central Bulletin",
+                "explanation": "Central Bulletin is reporting on the POK rally taking place in Abila City Park. This suggests that the event has attracted media attention, which could amplify its impact on the community. The role of Central Bulletin could be significant in shaping public perception of the event and the entities involved. [records: Relationships (id: 40)]"
+            }
+        ]
+    }
+
+    # Real Data
+
+    Use the following text for your answer. Do not make anything up in your answer.
+
+    Core_Entity
+
+id,entity,description
+0,AMAZON,Amazon is a retail giant known for its extensive online shopping platform, particularly notable for its Black Friday and Cyber Monday sales.
+
+Related_Entities
+
+id,entity,description
+1,CYBER MONDAY,Cyber Monday is a significant shopping event that occurs on the Monday after Thanksgiving, featuring various online sales and promotions.
+2,BLACK FRIDAY,Black Friday is a shopping holiday that takes place the day after Thanksgiving, marked by major discounts and sales.
+3,NOVEMBER 27, 2023,November 27, 2023, is the date when Cyber Monday is being observed this year.
+4,AMAZON,Amazon is a multinational technology company known for its e-commerce platform, cloud computing services, and consumer electronics, including devices like Echo, Fire TV, and Kindle.
+5,ECHO SHOW,The Echo Show is a smart display device that responds to Alexa voice commands, features a 5.5-inch screen, and is useful for video calls and watching videos.
+81,AMAZON,Amazon is an e-commerce giant accused by the FTC of using its monopoly power to manipulate prices and harm competition.
+82,ANTITRUST LAWSUIT,An antitrust lawsuit filed by the FTC against Amazon, alleging the company violated anti-monopoly laws.
+83,BUY BOX,The Buy Box is a feature on Amazon that allows sellers to display their products prominently; losing it can threaten a seller's business.
+84,PRICE DISCOUNTING STRATEGY,An anti-discounting strategy used by Amazon to maintain higher prices by punishing sellers who offer lower prices elsewhere.
+85,WEB-CRAWLING APPARATUS,A system employed by Amazon to track online prices and stifle competition.
+86,PRICES,Prices are affected by Amazon's practices, leading to artificially inflated costs for consumers.
+
+Relationships
+
+id,source,target,description
+0,AMAZON,CYBER MONDAY,Amazon is hosting numerous deals during Cyber Monday, extending its sales from Black Friday.
+1,AMAZON,BLACK FRIDAY,Amazon began its Black Friday sale a week ahead of schedule, marking it as a key event for the retailer.
+2,CYBER MONDAY,BLACK FRIDAY,Cyber Monday follows Black Friday, with many deals carried over from the previous shopping event.
+3,NOVEMBER 27, 2023,CYBER MONDAY,November 27, 2023, is the date that marks the celebration of Cyber Monday.
+4,AMAZON,ECHO SHOW,Amazon produces the Echo Show, integrating it with its Alexa virtual assistant for enhanced functionality.
+64,ANTITRUST LAWSUIT,AMAZON,The antitrust lawsuit is specifically targeting Amazon for its alleged violations of anti-monopoly laws.
+65,AMAZON,BUY BOX,Amazon's practices regarding the Buy Box impact third-party sellers and their ability to compete.
+66,AMAZON,PRICE DISCOUNTING STRATEGY,Amazon employs an anti-discounting strategy to maintain higher prices across its platform.
+67,AMAZON,WEB-CRAWLING APPARATUS,Amazon's web-crawling apparatus is used to track prices and enforce its anti-discounting strategy.
+68,AMAZON,PRICES,Amazon's pricing strategies have led to artificially inflated prices for consumers.
+
+    Output:
+

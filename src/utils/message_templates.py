@@ -202,7 +202,7 @@ def generate_community_report_template(core_entity_id, df_entities, related_rela
     # Combine all parts to form input_text
     input_text = f"{core_entity_text}\n{related_entities_text}\n\n{relationships_text}"
     
-    return f"""
+    message_content = f"""
     You are a community analyst.
 
     # Goal
@@ -282,3 +282,8 @@ def generate_community_report_template(core_entity_id, df_entities, related_rela
     {input_text}
 
     Output:"""
+
+    message = [
+        {"role": "user", "content": message_content}
+    ]  
+    return message
