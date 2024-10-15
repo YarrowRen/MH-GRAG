@@ -1,0 +1,34 @@
+2024-10-15 20:05:22,149 - INFO - PyTorch version 2.1.0 available.
+2024-10-15 20:05:22,149 - INFO - TensorFlow version 2.17.0 available.
+2024-10-15 20:05:22,810 - INFO - Loading data...
+2024-10-15 20:05:33,749 - INFO - Data loaded successfully.
+2024-10-15 20:05:33,749 - INFO - Query: Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?
+2024-10-15 20:05:33,749 - INFO - Finding the nearest entity...
+2024-10-15 20:05:33,973 - INFO - Use pytorch device_name: mps
+2024-10-15 20:05:33,974 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.52it/s]
+2024-10-15 20:05:41,451 - INFO - Nearest entity found: 13127
+2024-10-15 20:05:41,452 - INFO - Generating and merging community reports...
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+        - Avoid using `tokenizers` before the fork if possible
+        - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+        - Avoid using `tokenizers` before the fork if possible
+        - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2024-10-15 20:05:56,809 - INFO - HTTP Request: POST https://api-2.xi-ai.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 20:06:17,681 - INFO - HTTP Request: POST https://api-2.xi-ai.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 20:06:33,381 - INFO - HTTP Request: POST https://api-2.xi-ai.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 20:06:42,125 - INFO - HTTP Request: POST https://api-2.xi-ai.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 20:07:07,336 - INFO - HTTP Request: POST https://api-2.xi-ai.cn/v1/chat/completions "HTTP/1.1 200 OK"
+Merged report saved to /Users/boyuren/Documents/multi_head_graph_rag/MH-GRAG-V1/export/rag_test/merged_community_report_13127.json
+2024-10-15 20:07:07,340 - INFO - Community reports generated and merged successfully.
+2024-10-15 20:07:07,340 - INFO - Generating query template...
+2024-10-15 20:07:07,340 - INFO - Query template generated.
+2024-10-15 20:07:07,340 - INFO - Calling LLM API...
+2024-10-15 20:07:10,765 - INFO - HTTP Request: POST https://api-2.xi-ai.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 20:07:10,768 - INFO - LLM API call completed.
+2024-10-15 20:07:10,768 - INFO - Parsing LLM answer...
+2024-10-15 20:07:10,768 - INFO - Answer: The individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges is Sam Bankman-Fried, who is accused by prosecutors of committing fraud for personal gain.
+2024-10-15 20:07:10,768 - INFO - Used Findings: [1, 6, 8, 14]
