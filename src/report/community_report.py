@@ -109,6 +109,11 @@ def generate_and_merge_reports(entity_id, entities_with_clusters, relationships,
             entities_with_clusters, relationships, entity_id, cluster_column
         )
 
+        # 如果 related_relationships 为空，则跳过此循环
+        if related_relationships.empty:
+            print(f"No related relationships found for entity_id {entity_id} in cluster '{cluster_column}'. Skipping...")
+            continue
+
         message = generate_community_report_template(
             entity_id, 
             entities_with_clusters[['entity_name', 'entity_type', 'description', 'entity_id', 'corpus_id']],

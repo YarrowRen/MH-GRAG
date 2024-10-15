@@ -287,3 +287,49 @@ def generate_community_report_template(core_entity_id, df_entities, related_rela
         {"role": "user", "content": message_content}
     ]  
     return message
+
+def generate_query_template(question, report):
+    """
+    根据问题和社区报告生成 Prompt，包含每个 finding 的 summary 和 explanation，
+    并按照优化的结构进行组织。
+    """
+    findings = "\n".join([
+        f"- {finding['id']}: {finding['summary']}\n  Explanation: {finding.get('explanation', 'No explanation provided.')}"
+        for finding in report.get("findings", [])
+    ])
+
+    message_content = f"""
+    ---Role---
+    You are a helpful assistant responding to questions about data in the report provided.
+
+    ---Goal---
+    Generate a response to the following question based on the provided report:
+
+    Question: {question}
+
+    ---Instructions---
+    - Use the data provided in the report below as the primary context for generating the response.
+    - If you don't know the answer or if the input report does not contain sufficient information, respond with: "Information not found in the report."
+    - Provide the `id` of the findings used to generate your response.
+    - The response should be JSON formatted as follows:
+      {{
+          "answer": <string>,
+          "used_findings": [<list of finding ids>]
+      }}
+
+    ---Context---
+    Below is the community report data you have access to:
+
+    Title: {report['title']}
+    Summary: {report['summary']}
+
+    Findings:
+    {findings}
+
+    output: 
+    """
+
+    message = [
+        {"role": "user", "content": message_content}
+    ]  
+    return message

@@ -60,3 +60,7 @@ class EmbeddingGenerator:
             axis=1
         )
         return df
+    # 将查询转换为嵌入向量
+    def get_query_embedding(self, query):
+        query_embedding = self.model.encode(query)
+        return query_embedding

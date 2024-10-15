@@ -1,6 +1,8 @@
 import pandas as pd
 import json
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+from src.utils.embedding_generator import EmbeddingGenerator
 
 def save_df_with_embedding_as_csv(df, embedding_columns, save_path):
     """
@@ -46,3 +48,20 @@ def load_df_from_csv_with_embedding(file_path, embedding_columns):
         )
     
     return df
+
+
+# 计算查询嵌入和实体嵌入之间的余弦相似度
+def find_k_nearest_entities(query, entities_with_embedding, embedding_column="entity_embedding", k=3):
+    # 初始化 EmbeddingGenerator 类
+    embedding_generator = EmbeddingGenerator()
+
+    query_embedding= embedding_generator.get_query_embedding(query)
+    # 过滤掉嵌入为空的情况
+    valid_entities = entities_with_embedding.dropna(subset=[embedding_column])
+    # 确保所有嵌入向量的维度一致
+    entity_embeddings = np.array([emb for emb in valid_entities[embedding_column].values if len(emb) == len(query_embedding)])
+    similarities = cosine_similarity([query_embedding], entity_embeddings)[0]
+    valid_entities = valid_entities.loc[valid_entities[embedding_column].apply(lambda x: len(x) == len(query_embedding))]
+    valid_entities['similarity'] = similarities
+    nearest_entities = valid_entities.sort_values(by='similarity', ascending=False).head(k)
+    return nearest_entities
