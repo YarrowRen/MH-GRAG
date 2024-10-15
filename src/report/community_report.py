@@ -132,12 +132,18 @@ def generate_and_merge_reports(entity_id, entities_with_clusters, relationships,
         "findings": []
     }
 
-    # 合并所有 findings
+    # 合并所有 findings，并为每个 finding 添加索引
+    finding_index = 1  # 初始化索引
     for response_dict in all_responses:
-        merged_response["findings"].extend(response_dict["findings"])
+        for finding in response_dict["findings"]:
+            # 为每个 finding 添加索引
+            finding["id"] = finding_index
+            merged_response["findings"].append(finding)
+            finding_index += 1
 
     # 将合并后的结果保存为 JSON 文件
     with open(output_file, 'w') as file:
         json.dump(merged_response, file, ensure_ascii=False, indent=2)
 
     print(f"Merged report saved to {output_file}")
+    return merged_response
