@@ -95,9 +95,7 @@ def generate_and_merge_reports(entity_id, entities_with_clusters, relationships,
         output_file (str): 合并后的 JSON 文件路径（默认路径为 'export/rag_test/merged_community_report.json'）。
     """
     cluster_columns = [
-        "initial_leiden_cluster", "merge_leiden_cluster", 
-        "multihead_leiden_cluster_head_1", "multihead_leiden_cluster_head_2", 
-        "multihead_leiden_cluster_head_3"
+        'cluster_original', 'cluster_merge', 'cluster_head_0', 'cluster_head_1', 'cluster_head_2'
     ]
 
     all_responses = []  # 存储所有 response
