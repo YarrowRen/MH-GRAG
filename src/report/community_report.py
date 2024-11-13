@@ -150,3 +150,59 @@ def generate_and_merge_reports(entity_id, entities_with_clusters, relationships,
 
     print(f"Merged report saved to {output_file}")
     return merged_response
+
+
+def generate_seperated_reports(entity_id, entities_with_clusters, relationships, output_file='export/rag_test/merged_community_report.json'):
+    """
+    根据指定的 entity_id 生成社区报告，并将多个聚类结果保存为一个 JSON 文件。
+
+    参数：
+        entity_id (int): 要查询的实体 ID。
+        entities_with_clusters (DataFrame): 包含实体及其聚类信息的数据框。
+        relationships (DataFrame): 关系数据框。
+        output_file (str): 合并后的 JSON 文件路径（默认路径为 'export/rag_test/merged_community_report.json'）。
+    """
+    cluster_columns = [
+        'cluster_original', 'cluster_merge', 'cluster_head_0', 'cluster_head_1', 'cluster_head_2'
+    ]
+
+    all_reports = []  # 存储所有生成的报告
+
+    # 遍历每个 cluster_column，生成消息并获取响应
+    for cluster_column in cluster_columns:
+        related_relationships = get_all_related_relationships_within_cluster(
+            entities_with_clusters, relationships, entity_id, cluster_column
+        )
+
+        # 如果 related_relationships 为空，则跳过此循环
+        if related_relationships.empty:
+            print(f"No related relationships found for entity_id {entity_id} in cluster '{cluster_column}'. Skipping...")
+            continue
+
+        message = generate_community_report_template(
+            entity_id, 
+            entities_with_clusters[['entity_name', 'entity_type', 'description', 'entity_id', 'corpus_id']],
+            related_relationships
+        )
+
+        response = call_llm_api(message, max_tokens=2000)  # 调用 LLM API 获取响应
+
+        # 将字符串类型的 response 转换为字典
+        response_dict = json.loads(response)
+
+        # 为每个 finding 添加唯一的 id
+        for idx, finding in enumerate(response_dict.get("findings", []), start=1):
+            finding["id"] = idx
+
+        # 将生成的报告添加到结果列表中，标记来源聚类列
+        all_reports.append({
+            "cluster_column": cluster_column,
+            "report": response_dict
+        })
+
+    # 将所有报告保存为 JSON 文件
+    with open(output_file, 'w') as file:
+        json.dump(all_reports, file, ensure_ascii=False, indent=2)
+
+    print(f"Merged reports saved to {output_file}")
+    return all_reports

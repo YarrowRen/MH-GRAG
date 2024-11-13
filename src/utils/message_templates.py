@@ -333,3 +333,53 @@ def generate_query_template(question, report):
         {"role": "user", "content": message_content}
     ]  
     return message
+
+def generate_multiple_choice_query_template(question, multiple_choice, report):
+    """
+    根据问题和社区报告生成 Prompt，包含每个 finding 的 summary 和 explanation，
+    并按照优化的结构进行组织。
+    """
+    findings = "\n".join([
+        f"- {finding['id']}: {finding['summary']}\n  Explanation: {finding.get('explanation', 'No explanation provided.')}"
+        for finding in report.get("findings", [])
+    ])
+    options_string = ", ".join([f"{key}: {value}" for key, value in multiple_choice.items()])
+
+    message_content = f"""
+    ---Role---
+    You are a helpful assistant responding to questions about data in the report provided.
+
+    ---Goal---
+    Generate a response to the following multiple-choice question based on the provided report:
+
+    Question: {question}
+    Output your answer by only choosing one from the following choices: {options_string}
+
+    ---Instructions---
+    - Use the data provided in the report below as the primary context for generating the response.
+    - If you don't know the answer or if the input report does not contain sufficient information, respond with: "Information not found in the report."
+    - Provide the `id` of the findings used to generate your response.
+    - Do not output any explanations.
+    - Output your "answer" by only choosing one from the choices
+    - The response should be JSON formatted as follows:
+      {{
+          "answer": <string>,
+          "used_findings": [<list of finding ids>]
+      }}
+
+    ---Context---
+    Below is the community report data you have access to:
+
+    Title: {report['title']}
+    Summary: {report['summary']}
+
+    Findings:
+    {findings}
+
+    output: 
+    """
+
+    message = [
+        {"role": "user", "content": message_content}
+    ]  
+    return message
