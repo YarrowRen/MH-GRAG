@@ -8,9 +8,6 @@ import random
 from torch_geometric.utils import to_networkx
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
-from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-# from src.utils.config import RANDOM_PARAM
 
 def get_embeddings(model, data, device='cpu'):
     model.eval()

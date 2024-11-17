@@ -1,15 +1,14 @@
 import torch
 from torch_geometric.datasets import Planetoid
+from torch_geometric.data import Data
+import pandas as pd
+import numpy as np
 
 def load_data(dataset_name='Cora', root='/tmp/Cora'):
     dataset = Planetoid(root=root, name=dataset_name)
     data = dataset[0]
     return data
 
-import torch
-from torch_geometric.data import Data
-import pandas as pd
-import numpy as np
 
 def load_custom_data(entities_df, relationships_df):
     # Step 1: 创建节点映射（从 entity_id 到节点索引）
@@ -72,9 +71,6 @@ def load_custom_data(entities_df, relationships_df):
 
     return data
 
-import torch
-import numpy as np
-from torch_geometric.data import Data
 
 def load_random_data(num_nodes, num_edges):
     # Step 1: 生成随机节点特征
