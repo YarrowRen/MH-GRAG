@@ -4,8 +4,6 @@
 **/__pycache__/
 **/*.pyc
 
-# 排除带embeddings的实体和关系文件
-export/multihop_rag/final_entities_with_embeddings.csv
-export/multihop_rag/final_relationships_with_embeddings.csv
-export/multihop_rag/final_entities_with_embeddings_by_chatgpt4o.csv
-export/multihop_rag/final_relationships_with_embeddings_by_chatgpt4o.csv
+# 排除带输出文件夹和测试文件夹
+export/
+tests/
