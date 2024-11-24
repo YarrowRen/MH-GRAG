@@ -152,6 +152,74 @@ def generate_and_merge_reports(entity_id, entities_with_clusters, relationships,
     return merged_response
 
 
+def generate_graphrag_baseline_reports(entity_id, entities_with_clusters, relationships, output_file='export/rag_test/merged_community_report.json'):
+    """
+    按照GRAG的逻辑生成报告
+
+    参数：
+        entity_id (int): 要查询的实体 ID。
+        entities_with_clusters (DataFrame): 包含实体及其聚类信息的数据框。
+        relationships (DataFrame): 关系数据框。
+        output_file (str): 合并后的 JSON 文件路径（默认路径为 'export/rag_test/merged_community_report.json'）。
+    """
+    cluster_columns = [
+        'cluster_original'
+    ]
+
+    all_responses = []  # 存储所有 response
+    longest_response = None  # 记录 summary 最长的 response
+
+    # 遍历每个 cluster_column，生成消息并获取响应
+    for cluster_column in cluster_columns:
+        related_relationships = get_all_related_relationships_within_cluster(
+            entities_with_clusters, relationships, entity_id, cluster_column
+        )
+
+        # 如果 related_relationships 为空，则跳过此循环
+        if related_relationships.empty:
+            print(f"No related relationships found for entity_id {entity_id} in cluster '{cluster_column}'. Skipping...")
+            continue
+
+        message = generate_community_report_template(
+            entity_id, 
+            entities_with_clusters[['entity_name', 'entity_type', 'description', 'entity_id', 'corpus_id']],
+            related_relationships
+        )
+
+        response = call_llm_api(message, max_tokens=2000)  # 调用 LLM API 获取响应
+
+        # 将字符串类型的 response 转换为字典
+        response_dict = json.loads(response)
+        all_responses.append(response_dict)
+
+        # 检查当前 response 是否是 summary 最长的 response
+        if not longest_response or len(response_dict["summary"]) > len(longest_response["summary"]):
+            longest_response = response_dict
+
+    # 初始化合并后的结果
+    merged_response = {
+        "title": longest_response["title"],
+        "summary": longest_response["summary"],
+        "findings": []
+    }
+
+    # 合并所有 findings，并为每个 finding 添加索引
+    finding_index = 1  # 初始化索引
+    for response_dict in all_responses:
+        for finding in response_dict["findings"]:
+            # 为每个 finding 添加索引
+            finding["id"] = finding_index
+            merged_response["findings"].append(finding)
+            finding_index += 1
+
+    # 将合并后的结果保存为 JSON 文件
+    with open(output_file, 'w') as file:
+        json.dump(merged_response, file, ensure_ascii=False, indent=2)
+
+    print(f"Merged report saved to {output_file}")
+    return merged_response
+
+
 def generate_seperated_reports(entity_id, entities_with_clusters, relationships, output_file='export/rag_test/merged_community_report.json'):
     """
     根据指定的 entity_id 生成社区报告，并将多个聚类结果保存为一个 JSON 文件。

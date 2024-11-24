@@ -7,6 +7,3 @@
 # 排除带输出文件夹和测试文件夹
 export/
 tests/
-
-# 排除benchmarking
-src/benchmarking/
