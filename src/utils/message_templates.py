@@ -145,29 +145,6 @@ def get_relationship_summary_template(source_entity, target_entity, relationship
     ]
 
 
-def get_community_report_template(entity_names, descriptions):
-    """
-    返回生成社区报告的 LLM 消息模板。
-    
-    参数:
-    entity_names (list): 实体名称的列表。
-    descriptions (list): 实体描述的列表。
-    
-    返回:
-    list: 用于生成社区报告的消息列表。
-    """
-    # 构造模型输入的初始内容
-    messages = [
-        {"role": "system", "content": "你是一位报告总结专家，擅长分析和总结不同实体的信息。你的任务是根据给定的实体名称和描述，生成一个详细的社区报告，突出每个实体的关键特征并解释它们之间可能的关联。"},
-        {"role": "user", "content": "以下是社区中的实体及其描述，请生成一个全面的报告。"}
-    ]
-    
-    # 将实体名称和描述添加到用户消息中
-    for name, desc in zip(entity_names, descriptions):
-        messages.append({"role": "user", "content": f"实体: {name}\n描述: {desc}\n"})
-    
-    return messages
-
 
 def generate_community_report_template(core_entity_id, df_entities, related_relationships):
     """
@@ -333,6 +310,48 @@ def generate_query_template(question, report):
         {"role": "user", "content": message_content}
     ]  
     return message
+
+def generate_baseline_query_template(question, corpus):
+    """
+    根据问题和相关语料 (corpus) 生成 Prompt，适用于普通的 RAG 模型。
+    """
+    # 将 DataFrame 的 'id' 和 'chunk' 列转换为格式化的上下文字符串
+    context = "\n".join(
+        corpus.apply(lambda row: f"- {row['id']}: {row['chunk']}", axis=1)
+    )
+    
+    message_content = f"""
+    ---Role---
+    You are a helpful assistant that answers user questions based on the provided corpus.
+
+    ---Goal---
+    Generate a response to the following question using the information in the provided corpus:
+
+    Question: {question}
+
+    ---Instructions---
+    - Use only the information from the provided corpus to generate your response.
+    - If you don't know the answer or if the corpus does not contain sufficient information, respond with: "Information not found in the report."
+    - Provide the `id` of the documents (chunks) used to generate your response.
+    - The response should be JSON formatted as follows:
+      {{
+          "answer": <string>,
+          "used_documents": [<list of document ids>]
+      }}
+
+    ---Context---
+    Below is the corpus you have access to:
+
+    {context}
+
+    output:
+    """
+
+    message = [
+        {"role": "user", "content": message_content}
+    ]
+    return message
+
 
 def generate_multiple_choice_query_template(question, multiple_choice, report):
     """
