@@ -402,3 +402,156 @@ def generate_multiple_choice_query_template(question, multiple_choice, report):
         {"role": "user", "content": message_content}
     ]  
     return message
+
+
+def generate_multi_view_question_template(entity_id, entity_name, entity_data, multi_head_report, question_count=5):
+    """
+    Generate a prompt for summarizing multi-head clustering reports
+    and creating high-quality questions and answers with multiple perspectives.
+
+    Parameters:
+    - entity_id (str): The ID of the core entity.
+    - entity_name (str): The name of the core entity.
+    - entity_data (dict): The detailed information about the entity.
+    - multi_head_report (str): The multi-head clustering report.
+    - question_count (int): Number of questions to generate (default: 5).
+
+    Returns:
+    - str: The generated prompt.
+    """
+    message_content = f"""
+    ---Role---
+    You are an expert data analyst capable of extracting insights from clustering reports.
+
+    Your task is to:
+    1. Analyze the report to identify unique insights or information that can be derived about the core entity (ID: {entity_id}).
+    2. Based on these unique insights, generate {question_count} specific questions related to the core entity and provide their corresponding answers using the provided report.
+    3. Ensure each question is generated with multiple perspectives:
+        - If the report provides sufficient perspectives, generate 4 distinct perspectives for each question.
+        - If 4 perspectives are not feasible, generate 3 high-quality perspectives.
+        - If only 2 perspectives are possible, ensure both are distinct and insightful.
+        - If no multi-perspective view is possible, generate a single high-quality perspective.
+    4. Rate each question on a scale of 0-10 based on its quality and the diversity of its perspectives. Focus on clarity, relevance, and originality.
+    5. Format the output as JSON.
+
+    ---Input Details---
+
+    1. **Core Entity Information**:
+    - Entity ID: {entity_id}
+    - Entity Name: {entity_name}
+    - Entity Data: {entity_data}
+
+    2. **Report**:
+    - Report
+        {multi_head_report}
+
+    ---Goal---
+
+    Step 1: Analyze and summarize the report, specifically focusing on the core entity's roles, relationships, patterns, and unique insights.
+
+    Step 2: Generate {question_count} questions about the core entity based on the unique insights from the report. Ensure the questions:
+    - Focus on meaningful patterns, relationships, or attributes revealed in the report.
+    - Are highly relevant to the core entity's attributes or context.
+
+    Step 3: Provide concise answers to each generated question using the provided clustering report. For each question, summarize the answer from multiple perspectives (up to 4) based on available information.
+
+    Step 4: Rate each question's quality and perspective diversity on a scale of 0-10. Include the score in the output.
+
+    Step 5: Format the output as a JSON object with the following structure:
+
+    ---Output Format---
+    Provide your response in the following JSON format:
+    ```json
+    {{
+    "questions_and_answers": [
+        {{
+        "question": "<Question 1>",
+        "score": <Quality Score (0-10)>,
+        "answers": [
+            {{
+            "answer": "<Answer 1>",
+            "view": "<View 1>"
+            }},
+            {{
+            "answer": "<Answer 2>",
+            "view": "<View 2>"
+            }},
+            ...
+        ]
+        }},
+        {{
+        "question": "<Question 2>",
+        "score": <Quality Score (0-10)>,
+        "answers": [
+            {{
+            "answer": "<Answer 1>",
+            "view": "<View 1>"
+            }},
+            {{
+            "answer": "<Answer 2>",
+            "view": "<View 2>"
+            }},
+            ...
+        ]
+        }},
+        ...
+    ]
+    }}
+    '''
+
+    ---Example Output---
+    ```json
+    {{
+    "questions_and_answers": [
+        {{
+        "question": "How does the distribution of charging stations affect EV adoption rates in urban and rural areas?",
+        "score": 9,
+        "answers": [
+            {{
+            "answer": "Urban areas have a higher density of EV charging stations, which directly correlates with greater EV adoption rates.",
+            "view": "Urban infrastructure advantage"
+            }},
+            {{
+            "answer": "Rural areas face challenges due to sparse charging infrastructure, limiting EV adoption despite government incentives.",
+            "view": "Rural infrastructure disparity"
+            }},
+            {{
+            "answer": "The uneven distribution creates a geographical gap, highlighting the need for policy-driven equal access to EV charging facilities.",
+            "view": "Policy and access gap"
+            }}
+        ]
+        }},
+        {{
+        "question": "What role do government incentives play in the adoption of EVs?",
+        "score": 8,
+        "answers": [
+            {{
+            "answer": "Tax subsidies reduce the initial cost barrier for consumers, driving higher EV purchases in incentivized regions.",
+            "view": "Economic incentives"
+            }},
+            {{
+            "answer": "Policy measures indirectly promote EV-related infrastructure, creating a supportive environment for EV growth.",
+            "view": "Infrastructure development"
+            }},
+            {{
+            "answer": "Comparative data show a stark contrast in adoption rates between incentivized and non-incentivized regions.",
+            "view": "Global adoption trends"
+            }},
+            {{
+            "answer": "Sustainability goals drive governments to introduce aggressive policies to reduce carbon emissions.",
+            "view": "Environmental perspective"
+            }}
+        ]
+        }}
+    ]
+    }}
+    ```
+
+    Please proceed to generate the response in the specified format.
+
+    Output: 
+    """
+    message = [
+        {"role": "user", "content": message_content}
+    ]  
+    return message
